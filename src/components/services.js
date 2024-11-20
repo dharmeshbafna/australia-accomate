@@ -562,12 +562,12 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-7">
-                <div className="space-y-4 leading-relaxed">
-                    <div className="font-semibold text-3xl lg:w-[80%]">
+                <div className="space-y-4">
+                    <div className="font-semibold text-3xl lg:w-[80%] leading-relaxed">
                         <div>Why Choose Accomate Global for Accounts Payable Services?</div>
                     </div>
 
-                    <div>
+                    <div className="leading-relaxed">
                         Managing accounts payable can be a complex and time-consuming process, with risks of
                         errors, delayed payments, and strained supplier relationships. At Accomate Global, we
                         simplify your accounts payable processes by providing comprehensive accounts payable
