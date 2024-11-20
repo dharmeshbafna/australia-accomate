@@ -9,6 +9,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Button from '@mui/material/Button';
 
+import { FaQuestion } from "react-icons/fa";
 import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
 import { TiTick } from "react-icons/ti";
 
@@ -560,49 +561,142 @@ export const AccountsPayableComp = () => {
                 </div>
             </div>
 
-            <div className="space-y-10">
-                <div className="font-semibold text-3xl text-center lg:w-[80%] flex justify-center mx-auto">
-                    <div>Why Choose Accomate Global for Accounts Payable Services?</div>
+            <div className="grid grid-cols-2 gap-7">
+                <div className="space-y-4 leading-relaxed">
+                    <div className="font-semibold text-3xl lg:w-[80%]">
+                        <div>Why Choose Accomate Global for Accounts Payable Services?</div>
+                    </div>
+
+                    <div>
+                        Managing accounts payable can be a complex and time-consuming process, with risks of
+                        errors, delayed payments, and strained supplier relationships. At Accomate Global, we
+                        simplify your accounts payable processes by providing comprehensive accounts payable
+                        services that ensure timely and accurate payments, better cash flow, and improved financial
+                        management.<br /><br />
+                        Here’s why Australian businesses trust Accomate Global for their accounts payable
+                        services:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Enhanced Efficiency:</span> Our streamlined AP process eliminates errors and minimizes
+                                delays.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Cash Flow Optimization:</span> We focus on improving your working capital and securing
+                                early payment discounts.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Compliance and Security:</span> With secure data handling and compliance-focused
+                                processes, we protect your financial information.
+                            </div>
+                        </span>
+                    </div>
                 </div>
 
-                <div className="leading-relaxed text-center">
-                    Managing accounts payable can be a complex and time-consuming process, with risks of
-                    errors, delayed payments, and strained supplier relationships. At Accomate Global, we
-                    simplify your accounts payable processes by providing comprehensive accounts payable
-                    services that ensure timely and accurate payments, better cash flow, and improved financial
-                    management.
-                    Here’s why Australian businesses trust Accomate Global for their accounts payable
-                    services:
+                <div className="">
+                    <div className="flex justify-center items-center m-auto h-full">
+                        <FaQuestion className="h-96 w-auto text-[#9f8e1b5c]" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="space-y-7">
+                <div className="font-semibold text-3xl text-center lg:w-[80%] flex justify-center mx-auto">
+                    <div>Our Accounts Payable Services</div>
+                </div>
+
+                <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                    Accomate Global’s accounts payable services cover every aspect of the accounts payable
+                    lifecycle, from invoice processing to payment disbursement. Here are the key components of
+                    our offerings:
                 </div>
 
                 <div className="grid grid-cols-3 gap-6">
+
                     <div className="p-4 rounded-lg border border-[#9F8D1B]">
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
-                            Enhanced Efficiency
+                            Invoice Processing
                         </div>
-                        <div className="text-center flex justify-center mx-auto">
-                            Our streamlined AP process eliminates errors and minimizes
-                            delays.
-                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Efficient and accurate invoice processing for fast and error-free data entry.</li>
+                            <li>Match invoices with purchase orders and receipts to ensure accuracy in
+                                payments and prevent duplicate payments.</li>
+                        </ul>
                     </div>
+
                     <div className="p-4 rounded-lg border border-[#9F8D1B]">
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
-                            Cash Flow Optimization
+                            Payment Disbursement
                         </div>
-                        <div className="text-center flex justify-center mx-auto">
-                            We focus on improving your working capital and securing
-                            early payment discounts.
-                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Timely payment processing, ensuring payments are made by the correct due
+                                dates to maintain positive supplier relationships.</li>
+                            <li>Options for scheduled payments, including early payment discounts to save
+                                on costs.</li>
+                        </ul>
                     </div>
+
                     <div className="p-4 rounded-lg border border-[#9F8D1B]">
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
-                            Compliance and Security
+                            Accounts Payable Automation
                         </div>
-                        <div className="text-center flex justify-center mx-auto">
-                            With secure data handling and compliance-focused
-                            processes, we protect your financial information.
-                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Leverage account payable automation technology to streamline the AP
+                                process and reduce manual workload.</li>
+                            <li>Automated reminders for due dates and early payment opportunities,
+                                improving efficiency and cash flow.</li>
+                        </ul>
                     </div>
+
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Reconciliation and Reporting
+                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Regular reconciliation of accounts payable balances to ensure accuracy and
+                                prevent discrepancies.</li>
+                            <li>Detailed reporting on accounts payable functions to keep track of
+                                outstanding balances, payment history, and cash flow.</li>
+                        </ul>
+                    </div>
+
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Purchase Order Matching
+                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Our managed account payable services include purchase order matching
+                                to verify order fulfillment.</li>
+                            <li>Ensures that all payments are accurate, based on verified deliveries, reducing
+                                payment errors.</li>
+                        </ul>
+                    </div>
+
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Duplicate Payment Detection
+                        </div>
+                        <ul className="list-disc pl-3">
+                            <li>Identify and prevent duplicate payments through automated systems and
+                                thorough checks.</li>
+                            <li>Safeguard working capital by eliminating unnecessary payments and
+                                ensuring financial accuracy.</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
