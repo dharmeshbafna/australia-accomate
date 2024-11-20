@@ -8,7 +8,8 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Button from '@mui/material/Button';
-import { FaChevronDown } from "react-icons/fa6";
+
+import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
 
 import AccountBanner from "../../public/banner1.jpg"
 import ReactCardFlip from "react-card-flip";
@@ -226,63 +227,63 @@ export const Canada = () => {
     return (
         <div className="px-5 md:px-8 py-10 overflow-x-hidden">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden">
 
-            {canadaservices.map((i, index) => {
-                return (
-                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" key={index} onMouseEnter={() => setFlip(i.head)} onMouseLeave={() => setFlip('')} className="w-full min-h-full">
-                        <ReactCardFlip isFlipped={flip == i.head ? true : false} className="h-full" containerStyle={{ height: '100%' }}>
+                {canadaservices.map((i, index) => {
+                    return (
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" key={index} onMouseEnter={() => setFlip(i.head)} onMouseLeave={() => setFlip('')} className="w-full min-h-full">
+                            <ReactCardFlip isFlipped={flip == i.head ? true : false} className="h-full" containerStyle={{ height: '100%' }}>
 
-                            {/* front */}
-                            <div className="relative h-full w-full rounded-lg shadow">
+                                {/* front */}
+                                <div className="relative h-full w-full rounded-lg shadow">
 
-                                <Image
-                                    src={i.img}
-                                    alt="img"
-                                    objectFit="cover"
-                                    layout="fill"
-                                    objectPosition="center"
-                                    className="rounded-lg -z-10"
-                                    priority
-                                />
+                                    <Image
+                                        src={i.img}
+                                        alt="img"
+                                        objectFit="cover"
+                                        layout="fill"
+                                        objectPosition="center"
+                                        className="rounded-lg -z-10"
+                                        priority
+                                    />
 
-                                <div className="rounded-lg w-full h-[100%] bg-[#00000077] p-4 text-white space-y-8">
-                                    <div className="text-2xl font-semibold pb-3 border-b border-white">
+                                    <div className="rounded-lg w-full h-[100%] bg-[#00000077] p-4 text-white space-y-8">
+                                        <div className="text-2xl font-semibold pb-3 border-b border-white">
+                                            {i.head}
+                                        </div>
+                                        <div className="text-lg">
+                                            {i.desc}
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                {/* back */}
+                                <div className="shadow rounded-lg w-full border border-[#9F8D1B] p-4 space-y-4 h-full">
+
+
+                                    <div className="text-2xl font-semibold pb-3 border-b text-[#1B2D9F] border-[#9F8D1B]">
                                         {i.head}
                                     </div>
-                                    <div className="text-lg">
-                                        {i.desc}
-                                    </div>
+
+                                    <ul className="list-none">
+                                        {i.list.map((j, ind) => {
+                                            return (
+                                                <li key={ind} className="flex border-b border-gray-300 p-2 mb-2">
+                                                    <SiTicktick className="text-lg text-[#9F8D1B] mt-1 mr-2 flex shrink-0" />
+                                                    {j}
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
                                 </div>
-
-
-                            </div>
-
-                            {/* back */}
-                            <div className="shadow rounded-lg w-full border border-[#9F8D1B] p-4 space-y-4 h-full">
-
-
-                                <div className="text-2xl font-semibold pb-3 border-b text-[#1B2D9F] border-[#9F8D1B]">
-                                    {i.head}
-                                </div>
-
-                                <ul className="list-none">
-                                    {i.list.map((j, ind) => {
-                                        return (
-                                            <li key={ind} className="flex border-b border-gray-300 p-2 mb-2">
-                                                <SiTicktick className="text-lg text-[#9F8D1B] mt-1 mr-2 flex shrink-0" />
-                                                {j}
-                                            </li>
-                                        )
-                                    })}
-                                </ul>
-                            </div>
-                        </ReactCardFlip>
-                    </div>
-                )
-            })}
+                            </ReactCardFlip>
+                        </div>
+                    )
+                })}
+            </div>
         </div>
-    </div>
     )
 }
 
@@ -372,63 +373,63 @@ export const Australia = () => {
     return (
         <div className="px-5 md:px-8 py-10 overflow-x-hidden">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden">
 
-            {australiaservices.map((i, index) => {
-                return (
-                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" key={index} onMouseEnter={() => setFlip(i.head)} onMouseLeave={() => setFlip('')} className="w-full min-h-full">
-                        <ReactCardFlip isFlipped={flip == i.head ? true : false} className="h-full" containerStyle={{ height: '100%' }}>
+                {australiaservices.map((i, index) => {
+                    return (
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" key={index} onMouseEnter={() => setFlip(i.head)} onMouseLeave={() => setFlip('')} className="w-full min-h-full">
+                            <ReactCardFlip isFlipped={flip == i.head ? true : false} className="h-full" containerStyle={{ height: '100%' }}>
 
-                            {/* front */}
-                            <div className="relative h-full w-full rounded-lg shadow">
+                                {/* front */}
+                                <div className="relative h-full w-full rounded-lg shadow">
 
-                                <Image
-                                    src={i.img}
-                                    alt="img"
-                                    objectFit="cover"
-                                    layout="fill"
-                                    objectPosition="center"
-                                    className="rounded-lg -z-10"
-                                    priority
-                                />
+                                    <Image
+                                        src={i.img}
+                                        alt="img"
+                                        objectFit="cover"
+                                        layout="fill"
+                                        objectPosition="center"
+                                        className="rounded-lg -z-10"
+                                        priority
+                                    />
 
-                                <div className="rounded-lg w-full h-[100%] bg-[#00000077] p-4 text-white space-y-8">
-                                    <div className="text-2xl font-semibold pb-3 border-b border-white">
+                                    <div className="rounded-lg w-full h-[100%] bg-[#00000077] p-4 text-white space-y-8">
+                                        <div className="text-2xl font-semibold pb-3 border-b border-white">
+                                            {i.head}
+                                        </div>
+                                        <div className="text-lg">
+                                            {i.desc}
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                {/* back */}
+                                <div className="shadow rounded-lg w-full border border-[#9F8D1B] p-4 space-y-4 h-full">
+
+
+                                    <div className="text-2xl font-semibold pb-3 border-b text-[#1B2D9F] border-[#9F8D1B]">
                                         {i.head}
                                     </div>
-                                    <div className="text-lg">
-                                        {i.desc}
-                                    </div>
+
+                                    <ul className="list-none">
+                                        {i.list.map((j, ind) => {
+                                            return (
+                                                <li key={ind} className="flex border-b border-gray-300 p-2 mb-2">
+                                                    <SiTicktick className="text-lg text-[#9F8D1B] mt-1 mr-2 flex shrink-0" />
+                                                    {j}
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
                                 </div>
-
-
-                            </div>
-
-                            {/* back */}
-                            <div className="shadow rounded-lg w-full border border-[#9F8D1B] p-4 space-y-4 h-full">
-
-
-                                <div className="text-2xl font-semibold pb-3 border-b text-[#1B2D9F] border-[#9F8D1B]">
-                                    {i.head}
-                                </div>
-
-                                <ul className="list-none">
-                                    {i.list.map((j, ind) => {
-                                        return (
-                                            <li key={ind} className="flex border-b border-gray-300 p-2 mb-2">
-                                                <SiTicktick className="text-lg text-[#9F8D1B] mt-1 mr-2 flex shrink-0" />
-                                                {j}
-                                            </li>
-                                        )
-                                    })}
-                                </ul>
-                            </div>
-                        </ReactCardFlip>
-                    </div>
-                )
-            })}
+                            </ReactCardFlip>
+                        </div>
+                    )
+                })}
+            </div>
         </div>
-    </div>
     )
 }
 
@@ -531,6 +532,31 @@ export const Softwares = () => {
                                     </> : ''}
                     </div>
                 </marquee>
+            </div>
+        </div>
+    )
+}
+
+export const AccountsPayableComp = () => {
+    return (
+        <div className="px-8 py-14">
+
+            <div className="flex items-center my-auto w-full space-x-5">
+                <div className="lg:w-[30%] flex justify-center mx-auto">
+                    <div className="w-52 h-52 bg-[#1B2D9F] rounded-full">
+                        <div className="flex justify-center items-center m-auto h-full">
+                            <FaFileInvoiceDollar className="text-white w-28 h-28" />
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:w-[70%]">
+                    Efficient management of accounts payable is essential for maintaining a business’s financial
+                    health. Accomate Global offers tailored accounts payable services designed to streamline
+                    your payment process, reduce costs, and improve cash flow. Our expertise in accounts
+                    payable outsourcing services has made us a trusted partner for businesses across
+                    Australia, delivering reliable and scalable solutions that help manage your accounts
+                    payable functions effectively.
+                </div>
             </div>
         </div>
     )

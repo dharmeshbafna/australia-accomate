@@ -33,7 +33,14 @@ export const Sidebar = ({ toogle, setToogle }) => {
     const navitems = [
         { name: "Home", link: "/" },
         { name: 'About Us', link: '/about' },
-        { name: 'Services', link: '/services/australia' },
+        {
+            name: 'Services', link: '/services/australia',
+            dropdown: [
+                { name: 'USA', link: '/services/usa' },
+                { name: 'Canada', link: '/services/canada' },
+                { name: 'Australia', link: '/services/australia' },
+            ]
+        },
         { name: "Data Security", link: "/data-security" },
         { name: "Career", link: "/career" },
     ];
@@ -82,19 +89,6 @@ export const Sidebar = ({ toogle, setToogle }) => {
                                                     {i.name} <FiChevronDown className={`ml-1 ${i.name == "abc" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
                                                 </span>
                                             </button>
-
-                                            {d1 && i.name == 'Company' ?
-                                                <div className="border space-y-2 px-2 py-3 rounded-lg md:w-1/2 w-[80%]">
-                                                    {i.dropdown.map((j, ind) => {
-                                                        return (
-                                                            <div key={ind} className={`${isActive(j.link) ? 'text-[#1B2D9F]' : ''} hover:text-[#1B2D9F] duration-300 pb-2 border-b border-[#9F8D1B]`}>
-                                                                <a href={j.link} className="text-nowrap">
-                                                                    {j.name}
-                                                                </a>
-                                                            </div>
-                                                        )
-                                                    })}
-                                                </div> : ''}
 
                                             {d2 && i.name == 'Services' ?
                                                 <div className="border space-y-2 px-2 py-3 rounded-lg md:w-1/2 w-[80%]">
@@ -152,7 +146,17 @@ export const Navbar = () => {
     const navitems = [
         { name: "Home", link: "/" },
         { name: 'About Us', link: '/about' },
-        { name: 'Services', link: '/services/australia' },
+        {
+            name: 'Services', link: '/services/australia',
+            dropdown: [
+                { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
+                { name: 'Account Reconciliation Services', link: '#' },
+                { name: 'Accounts Receivable Services', link: '#' },
+                { name: 'Bookkeeping Services', link: '#' },
+                { name: 'Data Entry Services', link: '#' },
+                { name: 'Financial Reporting Services', link: '#' },
+            ]
+        },
         { name: "Data Security", link: "/data-security" },
         { name: "Career", link: "/career" },
     ];
@@ -179,7 +183,7 @@ export const Navbar = () => {
         }
     }, []);
 
-    
+
     useEffect(() => {
         AOS.init({
             once: true,
@@ -210,36 +214,22 @@ export const Navbar = () => {
                             return (
                                 <div key={index} className="w-fit text-lg relative">
                                     <a
-                                        onMouseEnter={i.name == "abc" ? () => setDropdown(true) : i.name == "Company" ? () => setDropdown2(true) : () => { }}
-                                        onMouseLeave={i.name == "abc" ? () => setDropdown(false) : i.name == "Company" ? () => setDropdown2(false) : () => { }}
+                                        onMouseEnter={i.name == "Services" ? () => setDropdown(true) : i.name == "Company" ? () => setDropdown2(true) : () => { }}
+                                        onMouseLeave={i.name == "Services" ? () => setDropdown(false) : i.name == "Company" ? () => setDropdown2(false) : () => { }}
                                         href={i.link} className={`text-white hover:underline-animation text-nowrap`}>
                                         <span className="flex items-center my-auto">
-                                            {i.name} <FiChevronDown className={`ml-1 text-white ${i.name == "abc" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
+                                            {i.name} <FiChevronDown className={`ml-1 text-white ${i.name == "Services" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
                                         </span>
                                     </a>
                                     <span
-                                        onMouseEnter={i.name == "abc" ? () => setDropdown(true) : () => { }}
-                                        onMouseLeave={i.name == "abc" ? () => setDropdown(false) : () => { }}
+                                        onMouseEnter={i.name == "Services" ? () => setDropdown(true) : () => { }}
+                                        onMouseLeave={i.name == "Services" ? () => setDropdown(false) : () => { }}
                                         className={`absolute bottom-0 h-1 transform ${isActive(i.link) ? 'w-full h-[2px] scale-x-100' : 'scale-x-0'} bg-white transition-transform duration-200 ease-out origin-center hover:scale-x-100`}></span>
-                                    {dropdown && i.name == "abc" ?
+                                    {dropdown && i.name == "Services" ?
                                         <div
-                                            onMouseEnter={i.name == "abc" ? () => setDropdown(true) : () => { }}
-                                            onMouseLeave={i.name == "abc" ? () => setDropdown(false) : () => { }}
-                                            className="w-32 -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
-
-                                            {i.dropdown.map((d, index) => {
-                                                return (
-                                                    <a key={index} href={d.link} className={`${isActive(d.link) ? 'text-[#1B2D9F]' : 'text-black'} block hover:text-[#1B2D9F] hover:pl-1 duration-300 pb-1 mt-1 ${index !== i.dropdown.length - 1 ? 'border-b border-[#9F8D1B]' : ''}`}>
-                                                        {d.name}
-                                                    </a>
-                                                )
-                                            })}
-                                        </div> : ''}
-                                    {dropdown2 && i.name == "Company" ?
-                                        <div
-                                            onMouseEnter={i.name == "Company" ? () => setDropdown2(true) : () => { }}
-                                            onMouseLeave={i.name == "Company" ? () => setDropdown2(false) : () => { }}
-                                            className="w-32 -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
+                                            onMouseEnter={i.name == "Services" ? () => setDropdown(true) : () => { }}
+                                            onMouseLeave={i.name == "Services" ? () => setDropdown(false) : () => { }}
+                                            className="w-auto -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
 
                                             {i.dropdown.map((d, index) => {
                                                 return (
@@ -288,39 +278,25 @@ export const Navbar = () => {
                             return (
                                 <div key={index} className="w-fit text-lg relative overflow-x-visible">
                                     <a
-                                        onMouseEnter={i.name == "abc" ? () => setDropdown(true) : i.name == "Company" ? () => setDropdown2(true) : () => { }}
-                                        onMouseLeave={i.name == "abc" ? () => setDropdown(false) : i.name == "Company" ? () => setDropdown2(false) : () => { }}
+                                        onMouseEnter={i.name == "Services" ? () => setDropdown(true) : i.name == "Company" ? () => setDropdown2(true) : () => { }}
+                                        onMouseLeave={i.name == "Services" ? () => setDropdown(false) : i.name == "Company" ? () => setDropdown2(false) : () => { }}
                                         href={i.link}
                                         className={`${isActive(i.link) ? 'text-[#1B2D9F]' : ''}  hover:underline-animation2 text-nowrap`}>
                                         <span className="flex items-center my-auto">
-                                            {i.name} <FiChevronDown className={`ml-1 ${i.name == "abc" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
+                                            {i.name} <FiChevronDown className={`ml-1 ${i.name == "Services" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
                                         </span>
                                     </a>
                                     <span
-                                        onMouseEnter={i.name == "abc" ? () => setDropdown(true) : () => { }}
-                                        onMouseLeave={i.name == "abc" ? () => setDropdown(false) : () => { }}
+                                        onMouseEnter={i.name == "Services" ? () => setDropdown(true) : () => { }}
+                                        onMouseLeave={i.name == "Services" ? () => setDropdown(false) : () => { }}
                                         className={`absolute bottom-0 h-1 transform ${isActive(i.link) ? 'w-full h-[2px] scale-x-100' : 'scale-x-0'} bg-[#1B2D9F] transition-transform duration-200 ease-out origin-center hover:scale-x-100`}>
                                     </span>
 
-                                    {dropdown && i.name == "abc" ?
+                                    {dropdown && i.name == "Services" ?
                                         <div
-                                            onMouseEnter={i.name == "abc" ? () => setDropdown(true) : () => { }}
-                                            onMouseLeave={i.name == "abc" ? () => setDropdown(false) : () => { }}
-                                            className="w-32 -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
-
-                                            {i.dropdown.map((d, index) => {
-                                                return (
-                                                    <a key={index} href={d.link} className={`${isActive(d.link) ? 'text-[#1B2D9F]' : 'text-black'} block hover:text-[#1B2D9F] hover:pl-1 duration-300 pb-1 mt-1 ${index !== i.dropdown.length - 1 ? 'border-b border-[#9F8D1B]' : ''}`}>
-                                                        {d.name}
-                                                    </a>
-                                                )
-                                            })}
-                                        </div> : ''}
-                                    {dropdown2 && i.name == "Company" ?
-                                        <div
-                                            onMouseEnter={i.name == "Company" ? () => setDropdown2(true) : () => { }}
-                                            onMouseLeave={i.name == "Company" ? () => setDropdown2(false) : () => { }}
-                                            className="w-32 -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
+                                            onMouseEnter={i.name == "Services" ? () => setDropdown(true) : () => { }}
+                                            onMouseLeave={i.name == "Services" ? () => setDropdown(false) : () => { }}
+                                            className="w-auto -left-1 border border-gray-300 absolute top-7 bg-white px-4 py-2 shadow-lg z-50 rounded-lg">
 
                                             {i.dropdown.map((d, index) => {
                                                 return (
@@ -534,7 +510,7 @@ export const Breadcrumb = () => {
             <div className="absolute w-full h-full bg-[#00000084] top-0 left-0 flex justify-center items-center m-auto">
 
                 <div className="space-y-3">
-                    <div  data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="100" className="text-white font-semibold text-[2.5rem] md:text-[3.5rem] text-center">
+                    <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="100" className="text-white font-semibold text-[2.5rem] md:text-[3.5rem] text-center">
                         {
                             path == '/about' ? 'About Us' :
                                 path == '/team' ? 'Our Team' :
@@ -545,6 +521,7 @@ export const Breadcrumb = () => {
                                                     path == '/services/usa' ? 'USA' :
                                                         path == '/services/canada' ? 'Canada' :
                                                             path == '/services/australia' ? 'Services' :
+                                                            path == '/services/accounts-payable-services' ? 'Accounts Payable Services' :
                                                                 ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
