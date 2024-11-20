@@ -9,7 +9,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Button from '@mui/material/Button';
 
-import { FaQuestion } from "react-icons/fa";
+import { FaQuestion, FaRecycle } from "react-icons/fa";
 import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
 import { TiTick } from "react-icons/ti";
 
@@ -705,7 +705,7 @@ export const AccountsPayableComp = () => {
             {/* Benefits of Accounts Payable Services by Accomate Global */}
             <div className="w-full">
 
-                <div className="space-y-4">
+                <div className="space-y-7">
                     <div className="font-semibold text-3xl w-full leading-relaxed">
                         <div>Benefits of Accounts Payable Services by Accomate Global</div>
                     </div>
@@ -725,9 +725,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Our accounts payable outsourcing services help manage cash flow more
-                                effectively by scheduling payments strategically.</li>
+                                    effectively by scheduling payments strategically.</li>
                                 <li className="leading-relaxed">Reduce payment delays and optimize working capital for smoother financial
-                                operations.</li>
+                                    operations.</li>
                             </ul>
                         </div>
 
@@ -738,9 +738,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Timely payments foster trust with suppliers, strengthening supplier
-                                relationships and potentially gaining favorable terms.</li>
+                                    relationships and potentially gaining favorable terms.</li>
                                 <li className="leading-relaxed">Leveraging early payment discounts with key suppliers also provides cost
-                                savings.</li>
+                                    savings.</li>
                             </ul>
                         </div>
 
@@ -751,9 +751,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">With our accounts payable services, we prevent duplicate payments and
-                                other costly errors.</li>
+                                    other costly errors.</li>
                                 <li className="leading-relaxed">Automated checks ensure that every payment is verified, accurate, and
-                                matched to the appropriate invoice and purchase order.</li>
+                                    matched to the appropriate invoice and purchase order.</li>
                             </ul>
                         </div>
 
@@ -764,9 +764,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Account payable automation technology helps reduce manual workload
-                                and eliminate repetitive tasks.</li>
+                                    and eliminate repetitive tasks.</li>
                                 <li className="leading-relaxed">Automated alerts for due dates help prevent late payments, supporting better
-                                cash flow.</li>
+                                    cash flow.</li>
                             </ul>
                         </div>
 
@@ -777,9 +777,99 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Take advantage of early payment discounts where possible, reducing the
-                                cost of goods and services.</li>
+                                    cost of goods and services.</li>
                                 <li className="leading-relaxed">Effective management of accounts payable improves cash flow and helps
-                                businesses maintain sufficient working capital.</li>
+                                    businesses maintain sufficient working capital.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Accounts Payable Process at Accomate Global*/}
+            <div className="flex w-full space-x-4">
+                <div className="lg:w-[35%] h-auto">
+                    <div className="flex justify-center items-center m-auto h-full">
+                        <FaRecycle className="text-[#1b2d9f5b] h-80 w-auto" />
+                    </div>
+                </div>
+
+                <div className="lg:w-[65%] space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Accounts Payable Process at Accomate Global</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Our accounts payable services are designed to be efficient and secure, ensuring that all
+                        payments are processed correctly and on time. Here’s an overview of the steps involved in
+                        our AP process:
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-8">
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">1.</span> Invoice Collection and Verification
+                            </div>
+
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Gather all invoices from suppliers, verify details, and match them with
+                                purchase orders and receipts.</li>
+                                <li className="leading-relaxed">Ensure all necessary documentation is available, reducing the risk of errors in
+                                the payment process.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">2.</span> Data Entry and Validation
+                            </div>
+
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Enter invoice data into our system, using accounts payable automation to
+                                speed up data entry and reduce manual errors.</li>
+                                <li className="leading-relaxed">Validate entries to ensure consistency with financial records, ensuring all
+                                accounts are accurately updated.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">3.</span> Approval Workflow
+                            </div>
+
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Implement an approval workflow where necessary, allowing authorized
+                                personnel to review and approve payments.</li>
+                                <li className="leading-relaxed">This adds a layer of accountability, reducing the chance of unapproved or
+                                incorrect payments.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">4.</span> Payment Scheduling and Processing
+                            </div>
+
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Schedule payments based on due dates and early payment discount
+                                opportunities.</li>
+                                <li className="leading-relaxed">Timely payments ensure smooth supplier relations and take advantage of
+                                cost-saving opportunities.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">5.</span> Reconciliation and Reporting
+                            </div>
+
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Reconcile all payments and accounts payable functions regularly,
+                                identifying any discrepancies early.</li>
+                                <li className="leading-relaxed">Provide regular reports on payment history, outstanding balances, and cash
+                                flow impact, giving you insights into your accounts payable performance.</li>
                             </ul>
                         </div>
 
