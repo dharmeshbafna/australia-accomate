@@ -543,13 +543,13 @@ export const AccountsPayableComp = () => {
 
             <div className="flex items-center my-auto w-full space-x-5">
                 <div className="lg:w-[30%] flex justify-center mx-auto">
-                    <div className="w-52 h-52 bg-[#1B2D9F] rounded-full">
+                    <div className="w-48 h-48 bg-[#1B2D9F] rounded-full">
                         <div className="flex justify-center items-center m-auto h-full">
-                            <FaFileInvoiceDollar className="text-white w-28 h-28" />
+                            <FaFileInvoiceDollar className="text-white w-24 h-24" />
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-[70%]">
+                <div className="lg:w-[70%] leading-relaxed text-lg">
                     Efficient management of accounts payable is essential for maintaining a business’s financial
                     health. Accomate Global offers tailored accounts payable services designed to streamline
                     your payment process, reduce costs, and improve cash flow. Our expertise in accounts
