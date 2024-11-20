@@ -632,9 +632,9 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Invoice Processing
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Efficient and accurate invoice processing for fast and error-free data entry.</li>
-                            <li>Match invoices with purchase orders and receipts to ensure accuracy in
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Efficient and accurate invoice processing for fast and error-free data entry.</li>
+                            <li className="leading-relaxed">Match invoices with purchase orders and receipts to ensure accuracy in
                                 payments and prevent duplicate payments.</li>
                         </ul>
                     </div>
@@ -643,10 +643,10 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Payment Disbursement
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Timely payment processing, ensuring payments are made by the correct due
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Timely payment processing, ensuring payments are made by the correct due
                                 dates to maintain positive supplier relationships.</li>
-                            <li>Options for scheduled payments, including early payment discounts to save
+                            <li className="leading-relaxed">Options for scheduled payments, including early payment discounts to save
                                 on costs.</li>
                         </ul>
                     </div>
@@ -655,10 +655,10 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Accounts Payable Automation
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Leverage account payable automation technology to streamline the AP
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Leverage account payable automation technology to streamline the AP
                                 process and reduce manual workload.</li>
-                            <li>Automated reminders for due dates and early payment opportunities,
+                            <li className="leading-relaxed">Automated reminders for due dates and early payment opportunities,
                                 improving efficiency and cash flow.</li>
                         </ul>
                     </div>
@@ -667,10 +667,10 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Reconciliation and Reporting
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Regular reconciliation of accounts payable balances to ensure accuracy and
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Regular reconciliation of accounts payable balances to ensure accuracy and
                                 prevent discrepancies.</li>
-                            <li>Detailed reporting on accounts payable functions to keep track of
+                            <li className="leading-relaxed">Detailed reporting on accounts payable functions to keep track of
                                 outstanding balances, payment history, and cash flow.</li>
                         </ul>
                     </div>
@@ -679,10 +679,10 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Purchase Order Matching
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Our managed account payable services include purchase order matching
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Our managed account payable services include purchase order matching
                                 to verify order fulfillment.</li>
-                            <li>Ensures that all payments are accurate, based on verified deliveries, reducing
+                            <li className="leading-relaxed">Ensures that all payments are accurate, based on verified deliveries, reducing
                                 payment errors.</li>
                         </ul>
                     </div>
@@ -691,10 +691,10 @@ export const AccountsPayableComp = () => {
                         <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
                             Duplicate Payment Detection
                         </div>
-                        <ul className="list-disc pl-3">
-                            <li>Identify and prevent duplicate payments through automated systems and
+                        <ul className="list-disc space-y-3 pl-3">
+                            <li className="leading-relaxed">Identify and prevent duplicate payments through automated systems and
                                 thorough checks.</li>
-                            <li>Safeguard working capital by eliminating unnecessary payments and
+                            <li className="leading-relaxed">Safeguard working capital by eliminating unnecessary payments and
                                 ensuring financial accuracy.</li>
                         </ul>
                     </div>
@@ -723,10 +723,10 @@ export const AccountsPayableComp = () => {
                                 <span className="">1.</span> Improved Cash Flow Management
                             </div>
 
-                            <ul className="pl-5 list-disc">
-                                <li>Our accounts payable outsourcing services help manage cash flow more
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Our accounts payable outsourcing services help manage cash flow more
                                 effectively by scheduling payments strategically.</li>
-                                <li>Reduce payment delays and optimize working capital for smoother financial
+                                <li className="leading-relaxed">Reduce payment delays and optimize working capital for smoother financial
                                 operations.</li>
                             </ul>
                         </div>
@@ -736,10 +736,10 @@ export const AccountsPayableComp = () => {
                                 <span className="">2.</span> Enhanced Supplier Relationships
                             </div>
 
-                            <ul className="pl-5 list-disc">
-                                <li>Timely payments foster trust with suppliers, strengthening supplier
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Timely payments foster trust with suppliers, strengthening supplier
                                 relationships and potentially gaining favorable terms.</li>
-                                <li>Leveraging early payment discounts with key suppliers also provides cost
+                                <li className="leading-relaxed">Leveraging early payment discounts with key suppliers also provides cost
                                 savings.</li>
                             </ul>
                         </div>
@@ -749,10 +749,10 @@ export const AccountsPayableComp = () => {
                                 <span className="">3.</span> Reduction in Errors and Duplicates
                             </div>
 
-                            <ul className="pl-5 list-disc">
-                                <li>With our accounts payable services, we prevent duplicate payments and
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">With our accounts payable services, we prevent duplicate payments and
                                 other costly errors.</li>
-                                <li>Automated checks ensure that every payment is verified, accurate, and
+                                <li className="leading-relaxed">Automated checks ensure that every payment is verified, accurate, and
                                 matched to the appropriate invoice and purchase order.</li>
                             </ul>
                         </div>
@@ -762,10 +762,10 @@ export const AccountsPayableComp = () => {
                                 <span className="">4.</span> Increased Efficiency with Automation
                             </div>
 
-                            <ul className="pl-5 list-disc">
-                                <li>Account payable automation technology helps reduce manual workload
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Account payable automation technology helps reduce manual workload
                                 and eliminate repetitive tasks.</li>
-                                <li>Automated alerts for due dates help prevent late payments, supporting better
+                                <li className="leading-relaxed">Automated alerts for due dates help prevent late payments, supporting better
                                 cash flow.</li>
                             </ul>
                         </div>
@@ -775,10 +775,10 @@ export const AccountsPayableComp = () => {
                                 <span className="">5.</span> Cost Savings and Better Working Capital
                             </div>
 
-                            <ul className="pl-5 list-disc">
-                                <li>Take advantage of early payment discounts where possible, reducing the
+                            <ul className="pl-5 list-disc space-y-3">
+                                <li className="leading-relaxed">Take advantage of early payment discounts where possible, reducing the
                                 cost of goods and services.</li>
-                                <li>Effective management of accounts payable improves cash flow and helps
+                                <li className="leading-relaxed">Effective management of accounts payable improves cash flow and helps
                                 businesses maintain sufficient working capital.</li>
                             </ul>
                         </div>
