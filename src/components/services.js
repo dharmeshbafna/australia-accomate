@@ -561,6 +561,7 @@ export const AccountsPayableComp = () => {
                 </div>
             </div>
 
+            {/* Why Choose Accomate Global for Accounts Payable Services? */}
             <div className="grid grid-cols-2 gap-7">
                 <div className="space-y-4">
                     <div className="font-semibold text-3xl lg:w-[80%] leading-relaxed">
@@ -613,6 +614,7 @@ export const AccountsPayableComp = () => {
                 </div>
             </div>
 
+            {/* Our Accounts Payable Services */}
             <div className="space-y-7">
                 <div className="font-semibold text-3xl text-center lg:w-[80%] flex justify-center mx-auto">
                     <div>Our Accounts Payable Services</div>
@@ -697,6 +699,91 @@ export const AccountsPayableComp = () => {
                         </ul>
                     </div>
 
+                </div>
+            </div>
+
+            {/* Benefits of Accounts Payable Services by Accomate Global */}
+            <div className="w-full">
+
+                <div className="space-y-4">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Benefits of Accounts Payable Services by Accomate Global</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Accomate Global’s accounts payable services provide several advantages, allowing
+                        businesses to improve efficiency, enhance supplier relationships, and optimize working
+                        capital. Here’s how our services benefit Australian businesses:
+                    </div>
+
+                    <div className="grid grid-cols-3 gap-x-6 gap-y-8">
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">1.</span> Improved Cash Flow Management
+                            </div>
+
+                            <ul className="pl-5 list-disc">
+                                <li>Our accounts payable outsourcing services help manage cash flow more
+                                effectively by scheduling payments strategically.</li>
+                                <li>Reduce payment delays and optimize working capital for smoother financial
+                                operations.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">2.</span> Enhanced Supplier Relationships
+                            </div>
+
+                            <ul className="pl-5 list-disc">
+                                <li>Timely payments foster trust with suppliers, strengthening supplier
+                                relationships and potentially gaining favorable terms.</li>
+                                <li>Leveraging early payment discounts with key suppliers also provides cost
+                                savings.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">3.</span> Reduction in Errors and Duplicates
+                            </div>
+
+                            <ul className="pl-5 list-disc">
+                                <li>With our accounts payable services, we prevent duplicate payments and
+                                other costly errors.</li>
+                                <li>Automated checks ensure that every payment is verified, accurate, and
+                                matched to the appropriate invoice and purchase order.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">4.</span> Increased Efficiency with Automation
+                            </div>
+
+                            <ul className="pl-5 list-disc">
+                                <li>Account payable automation technology helps reduce manual workload
+                                and eliminate repetitive tasks.</li>
+                                <li>Automated alerts for due dates help prevent late payments, supporting better
+                                cash flow.</li>
+                            </ul>
+                        </div>
+
+                        <div className="space-y-3">
+                            <div className="font-semibold text-[#1B2D9F] text-lg">
+                                <span className="">5.</span> Cost Savings and Better Working Capital
+                            </div>
+
+                            <ul className="pl-5 list-disc">
+                                <li>Take advantage of early payment discounts where possible, reducing the
+                                cost of goods and services.</li>
+                                <li>Effective management of accounts payable improves cash flow and helps
+                                businesses maintain sufficient working capital.</li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
