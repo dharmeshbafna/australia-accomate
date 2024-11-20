@@ -10,6 +10,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Button from '@mui/material/Button';
 
 import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
+import { TiTick } from "react-icons/ti";
 
 import AccountBanner from "../../public/banner1.jpg"
 import ReactCardFlip from "react-card-flip";
@@ -539,7 +540,7 @@ export const Softwares = () => {
 
 export const AccountsPayableComp = () => {
     return (
-        <div className="px-8 py-14">
+        <div className="px-8 py-14 space-y-14">
 
             <div className="flex items-center my-auto w-full space-x-5">
                 <div className="lg:w-[30%] flex justify-center mx-auto">
@@ -556,6 +557,52 @@ export const AccountsPayableComp = () => {
                     payable outsourcing services has made us a trusted partner for businesses across
                     Australia, delivering reliable and scalable solutions that help manage your accounts
                     payable functions effectively.
+                </div>
+            </div>
+
+            <div className="space-y-10">
+                <div className="font-semibold text-3xl text-center lg:w-[80%] flex justify-center mx-auto">
+                    <div>Why Choose Accomate Global for Accounts Payable Services?</div>
+                </div>
+
+                <div className="leading-relaxed text-center">
+                    Managing accounts payable can be a complex and time-consuming process, with risks of
+                    errors, delayed payments, and strained supplier relationships. At Accomate Global, we
+                    simplify your accounts payable processes by providing comprehensive accounts payable
+                    services that ensure timely and accurate payments, better cash flow, and improved financial
+                    management.
+                    Here’s why Australian businesses trust Accomate Global for their accounts payable
+                    services:
+                </div>
+
+                <div className="grid grid-cols-3 gap-6">
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Enhanced Efficiency
+                        </div>
+                        <div className="text-center flex justify-center mx-auto">
+                            Our streamlined AP process eliminates errors and minimizes
+                            delays.
+                        </div>
+                    </div>
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Cash Flow Optimization
+                        </div>
+                        <div className="text-center flex justify-center mx-auto">
+                            We focus on improving your working capital and securing
+                            early payment discounts.
+                        </div>
+                    </div>
+                    <div className="p-4 rounded-lg border border-[#9F8D1B]">
+                        <div className="text-center flex justify-center mx-auto text-[#1B2D9F] text-lg font-semibold border-b mb-3 pb-3">
+                            Compliance and Security
+                        </div>
+                        <div className="text-center flex justify-center mx-auto">
+                            With secure data handling and compliance-focused
+                            processes, we protect your financial information.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
