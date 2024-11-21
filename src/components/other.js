@@ -417,24 +417,6 @@ export const Clients = () => {
     const path = usePathname();
 
     return (
-        <div>
-            {path == '/services/accounts-payable-services' ?
-                <div className="bg-gray-200 px-8 py-14 space-y-8">
-                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed lg:w-[75%]">
-                        Start Your Accounts Payable Journey with Accomate Global
-                    </div>
-                    <div className="lg:w-[80%] flex justify-center mx-auto text-center leading-relaxed">
-                        With Accomate Global’s accounts payable services, Australian businesses can streamline
-                        their payment process, improve financial accuracy, and strengthen supplier relationships.
-                        From invoice processing to account payable automation, our services are designed to
-                        support your business’s growth and financial health.
-                    </div>
-                    <div className="flex justify-center mx-auto">
-                        <a href="/contact" className="hover:scale-[110%] duration-300 text-white bg-[#1B2D9F]  px-5 py-2 rounded-full shadow-lg">
-                            Contact Us
-                        </a>
-                    </div>
-                </div> :
                 <div className="bg-gray-200 px-8 py-14 space-y-12">
                     <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed">
                         Clients We Help Thrive
@@ -493,8 +475,7 @@ export const Clients = () => {
 
                     </div>
                 </div>
-            }
-        </div>
+           
     )
 }
 
