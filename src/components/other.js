@@ -413,64 +413,87 @@ export const Footer = () => {
 }
 
 export const Clients = () => {
-    return (
-        <div className="bg-gray-200 px-8 py-14 space-y-12">
-            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed">
-                Clients We Help Thrive
-            </div>
 
-            {/* <div className="flex justify-center mx-auto text-center lg:w-[80%] mt-6 mb-10">
+    const path = usePathname();
+
+    return (
+        <div>
+            {path == '/services/accounts-payable-services' ?
+                <div className="bg-gray-200 px-8 py-14 space-y-8">
+                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed lg:w-[75%]">
+                        Start Your Accounts Payable Journey with Accomate Global
+                    </div>
+                    <div className="lg:w-[80%] flex justify-center mx-auto text-center">
+                        With Accomate Global’s accounts payable services, Australian businesses can streamline
+                        their payment process, improve financial accuracy, and strengthen supplier relationships.
+                        From invoice processing to account payable automation, our services are designed to
+                        support your business’s growth and financial health.
+                    </div>
+                    <div className="flex justify-center mx-auto">
+                        <a href="/contact" className="hover:scale-[110%] duration-300 text-white bg-[#1B2D9F]  px-5 py-2 rounded-full shadow-lg">
+                            Contact Us
+                        </a>
+                    </div>
+                </div> :
+                <div className="bg-gray-200 px-8 py-14 space-y-12">
+                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed">
+                        Clients We Help Thrive
+                    </div>
+
+                    {/* <div className="flex justify-center mx-auto text-center lg:w-[80%] mt-6 mb-10">
                 Accomate Global is dedicated to providing outsourcing services to various clientele and then in horizontal line add above clientel with different icons if possible.
             </div> */}
 
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-5">
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-5">
 
-                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="space-y-4 hover:scale-[110%] duration-300">
-                    <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
-                        <MdGroups className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
-                    </div>
-                    <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
-                        Individual
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="space-y-4 hover:scale-[110%] duration-300">
+                            <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
+                                <MdGroups className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
+                            </div>
+                            <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
+                                Individual
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="space-y-4 hover:scale-[110%] duration-300">
+                            <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
+                                <CgOrganisation className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
+                            </div>
+                            <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
+                                Company
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className="space-y-4 hover:scale-[110%] duration-300">
+                            <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
+                                <FaHandshakeAngle className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
+                            </div>
+                            <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
+                                Trust
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700" className="space-y-4 hover:scale-[110%] duration-300">
+                            <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
+                                <TbMoneybag className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
+                            </div>
+                            <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
+                                SMSF
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900" className="space-y-4 hover:scale-[110%] duration-300">
+                            <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
+                                <HiBuildingStorefront className="flex justify-center mx-auto h-10 w-auto" />
+                            </div>
+                            <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
+                                Small Businesses
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
-                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="space-y-4 hover:scale-[110%] duration-300">
-                    <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
-                        <CgOrganisation className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
-                    </div>
-                    <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
-                        Company
-                    </div>
-                </div>
-
-                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className="space-y-4 hover:scale-[110%] duration-300">
-                    <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
-                        <FaHandshakeAngle className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
-                    </div>
-                    <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
-                        Trust
-                    </div>
-                </div>
-
-                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700" className="space-y-4 hover:scale-[110%] duration-300">
-                    <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
-                        <TbMoneybag className="flex justify-center mx-auto h-10 md:h-12 w-auto" />
-                    </div>
-                    <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
-                        SMSF
-                    </div>
-                </div>
-
-                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900" className="space-y-4 hover:scale-[110%] duration-300">
-                    <div className="flex justify-center mx-auto rounded-full p-3 bg-[#1B2D9F] text-white w-fit">
-                        <HiBuildingStorefront className="flex justify-center mx-auto h-10 w-auto" />
-                    </div>
-                    <div className="text-center flex justify-center mx-auto font-semibold text-lg md:text-xl">
-                        Small Businesses
-                    </div>
-                </div>
-
-            </div>
+            }
         </div>
     )
 }
@@ -521,8 +544,8 @@ export const Breadcrumb = () => {
                                                     path == '/services/usa' ? 'USA' :
                                                         path == '/services/canada' ? 'Canada' :
                                                             path == '/services/australia' ? 'Services' :
-                                                            path == '/services/accounts-payable-services' ? 'Accounts Payable Services' :
-                                                                ''}
+                                                                path == '/services/accounts-payable-services' ? 'Accounts Payable Services' :
+                                                                    ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
                         Home

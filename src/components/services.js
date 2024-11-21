@@ -7,7 +7,6 @@ import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import Button from '@mui/material/Button';
 
 import { FaQuestion, FaRecycle } from "react-icons/fa";
 import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
@@ -1085,7 +1084,78 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="lg:w-[75%] flex justify-center mx-auto">
-                    
+                    <div>
+                        <Accordion defaultExpanded>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel1-content"
+                                id="panel1-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What is Accounts Payable Service?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Accounts payable services involve managing the payment of invoices and tracking
+                                outstanding balances, ensuring that suppliers are paid accurately and on time.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel2-content"
+                                id="panel2-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why Outsource Accounts Payable?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Outsourcing accounts payable services helps businesses save on costs, reduce errors,
+                                and streamline their accounts payable processes by leveraging specialized expertise.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel3-content"
+                                id="panel3-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">3.&nbsp;</span>How Does Account Payable Automation Work?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Account payable automation uses technology to automate data entry, invoice matching,
+                                and payment scheduling, improving accuracy and speed in the AP process.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">4.&nbsp;</span>How Does Accounts Payable Impact Cash Flow?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Efficient accounts payable services help optimize cash flow by managing payment
+                                schedules and taking advantage of early payment discounts.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel5-content"
+                                id="panel5-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">5.&nbsp;</span>Can Accounts Payable Services Improve Supplier Relationships?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Yes, by ensuring timely payments and clear communication, accounts payable services
+                                can strengthen supplier relationships and secure favorable terms.
+                            </AccordionDetails>
+                        </Accordion>
+                    </div>
                 </div>
             </div>
         </div>
