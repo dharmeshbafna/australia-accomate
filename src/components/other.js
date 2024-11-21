@@ -423,7 +423,7 @@ export const Clients = () => {
                     <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="font-semibold text-3xl flex justify-center mx-auto text-center leading-relaxed lg:w-[75%]">
                         Start Your Accounts Payable Journey with Accomate Global
                     </div>
-                    <div className="lg:w-[80%] flex justify-center mx-auto text-center">
+                    <div className="lg:w-[80%] flex justify-center mx-auto text-center leading-relaxed">
                         With Accomate Global’s accounts payable services, Australian businesses can streamline
                         their payment process, improve financial accuracy, and strengthen supplier relationships.
                         From invoice processing to account payable automation, our services are designed to
