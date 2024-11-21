@@ -815,9 +815,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Gather all invoices from suppliers, verify details, and match them with
-                                purchase orders and receipts.</li>
+                                    purchase orders and receipts.</li>
                                 <li className="leading-relaxed">Ensure all necessary documentation is available, reducing the risk of errors in
-                                the payment process.</li>
+                                    the payment process.</li>
                             </ul>
                         </div>
 
@@ -828,9 +828,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Enter invoice data into our system, using accounts payable automation to
-                                speed up data entry and reduce manual errors.</li>
+                                    speed up data entry and reduce manual errors.</li>
                                 <li className="leading-relaxed">Validate entries to ensure consistency with financial records, ensuring all
-                                accounts are accurately updated.</li>
+                                    accounts are accurately updated.</li>
                             </ul>
                         </div>
 
@@ -841,9 +841,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Implement an approval workflow where necessary, allowing authorized
-                                personnel to review and approve payments.</li>
+                                    personnel to review and approve payments.</li>
                                 <li className="leading-relaxed">This adds a layer of accountability, reducing the chance of unapproved or
-                                incorrect payments.</li>
+                                    incorrect payments.</li>
                             </ul>
                         </div>
 
@@ -854,9 +854,9 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Schedule payments based on due dates and early payment discount
-                                opportunities.</li>
+                                    opportunities.</li>
                                 <li className="leading-relaxed">Timely payments ensure smooth supplier relations and take advantage of
-                                cost-saving opportunities.</li>
+                                    cost-saving opportunities.</li>
                             </ul>
                         </div>
 
@@ -867,13 +867,225 @@ export const AccountsPayableComp = () => {
 
                             <ul className="pl-5 list-disc space-y-3">
                                 <li className="leading-relaxed">Reconcile all payments and accounts payable functions regularly,
-                                identifying any discrepancies early.</li>
+                                    identifying any discrepancies early.</li>
                                 <li className="leading-relaxed">Provide regular reports on payment history, outstanding balances, and cash
-                                flow impact, giving you insights into your accounts payable performance.</li>
+                                    flow impact, giving you insights into your accounts payable performance.</li>
                             </ul>
                         </div>
 
                     </div>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-10">
+
+                <div className="space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Why Accounts Payable Outsourcing Makes Sense?</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Outsourcing accounts payable services allows businesses to focus on core activities while
+                        professionals handle the AP process. Here are some key advantages of outsourcing:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Cost Savings:</span> Avoid hiring and training costs by choosing a trusted accounts
+                                payable outsourcing company like Accomate Global.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Access to Expertise:</span> Leverage the expertise of a team that specializes in accounts
+                                payable, with industry knowledge to handle complex accounts payable processes.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Scalability:</span> Whether you need support during peak times or an ongoing service,
+                                accounts payable outsourcing services are flexible and adaptable.
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                <div className="space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Account Payable Automation for Improved Efficiency</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Accomate Global employs advanced account payable automation technology, bringing
+                        automation to key parts of the AP process. Here’s how automation enhances our accounts
+                        payable services:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Faster Processing:</span> Automation speeds up data entry and payment scheduling,
+                                reducing the overall cycle time.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Reduced Errors:</span> Automated checks help prevent duplicate payments and
+                                discrepancies in invoice processing.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Improved Cash Flow:</span> With automation, we can better track due dates and take
+                                advantage of early payment discounts, optimizing cash flow.
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                <div className="space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Industry-Specific Accounts Payable Solutions</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Accomate Global’s accounts payable services are designed to serve businesses across
+                        different industries, offering tailored solutions to meet industry-specific requirements:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Retail and E-Commerce:</span> Manage large volumes of vendor invoices and payments
+                                efficiently, supporting cash flow in a fast-paced market.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Healthcare:</span> Process payments for multiple suppliers, ensuring timely disbursement
+                                to support continuous operations.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Construction and Real Estate:</span> Track invoices and payments for multiple projects,
+                                enhancing accuracy in project budgeting and expense management.
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                <div className="space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>The Importance of Supplier Relationships in Accounts Payable</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Strong supplier relationships are crucial for maintaining a steady supply chain and gaining
+                        favorable terms. Here’s how Accomate Global’s accounts payable services support
+                        supplier relationships:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Timely Payments:</span> We prioritize payments based on due dates, ensuring suppliers
+                                are paid on time.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Clear Communication:</span> Our team communicates with suppliers to resolve payment
+                                discrepancies, fostering trust.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Favorable Terms:</span> By nurturing good relationships, businesses can benefit from
+                                extended terms or discounts on bulk purchases.
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                <div className="space-y-7">
+                    <div className="font-semibold text-3xl w-full leading-relaxed">
+                        <div>Accounts Payable Services Company for Australian Businesses</div>
+                    </div>
+
+                    <div className="leading-relaxed">
+                        Accomate Global is a leading accounts payable outsourcing company in Australia,
+                        providing high-quality accounts payable services tailored to local business needs. Here’s
+                        what sets us apart:
+                        <br />
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Customized Solutions:</span> Our services are tailored to fit the specific needs of each
+                                client, ensuring that all accounts payable functions are managed seamlessly.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Data Security:</span> We prioritize security, protecting your financial data through secure
+                                processes and compliance with industry standards.
+                            </div>
+                        </span>
+                        <span className="flex space-x-1 pt-2">
+                            <div>
+                                <TiTick className="text-lg text-[#9F8D1B] mt-1" />
+                            </div>
+                            <div>
+                                <span className="font-semibold">Transparency and Reporting:</span> Our detailed reports provide transparency, giving you
+                                insights into your AP process and allowing better financial planning.
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="space-y-7 w-full">
+                <div className="font-semibold text-3xl w-full leading-relaxed flex justify-center mx-auto">
+                    <div>FAQs</div>
+                </div>
+
+                <div className="lg:w-[75%] flex justify-center mx-auto">
+                    
                 </div>
             </div>
         </div>
