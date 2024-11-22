@@ -171,13 +171,15 @@ export const About = () => {
         <div className="px-5 md:px-8 py-10 min-h-[100vh] flex items-center my-auto w-full relative overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8 lg:gap-3 w-full z-10">
 
-                <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="relative mb-5">
-                    <Image
-                        src={AboutImg}
-                        alt="About Image"
-                        className="w-full md:w-[80%] h-auto flex justify-center mx-auto drop-shadow-xl"
-                    />
-                    <div className="drop-shadow-lg absolute w-full md:w-[80%] h-full bg-[#9f8e1b5c] -bottom-3 -left-3 md:top-[5%] md:left-[7%] -z-10"></div>
+                <div className="flex justify-center items-center m-auto">
+                    <div className="w-fit relative">
+                        <Image
+                            src={AboutImg}
+                            alt="About Image"
+                            className="w-full md:w-auto md:h-80 h-auto drop-shadow-xl"
+                        />
+                        <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-80 bg-[#9f8e1b5c] -bottom-5 -left-5 -z-10"></div>
+                    </div>
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="flex items-center my-auto">
@@ -185,7 +187,7 @@ export const About = () => {
                         <div className="font-semibold text-3xl">
                             About Us
                         </div>
-                        <div className="my-4">
+                        <div className="my-4 leading-relaxed">
                             Accomate Global Pty Ltd is the brainchild of industry veterans with decades of experience in accounting, taxation, and financial services. Established with a mission to provide Australian businesses with tailored, high-quality financial solutions, we are proud to serve both established firms and small business entrepreneurs.
                             <br /><br />
                             Our core expertise lies in offering comprehensive accounting and taxation services. We help businesses streamline their financial operations, ensuring compliance with Australian regulations while optimizing tax strategies and improving financial accuracy.

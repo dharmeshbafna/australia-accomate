@@ -1,20 +1,22 @@
 'use client'
-import { FaAngleRight } from "react-icons/fa6";
+import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react"
-import { SiTicktick } from "react-icons/si";
 import Image from "next/image";
+
 import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 
-import { FaQuestion, FaRecycle } from "react-icons/fa";
-import { FaChevronDown, FaFileInvoiceDollar } from "react-icons/fa6";
-import { TiTick } from "react-icons/ti";
-
-import AccountBanner from "../../public/banner1.jpg"
+import AboutImg from "../../public/accounts.jpg"
+import Benefits from "../../public/benefits.jpg"
 import ReactCardFlip from "react-card-flip";
-import { usePathname } from "next/navigation";
+
+import { SiTicktick } from "react-icons/si";
+import { FaAngleRight } from "react-icons/fa6";
+import { MdCardGiftcard, MdSpeed } from "react-icons/md";
+import { FaMoneyBillWave } from "react-icons/fa";
+import { HiShieldCheck } from "react-icons/hi2";
 
 export const Usa = () => {
 
@@ -560,105 +562,245 @@ export const AccountsPayableComp = () => {
                             payable functions effectively.
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div className="flex justify-center mx-auto lg:w-[80%]">
-            <div className="px-8 py-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                    Why Choose Accomate Global for Accounts Payable Services?
-                </div>
-
-                <div className="space-y-5">
-                    <div className="leading-relaxed">
-                        Managing accounts payable can be a complex and time-consuming process, with risks of
-                        errors, delayed payments, and strained supplier relationships. At Accomate Global, we
-                        simplify your accounts payable processes by providing comprehensive accounts payable
-                        services that ensure timely and accurate payments, better cash flow, and improved financial
-                        management.<br /><br />
-                        Here’s why Australian businesses trust Accomate Global for their accounts payable
-                        services:
-                    </div>
-
-                    <div className="space-y-2">
-                        <div className="leading-relaxed"><span className="font-semibold">Enhanced Efficiency :</span> Our streamlined AP process eliminates errors and minimizes
-                            delays.</div>
-                        <div className="leading-relaxed"><span className="font-semibold">Cash Flow Optimization :</span> We focus on improving your working capital and securing
-                            early payment discounts.</div>
-                        <div className="leading-relaxed"><span className="font-semibold">Compliance and Security :</span> With secure data handling and compliance-focused
-                            processes, we protect your financial information.</div>
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="w-fit relative">
+                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                            <Image
+                                src={AboutImg}
+                                alt="About Image"
+                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div className="flex justify-center mx-auto">
+                <div className="px-8 py-14 w-full space-y-8">
+                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                        Why Choose Accomate Global for Accounts Payable Services?
+                    </div>
+
+                    <div className="space-y-5">
+                        <div className="leading-relaxed">
+                            Managing accounts payable can be a complex and time-consuming process, with risks of
+                            errors, delayed payments, and strained supplier relationships. At Accomate Global, we
+                            simplify your accounts payable processes by providing comprehensive accounts payable
+                            services that ensure timely and accurate payments, better cash flow, and improved financial
+                            management.<br /><br />
+                            Here’s why Australian businesses trust Accomate Global for their accounts payable
+                            services:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-6">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <MdSpeed className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Enhanced Efficiency
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Our streamlined AP process eliminates errors and minimizes
+                                    delays.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FaMoneyBillWave className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Cash Flow Optimization
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    We focus on improving your working capital and securing
+                                    early payment discounts.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <HiShieldCheck className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Compliance and Security
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    With secure data handling and compliance-focused
+                                    processes, we protect your financial information.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="px-8 pb-14 w-full space-y-8">
+            <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Our Accounts Payable Services
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[80%]">
-                <div className="space-y-5">
-                    <div className="leading-relaxed">
-                        Accomate Global’s accounts payable services cover every aspect of the accounts payable
-                        lifecycle, from invoice processing to payment disbursement. Here are the key components of
-                        our offerings
-                    </div>
-
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">1. Invoice Processing</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Efficient and accurate invoice processing for fast and error-free data entry.</li>
-                            <li>Match invoices with purchase orders and receipts to ensure accuracy in
-                                payments and prevent duplicate payments.</li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">2. Payment Disbursement</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Timely payment processing, ensuring payments are made by the correct due
-                                dates to maintain positive supplier relationships.</li>
-                            <li>Options for scheduled payments, including early payment discounts to save
-                                on costs.</li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">3. Accounts Payable Automation</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Leverage account payable automation technology to streamline the AP
-                                process and reduce manual workload.</li>
-                            <li>Automated reminders for due dates and early payment opportunities,
-                                improving efficiency and cash flow.</li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">4. Reconciliation and Reporting</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Regular reconciliation of accounts payable balances to ensure accuracy and
-                                prevent discrepancies.</li>
-                            <li>Detailed reporting on accounts payable functions to keep track of
-                                outstanding balances, payment history, and cash flow.</li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">5. Purchase Order Matching</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Our managed account payable services include purchase order matching
-                                to verify order fulfillment.</li>
-                            <li>Ensures that all payments are accurate, based on verified deliveries, reducing
-                                payment errors.</li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="font-semibold text-[#1B2D9F]">6. Duplicate Payment Detection</div>
-                        <ul className="list-disc space-y-2 pl-4">
-                            <li>Identify and prevent duplicate payments through automated systems and
-                                thorough checks.</li>
-                            <li>Safeguard working capital by eliminating unnecessary payments and
-                                ensuring financial accuracy.</li>
-                        </ul>
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center">
+                            Accomate Global’s accounts payable services cover every aspect of the accounts payable
+                            lifecycle, from invoice processing to payment disbursement. Here are the key components of
+                            our offerings
+                        </div>
+                        <div className="grid grid-cols-2 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Invoice Processing</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Efficient and accurate invoice processing for fast and error-free data entry.</li>
+                                    <li>Match invoices with purchase orders and receipts to ensure accuracy in
+                                        payments and prevent duplicate payments.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Payment Disbursement</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Timely payment processing, ensuring payments are made by the correct due
+                                        dates to maintain positive supplier relationships.</li>
+                                    <li>Options for scheduled payments, including early payment discounts to save
+                                        on costs.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Accounts Payable Automation</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Leverage account payable automation technology to streamline the AP
+                                        process and reduce manual workload.</li>
+                                    <li>Automated reminders for due dates and early payment opportunities,
+                                        improving efficiency and cash flow.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Reconciliation and Reporting</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Regular reconciliation of accounts payable balances to ensure accuracy and
+                                        prevent discrepancies.</li>
+                                    <li>Detailed reporting on accounts payable functions to keep track of
+                                        outstanding balances, payment history, and cash flow.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Purchase Order Matching</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our managed account payable services include purchase order matching
+                                        to verify order fulfillment.</li>
+                                    <li>Ensures that all payments are accurate, based on verified deliveries, reducing
+                                        payment errors.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Duplicate Payment Detection</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Identify and prevent duplicate payments through automated systems and
+                                        thorough checks.</li>
+                                    <li>Safeguard working capital by eliminating unnecessary payments and
+                                        ensuring financial accuracy.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Benefits of Accounts Payable Services by Accomate Global
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                            Accomate Global’s accounts payable services provide several advantages, allowing
+                            businesses to improve efficiency, enhance supplier relationships, and optimize working
+                            capital. Here’s how our services benefit Australian businesses:
+                        </div>
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Improved Cash Flow Management</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our accounts payable outsourcing services help manage cash flow more
+                                        effectively by scheduling payments strategically.</li>
+                                    <li>Reduce payment delays and optimize working capital for smoother financial
+                                        operations.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Enhanced Supplier Relationships</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Timely payments foster trust with suppliers, strengthening supplier
+                                        relationships and potentially gaining favorable terms.</li>
+                                    <li>Leveraging early payment discounts with key suppliers also provides cost
+                                        savings.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Reduction in Errors and Duplicates</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>With our accounts payable services, we prevent duplicate payments and
+                                        other costly errors.</li>
+                                    <li>Automated checks ensure that every payment is verified, accurate, and
+                                        matched to the appropriate invoice and purchase order.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Increased Efficiency with Automation</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Account payable automation technology helps reduce manual workload
+                                        and eliminate repetitive tasks.</li>
+                                    <li>Automated alerts for due dates help prevent late payments, supporting better
+                                        cash flow.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Cost Savings and Better Working Capital</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Take advantage of early payment discounts where possible, reducing the
+                                        cost of goods and services.</li>
+                                    <li>Effective management of accounts payable improves cash flow and helps
+                                        businesses maintain sufficient working capital.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
