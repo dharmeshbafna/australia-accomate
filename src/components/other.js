@@ -42,6 +42,7 @@ export const Sidebar = ({ toogle, setToogle }) => {
             ]
         },
         { name: "Data Security", link: "/data-security" },
+        { name: "Blogs", link: "https://blog.accomate.au/" },
         { name: "Career", link: "/career" },
     ];
 
@@ -406,7 +407,9 @@ export const Footer = () => {
             </div>
             {/* Copyright */}
             <div className="flex justify-center mx-auto border-t border-gray-500 pt-10 text-center mt-6">
+                <span className="text-center">
                 © 2024 Accomate Global. Developed by&nbsp;<a href="https://anriyo.com" target="_blank" className="font-semibold">Anriyo</a>.
+                </span>
             </div>
         </div>
     )
