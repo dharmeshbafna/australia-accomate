@@ -159,6 +159,7 @@ export const Navbar = () => {
             ]
         },
         { name: "Data Security", link: "/data-security" },
+        { name: "Blogs", link: "https://blog.accomate.au/" },
         { name: "Career", link: "/career" },
     ];
 
