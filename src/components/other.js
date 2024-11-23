@@ -245,7 +245,7 @@ export const Navbar = () => {
                             )
                         })}
 
-                        <a href="/contact" className="hover:scale-[110%] duration-300 text-[#1B2D9F] bg-white px-5 py-2 rounded-full shadow-lg">
+                        <a href="/contact" className="text-nowrap hover:scale-[110%] duration-300 text-[#1B2D9F] bg-white px-5 py-2 rounded-full shadow-lg">
                             Contact Us
                         </a>
                     </div>
@@ -312,7 +312,7 @@ export const Navbar = () => {
                             )
                         })}
 
-                        <a href="/contact" className="hover:scale-[110%] duration-300 text-white bg-[#1B2D9F]  px-5 py-2 rounded-full shadow-lg">
+                        <a href="/contact" className="text-nowrap hover:scale-[110%] duration-300 text-white bg-[#1B2D9F]  px-5 py-2 rounded-full shadow-lg">
                             Contact Us
                         </a>
                     </div>
