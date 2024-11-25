@@ -667,7 +667,7 @@ export const AccountsPayableComp = () => {
                     Our Accounts Payable Services
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s accounts payable services cover every aspect of the accounts payable
@@ -739,7 +739,7 @@ export const AccountsPayableComp = () => {
                 </div>
 
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
 
                         <Image
@@ -809,7 +809,7 @@ export const AccountsPayableComp = () => {
                     Accounts Payable Process at Accomate Global
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Our accounts payable services are designed to be efficient and secure, ensuring that all
