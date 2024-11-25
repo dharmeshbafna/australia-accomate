@@ -12,10 +12,11 @@ import AboutImg from "../../public/accounts.jpg"
 import Benefits from "../../public/benefits.jpg"
 import ReactCardFlip from "react-card-flip";
 
+import { AiOutlineCheckCircle } from "react-icons/ai";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
 import { MdCardGiftcard, MdSpeed } from "react-icons/md";
-import { FaMoneyBillWave, FaQuestion } from "react-icons/fa";
+import { FaMoneyBillWave, FaQuestion, FaRocket } from "react-icons/fa";
 import { HiShieldCheck } from "react-icons/hi2";
 
 export const Usa = () => {
@@ -946,34 +947,117 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                <div className="flex w-full space-x-10">
+                    <div className="flex w-full space-x-10">
 
-                    <div className="flex justify-center items-center m-auto">
-                        <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                            <div className="flex justify-center items-center m-auto h-full">
-                                <FaQuestion className="h-28 w-28" />
+                        <div className="flex justify-center items-center m-auto">
+                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
+                                <div className="flex justify-center items-center m-auto h-full">
+                                    <FaQuestion className="h-28 w-28" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Outsourcing accounts payable services allows businesses to focus on core activities while
+                                professionals handle the AP process. Here are some key advantages of outsourcing:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost Savings : </span>Avoid hiring and training costs by choosing a trusted accounts
+                                    payable outsourcing company like Accomate Global.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access to Expertise : </span>Leverage the expertise of a team that specializes in accounts
+                                    payable, with industry knowledge to handle complex accounts payable processes.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalability : </span>Whether you need support during peak times or an ongoing service,
+                                    accounts payable outsourcing services are flexible and adaptable.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Account Payable Automation for Improved Efficiency
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global employs advanced account payable automation technology, bringing
+                            automation to key parts of the AP process. Here’s how automation enhances our accounts
+                            payable services:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-6">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FaRocket className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        Faster Processing
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                Automation speeds up data entry and payment scheduling,
+                                reducing the overall cycle time.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <AiOutlineCheckCircle className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        Reduced Errors
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                Automated checks help prevent duplicate payments and
+                                discrepancies in invoice processing.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FaMoneyBillWave className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        Improved Cash Flow
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                With automation, we can better track due dates and take
+                                advantage of early payment discounts, optimizing cash flow.
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div className="space-y-4">
-                        <div className="leading-relaxed">
-                            Outsourcing accounts payable services allows businesses to focus on core activities while
-                            professionals handle the AP process. Here are some key advantages of outsourcing:
-                        </div>
-
-                        <ul className="list-disc pl-4 space-y-3">
-                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost Savings : </span>Avoid hiring and training costs by choosing a trusted accounts
-                                payable outsourcing company like Accomate Global.</li>
-                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access to Expertise : </span>Leverage the expertise of a team that specializes in accounts
-                                payable, with industry knowledge to handle complex accounts payable processes.</li>
-                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalability : </span>Whether you need support during peak times or an ongoing service,
-                                accounts payable outsourcing services are flexible and adaptable.</li>
-                        </ul>
-                    </div>
-
                 </div>
-                </div>
+
             </div>
         </div>
     )
