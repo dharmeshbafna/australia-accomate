@@ -15,7 +15,7 @@ import ReactCardFlip from "react-card-flip";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
 import { MdCardGiftcard, MdSpeed } from "react-icons/md";
-import { FaMoneyBillWave } from "react-icons/fa";
+import { FaMoneyBillWave, FaQuestion } from "react-icons/fa";
 import { HiShieldCheck } from "react-icons/hi2";
 
 export const Usa = () => {
@@ -853,15 +853,15 @@ export const AccountsPayableComp = () => {
                                     </div>
 
                                     <div className="text-[#1B2D9F]">
-                                    Data Entry and Validation
+                                        Data Entry and Validation
                                     </div>
                                 </div>
 
                                 <ul className="list-disc space-y-2 pl-4">
                                     <li className="leading-relaxed">Enter invoice data into our system, using accounts payable automation to
-                                    speed up data entry and reduce manual errors.</li>
+                                        speed up data entry and reduce manual errors.</li>
                                     <li className="leading-relaxed">Validate entries to ensure consistency with financial records, ensuring all
-                                    accounts are accurately updated.</li>
+                                        accounts are accurately updated.</li>
                                 </ul>
                             </div>
 
@@ -876,15 +876,15 @@ export const AccountsPayableComp = () => {
                                     </div>
 
                                     <div className="text-[#1B2D9F]">
-                                    Approval Workflow
+                                        Approval Workflow
                                     </div>
                                 </div>
 
                                 <ul className="list-disc space-y-2 pl-4">
                                     <li className="leading-relaxed">Implement an approval workflow where necessary, allowing authorized
-                                    personnel to review and approve payments.</li>
+                                        personnel to review and approve payments.</li>
                                     <li className="leading-relaxed">This adds a layer of accountability, reducing the chance of unapproved or
-                                    incorrect payments.</li>
+                                        incorrect payments.</li>
                                 </ul>
                             </div>
 
@@ -899,15 +899,15 @@ export const AccountsPayableComp = () => {
                                     </div>
 
                                     <div className="text-[#1B2D9F]">
-                                    Payment Scheduling and Processing
+                                        Payment Scheduling and Processing
                                     </div>
                                 </div>
 
                                 <ul className="list-disc space-y-2 pl-4">
                                     <li className="leading-relaxed">Schedule payments based on due dates and early payment discount
-                                    opportunities.</li>
+                                        opportunities.</li>
                                     <li className="leading-relaxed">Timely payments ensure smooth supplier relations and take advantage of
-                                    cost-saving opportunities.</li>
+                                        cost-saving opportunities.</li>
                                 </ul>
                             </div>
 
@@ -922,22 +922,58 @@ export const AccountsPayableComp = () => {
                                     </div>
 
                                     <div className="text-[#1B2D9F]">
-                                    Reconciliation and Reporting
+                                        Reconciliation and Reporting
                                     </div>
                                 </div>
 
                                 <ul className="list-disc space-y-2 pl-4">
                                     <li className="leading-relaxed">Reconcile all payments and accounts payable functions regularly,
-                                    identifying any discrepancies early.</li>
+                                        identifying any discrepancies early.</li>
                                     <li className="leading-relaxed">Provide regular reports on payment history, outstanding balances, and cash
-                                    flow impact, giving you insights into your accounts payable performance.</li>
+                                        flow impact, giving you insights into your accounts payable performance.</li>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
 
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Why Accounts Payable Outsourcing Makes Sense?
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex w-full space-x-10">
+
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
+                            <div className="flex justify-center items-center m-auto h-full">
+                                <FaQuestion className="h-28 w-28" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="space-y-4">
+                        <div className="leading-relaxed">
+                            Outsourcing accounts payable services allows businesses to focus on core activities while
+                            professionals handle the AP process. Here are some key advantages of outsourcing:
+                        </div>
+
+                        <ul className="list-disc pl-4 space-y-3">
+                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost Savings : </span>Avoid hiring and training costs by choosing a trusted accounts
+                                payable outsourcing company like Accomate Global.</li>
+                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access to Expertise : </span>Leverage the expertise of a team that specializes in accounts
+                                payable, with industry knowledge to handle complex accounts payable processes.</li>
+                            <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalability : </span>Whether you need support during peak times or an ongoing service,
+                                accounts payable outsourcing services are flexible and adaptable.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
             </div>
         </div>
     )
