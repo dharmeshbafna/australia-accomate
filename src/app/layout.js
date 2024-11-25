@@ -8,7 +8,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: '400' });
 export const metadata = {
   title: "Accomate Global",
   icons: {
-    icon: '/n_icon.png'
+    icon: '/n_icon.ico'
   }
 };
 

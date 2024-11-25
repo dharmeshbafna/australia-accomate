@@ -3,7 +3,7 @@ import { Privacy } from "@/components/useful"
 export const metadata = {
     title: 'Privacy Policy | Accomate Global',
     icons: {
-        icon: '/n_icon.png'
+        icon: '/n_icon.ico'
     },
     description: `Privacy Policy of Accomate Global.`
 }

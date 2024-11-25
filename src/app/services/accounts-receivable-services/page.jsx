@@ -1,18 +1,18 @@
-import { AccountsPayableComp } from "@/components/services"
+import { AccountsReceivableComp } from "@/components/services"
 import { Breadcrumb } from "@/components/other"
 
 export const metadata = {
-    title: "Accounts Payable Services for Australian Businesses | Accomate Global",
+    title: "Accounts Receivable Services for Australian Businesses | Accomate Global",
     icons: {
         icon: '/n_icon.ico',
     },
 }
 
-export default function AccountsPayable() {
+export default function AccountsRecon() {
     return (
         <div className="overflow-x-hidden">
             <Breadcrumb />
-            <AccountsPayableComp />
+            <AccountsReceivableComp />
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { Contact, Locations } from "@/components/contact";
 export const metadata = {
     title: 'Contact | Accomate Global',
     icons: {
-        icon: '/n_icon.png'
+        icon: '/n_icon.ico'
     },
     description: `Feel free to contact us.`
 }

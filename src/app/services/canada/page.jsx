@@ -4,7 +4,7 @@ import { Canada, Softwares } from "@/components/services";
 export const metadata = {
     title: 'Canada | Services | Accomate Global',
     icons: {
-        icon: '/n_icon.png'
+        icon: '/n_icon.ico'
     },
     description: `Canada services includes accounting, tax complication, etc.`,
 }

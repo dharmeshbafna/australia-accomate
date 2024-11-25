@@ -814,3 +814,11 @@ export const AccountsReconComp = () => {
         </div>
     )
 }
+
+export const AccountsReceivableComp = () => {
+    return (
+        <div className="px-8 py-14">
+            Accounts Receivable Services
+        </div>
+    )
+}

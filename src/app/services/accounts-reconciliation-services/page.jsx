@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/other"
 export const metadata = {
     title: "Accounts Reconciliation Services for Australian Businesses | Accomate Global",
     icons: {
-        icon: '/n_icon.png',
+        icon: '/n_icon.ico',
     },
 }
 

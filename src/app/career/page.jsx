@@ -4,7 +4,7 @@ import { CareerComp } from "@/components/career";
 export const metadata = {
     title: 'Career | Accomate Global',
     icons: {
-        icon: '/n_icon.png'
+        icon: '/n_icon.ico'
     },
     description: `We are dedicated to nurturing talent and providing opportunities for professional development.`
 }
