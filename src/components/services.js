@@ -806,3 +806,11 @@ export const AccountsPayableComp = () => {
         </div>
     )
 }
+
+export const AccountsReconComp = () => {
+    return (
+        <div className="px-8 py-14">
+            Accounts Reconciliation Services
+        </div>
+    )
+}
