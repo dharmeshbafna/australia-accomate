@@ -10,6 +10,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 
 import AboutImg from "../../public/accounts.jpg"
 import Benefits from "../../public/benefits.jpg"
+import IndustryImg from "../../public/industry.jpg"
 import ReactCardFlip from "react-card-flip";
 
 import { AiOutlineCheckCircle } from "react-icons/ai";
@@ -1002,14 +1003,14 @@ export const AccountsPayableComp = () => {
 
                                     <div>
                                         <div className="font-semibold text-lg text-[#9F8D1B]">
-                                        Faster Processing
+                                            Faster Processing
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="leading-relaxed text-center">
-                                Automation speeds up data entry and payment scheduling,
-                                reducing the overall cycle time.
+                                    Automation speeds up data entry and payment scheduling,
+                                    reducing the overall cycle time.
                                 </div>
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
@@ -1023,14 +1024,14 @@ export const AccountsPayableComp = () => {
 
                                     <div>
                                         <div className="font-semibold text-lg text-[#9F8D1B]">
-                                        Reduced Errors
+                                            Reduced Errors
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="leading-relaxed text-center">
-                                Automated checks help prevent duplicate payments and
-                                discrepancies in invoice processing.
+                                    Automated checks help prevent duplicate payments and
+                                    discrepancies in invoice processing.
                                 </div>
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
@@ -1044,14 +1045,14 @@ export const AccountsPayableComp = () => {
 
                                     <div>
                                         <div className="font-semibold text-lg text-[#9F8D1B]">
-                                        Improved Cash Flow
+                                            Improved Cash Flow
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="leading-relaxed text-center">
-                                With automation, we can better track due dates and take
-                                advantage of early payment discounts, optimizing cash flow.
+                                    With automation, we can better track due dates and take
+                                    advantage of early payment discounts, optimizing cash flow.
                                 </div>
                             </div>
                         </div>
@@ -1059,6 +1060,42 @@ export const AccountsPayableComp = () => {
                 </div>
 
             </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Industry-Specific Accounts Payable Solutions
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Accomate Global’s accounts payable services are designed to serve businesses across
+                            different industries, offering tailored solutions to meet industry-specific requirements:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage large volumes of vendor invoices and payments
+                                efficiently, supporting cash flow in a fast-paced market.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Process payments for multiple suppliers, ensuring timely disbursement
+                                to support continuous operations.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Construction and Real Estate : </span>Track invoices and payments for multiple projects,
+                                enhancing accuracy in project budgeting and expense management.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
