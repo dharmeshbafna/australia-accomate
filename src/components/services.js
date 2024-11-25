@@ -11,6 +11,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AboutImg from "../../public/accounts.jpg"
 import Benefits from "../../public/benefits.jpg"
 import IndustryImg from "../../public/industry.jpg"
+import RelationImg from "../../public/relation.jpg"
+import AccountsImg from "../../public/accounts2.jpg"
 import ReactCardFlip from "react-card-flip";
 
 import { AiOutlineCheckCircle } from "react-icons/ai";
@@ -1063,7 +1065,7 @@ export const AccountsPayableComp = () => {
 
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Industry-Specific Accounts Payable Solutions
+                    Industry-Specific Accounts Payable Solutions
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1071,17 +1073,17 @@ export const AccountsPayableComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Accomate Global’s accounts payable services are designed to serve businesses across
-                            different industries, offering tailored solutions to meet industry-specific requirements:
+                                Accomate Global’s accounts payable services are designed to serve businesses across
+                                different industries, offering tailored solutions to meet industry-specific requirements:
                             </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage large volumes of vendor invoices and payments
-                                efficiently, supporting cash flow in a fast-paced market.</li>
+                                    efficiently, supporting cash flow in a fast-paced market.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Process payments for multiple suppliers, ensuring timely disbursement
-                                to support continuous operations.</li>
+                                    to support continuous operations.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Construction and Real Estate : </span>Track invoices and payments for multiple projects,
-                                enhancing accuracy in project budgeting and expense management.</li>
+                                    enhancing accuracy in project budgeting and expense management.</li>
                             </ul>
                         </div>
 
@@ -1096,6 +1098,134 @@ export const AccountsPayableComp = () => {
                 </div>
             </div>
 
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    The Importance of Supplier Relationships in Accounts Payable
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={RelationImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Strong supplier relationships are crucial for maintaining a steady supply chain and gaining
+                                favorable terms. Here’s how Accomate Global’s accounts payable services support
+                                supplier relationships:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Timely Payments : </span>We prioritize payments based on due dates, ensuring suppliers
+                                    are paid on time.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Clear Communication : </span>Our team communicates with suppliers to resolve payment
+                                    discrepancies, fostering trust.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Favorable Terms : </span>By nurturing good relationships, businesses can benefit from
+                                    extended terms or discounts on bulk purchases.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Accounts Payable Services Company for Australian Businesses
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Accomate Global is a leading accounts payable outsourcing company in Australia,
+                                providing high-quality accounts payable services tailored to local business needs. Here’s
+                                what sets us apart:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Customized Solutions : </span>Our services are tailored to fit the specific needs of each
+                                    client, ensuring that all accounts payable functions are managed seamlessly.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Data Security : </span>We prioritize security, protecting your financial data through secure
+                                    processes and compliance with industry standards.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Transparency and Reporting : </span>Our detailed reports provide transparency, giving you
+                                    insights into your AP process and allowing better financial planning.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={AccountsImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Frequently Asked Questions
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[80%]">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
+                                1. What is Accounts Payable Service?
+                            </div>
+                            <div className="pl-2 leading-relaxed">
+                                Accounts payable services involve managing the payment of invoices and tracking
+                                outstanding balances, ensuring that suppliers are paid accurately and on time.
+                            </div>
+                        </div>
+                        <div className="space-y-2">
+                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
+                                2. Why Outsource Accounts Payable?
+                            </div>
+                            <div className="pl-2 leading-relaxed">
+                                Outsourcing accounts payable services helps businesses save on costs, reduce errors,
+                                and streamline their accounts payable processes by leveraging specialized expertise.
+                            </div>
+                        </div>
+                        <div className="space-y-2">
+                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
+                                3. How Does Account Payable Automation Work?
+                            </div>
+                            <div className="pl-2 leading-relaxed">
+                                Account payable automation uses technology to automate data entry, invoice matching,
+                                and payment scheduling, improving accuracy and speed in the AP process.
+                            </div>
+                        </div>
+                        <div className="space-y-2">
+                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
+                                4. How Does Accounts Payable Impact Cash Flow?
+                            </div>
+                            <div className="pl-2 leading-relaxed">
+                                Efficient accounts payable services help optimize cash flow by managing payment
+                                schedules and taking advantage of early payment discounts.
+                            </div>
+                        </div>
+                        <div className="space-y-2">
+                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
+                                5. Can Accounts Payable Services Improve Supplier Relationships?
+                            </div>
+                            <div className="pl-2 leading-relaxed">
+                                Yes, by ensuring timely payments and clear communication, accounts payable services
+                                can strengthen supplier relationships and secure favorable terms.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
