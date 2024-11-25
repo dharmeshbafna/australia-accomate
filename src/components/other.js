@@ -153,7 +153,7 @@ export const Navbar = () => {
                 { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
                 { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
                 { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
-                { name: 'Bookkeeping Services', link: '#' },
+                { name: 'Bookkeeping Services', link: '/services/bookkeeping-services' },
                 { name: 'Data Entry Services', link: '#' },
                 { name: 'Financial Reporting Services', link: '#' },
             ]
@@ -532,7 +532,8 @@ export const Breadcrumb = () => {
                                                                 path == '/services/accounts-payable-services' ? 'Accounts Payable Services' :
                                                                     path == '/services/accounts-reconciliation-services' ? 'Accounts Reconciliation Services' :
                                                                         path == '/services/accounts-receivable-services' ? 'Accounts Receivable Services' :
-                                                                            ''}
+                                                                            path == '/services/bookkeeping-services' ? 'Bookkeeping Services' :
+                                                                                ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
                         Home

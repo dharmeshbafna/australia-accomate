@@ -583,7 +583,7 @@ export const AccountsPayableComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div className="leading-relaxed text-center">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto">
                             Managing accounts payable can be a complex and time-consuming process, with risks of
                             errors, delayed payments, and strained supplier relationships. At Accomate Global, we
                             simplify your accounts payable processes by providing comprehensive accounts payable
@@ -667,9 +667,9 @@ export const AccountsPayableComp = () => {
                     Our Accounts Payable Services
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s accounts payable services cover every aspect of the accounts payable
                             lifecycle, from invoice processing to payment disbursement. Here are the key components of
                             our offerings
@@ -739,7 +739,7 @@ export const AccountsPayableComp = () => {
                 </div>
 
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto">
                     <div className="space-y-6">
 
                         <Image
@@ -748,7 +748,7 @@ export const AccountsPayableComp = () => {
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
 
-                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
                             Accomate Global’s accounts payable services provide several advantages, allowing
                             businesses to improve efficiency, enhance supplier relationships, and optimize working
                             capital. Here’s how our services benefit Australian businesses:
@@ -803,6 +803,142 @@ export const AccountsPayableComp = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Accounts Payable Process at Accomate Global
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Our accounts payable services are designed to be efficient and secure, ensuring that all
+                            payments are processed correctly and on time. Here’s an overview of the steps involved in
+                            our AP process:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            01
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Invoice Collection and Verification
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">With our accounts payable services, we prevent duplicate payments and
+                                        other costly errors.</li>
+                                    <li className="leading-relaxed">Automated checks ensure that every payment is verified, accurate, and
+                                        matched to the appropriate invoice and purchase order.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            02
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Data Entry and Validation
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Enter invoice data into our system, using accounts payable automation to
+                                    speed up data entry and reduce manual errors.</li>
+                                    <li className="leading-relaxed">Validate entries to ensure consistency with financial records, ensuring all
+                                    accounts are accurately updated.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            03
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Approval Workflow
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Implement an approval workflow where necessary, allowing authorized
+                                    personnel to review and approve payments.</li>
+                                    <li className="leading-relaxed">This adds a layer of accountability, reducing the chance of unapproved or
+                                    incorrect payments.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            04
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Payment Scheduling and Processing
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Schedule payments based on due dates and early payment discount
+                                    opportunities.</li>
+                                    <li className="leading-relaxed">Timely payments ensure smooth supplier relations and take advantage of
+                                    cost-saving opportunities.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            05
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Reconciliation and Reporting
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Reconcile all payments and accounts payable functions regularly,
+                                    identifying any discrepancies early.</li>
+                                    <li className="leading-relaxed">Provide regular reports on payment history, outstanding balances, and cash
+                                    flow impact, giving you insights into your accounts payable performance.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }
@@ -819,6 +955,14 @@ export const AccountsReceivableComp = () => {
     return (
         <div className="px-8 py-14">
             Accounts Receivable Services
+        </div>
+    )
+}
+
+export const BookkeepingComp = () => {
+    return (
+        <div className="px-8 py-14">
+            Book Keeping Services
         </div>
     )
 }
