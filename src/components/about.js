@@ -28,7 +28,7 @@ export const Whoweare = () => {
 
     return (
         <div className="px-5 md:px-8 py-16 w-full relative space-y-8 lg:space-y-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-3">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-6">
 
                 <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center items-center m-auto w-full">
                     <div className="w-fit relative">
@@ -47,7 +47,7 @@ export const Whoweare = () => {
                         <div className="font-semibold text-3xl">
                             Born from experience, built for success
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 leading-relaxed">
                             Accomate Global Pty Ltd is the brainchild of industry veterans with decades of experience in accounting, taxation, and financial services. Established with a mission to provide Australian businesses with tailored, high-quality financial solutions, we are proud to serve both established firms and small business entrepreneurs.
                             <br /><br />
                             Our core expertise lies in offering comprehensive accounting and taxation services. We help businesses streamline their financial operations, ensuring compliance with Australian regulations while optimizing tax strategies and improving financial accuracy. Our team of seasoned professionals brings experience from various industries and is highly proficient in a wide range of financial software, ensuring that we deliver efficient, accurate, and tailored solutions to meet your business needs.
@@ -56,7 +56,7 @@ export const Whoweare = () => {
                 </div>
             </div>
 
-            <div className="" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" >
+            <div className="leading-relaxed" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" >
                 In addition to our accounting services, we support Australia’s mortgage brokers by providing skilled Loan Processing Executives. By partnering with us, businesses can save valuable time and the costs associated with hiring internal staff. This allows them to redirect those resources toward client interactions and business development, driving greater success.
                 <br /><br />
                 We have made significant investments in advanced infrastructure and robust data security measures, ensuring that our clients' sensitive information is safeguarded at all times.
@@ -90,7 +90,7 @@ export const MissionVision = () => {
                                 <div className="font-semibold text-3xl pt-3">
                                     Our Mission
                                 </div>
-                                <div>
+                                <div className="leading-relaxed">
                                     At Accomate Global, we empower CPAs and Financial Professionals for unparalleled success through premium outsourcing solutions. As a trusted partner, we utilize expertise and advanced technology to boost clients' efficiency, productivity, and profitability.
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ export const MissionVision = () => {
                             <div className="font-semibold text-3xl pt-3">
                                 Our Goal
                             </div>
-                            <div>
+                            <div className="leading-relaxed">
                                 We elevate CPAs and Financial Firms, allowing them to focus on core competencies while we handle time-consuming tasks. By streamlining operations, cutting overhead, and ensuring compliance, we create a sustainable advantage for our clients in today's competitive landscape.
                             </div>
                         </div>

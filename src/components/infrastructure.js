@@ -89,7 +89,7 @@ export const Infrastructure = () => {
 
                     <div className="my-6">
 
-                        <div className='flex items-center my-auto'>
+                        <div className='flex items-center my-auto leading-relaxed'>
                             Safeguarding clients' sensitive financial information is paramount in today's digital
                             landscape. We deeply understand the critical need to protect this data from theft and
                             cyber threats.
@@ -182,7 +182,7 @@ export const Infrastructure = () => {
                 <div className='lg:w-[30%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5'>
                     {data.slice(0, 2).map((i, index) => {
                         return (
-                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className='py-5 px-3 rounded-lg shadow-lg'>
+                            <div key={index} data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className='py-5 px-3 rounded-lg shadow-lg'>
                                 <div className='font-semibold text-xl text-center text-[#1B2D9F] p-2 m-2 border-b border-[#9F8D1B]'>
                                     {i.title}
                                 </div>

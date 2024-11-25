@@ -664,7 +664,7 @@ export const Services = () => {
                                                     {i.head2}
                                                 </div> */}
 
-                                                <div className="flex">
+                                                <div className="flex leading-relaxed">
                                                     {truncateText(i.desc, 100)}
                                                 </div>
 
@@ -795,7 +795,7 @@ export const Services = () => {
                                                             ))}
                                                         </ul> */}
 
-                                                        <div className="flex">
+                                                        <div className="flex leading-relaxed">
                                                             {truncateText(i.desc, 100)}
                                                         </div>
 
@@ -1076,7 +1076,7 @@ export const Software = () => {
                             </div>
                         </div>
 
-                        <div className="my-4">
+                        <div className="my-4 leading-relaxed">
                             This means we can handle any accounting software you use. At Accomate Global, our team is fluent in all leading accounting software. No matter your current system, we seamlessly adapt to become your financial partner.
                             <br /><br />
                             Ready to simplify your finances and empower your success? Contact us today for a free consultation!

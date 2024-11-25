@@ -400,7 +400,7 @@ export const Australia = () => {
                                         <div className="text-2xl font-semibold pb-3 border-b border-white">
                                             {i.head}
                                         </div>
-                                        <div className="text-lg">
+                                        <div className="text-lg leading-relaxed">
                                             {i.desc}
                                         </div>
                                     </div>
