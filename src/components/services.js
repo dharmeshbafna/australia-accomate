@@ -13,13 +13,15 @@ import Benefits from "../../public/benefits.jpg"
 import IndustryImg from "../../public/industry.jpg"
 import RelationImg from "../../public/relation.jpg"
 import AccountsImg from "../../public/accounts2.jpg"
+import AccountsImg2 from "../../public/accounts3.jpg"
+import WhyusImg from "../../public/whyus.jpg"
 import ReactCardFlip from "react-card-flip";
 
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
 import { MdCardGiftcard, MdSpeed } from "react-icons/md";
-import { FaMoneyBillWave, FaQuestion, FaRocket } from "react-icons/fa";
+import { FaChevronDown, FaMoneyBillWave, FaQuestion, FaRocket } from "react-icons/fa";
 import { HiShieldCheck } from "react-icons/hi2";
 
 export const Usa = () => {
@@ -586,6 +588,14 @@ export const AccountsPayableComp = () => {
                         Why Choose Accomate Global for Accounts Payable Services?
                     </div>
 
+                    <div className="flex justify-center mx-auto">
+                        <Image
+                            src={WhyusImg}
+                            alt="Why Choose Accomate Global for Accounts Payable Services?"
+                            className="h-60 w-auto"
+                        />
+                    </div>
+
                     <div className="space-y-5">
                         <div className="leading-relaxed text-center flex justify-center mx-auto">
                             Managing accounts payable can be a complex and time-consuming process, with risks of
@@ -669,6 +679,14 @@ export const AccountsPayableComp = () => {
             <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Our Accounts Payable Services
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <Image
+                        src={AccountsImg2}
+                        alt="Accounts Payable Services"
+                        className="h-60 w-auto"
+                    />
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1176,53 +1194,78 @@ export const AccountsPayableComp = () => {
                     Frequently Asked Questions
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[80%]">
-                    <div className="space-y-4">
-                        <div className="space-y-2">
-                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
-                                1. What is Accounts Payable Service?
-                            </div>
-                            <div className="pl-2 leading-relaxed">
+                <div className="lg:w-[75%] flex justify-center mx-auto">
+                    <div>
+                        <Accordion defaultExpanded>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel1-content"
+                                id="panel1-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What is Accounts Payable Service?
+                            </AccordionSummary>
+                            <AccordionDetails>
                                 Accounts payable services involve managing the payment of invoices and tracking
                                 outstanding balances, ensuring that suppliers are paid accurately and on time.
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
-                                2. Why Outsource Accounts Payable?
-                            </div>
-                            <div className="pl-2 leading-relaxed">
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel2-content"
+                                id="panel2-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why Outsource Accounts Payable?
+                            </AccordionSummary>
+                            <AccordionDetails>
                                 Outsourcing accounts payable services helps businesses save on costs, reduce errors,
                                 and streamline their accounts payable processes by leveraging specialized expertise.
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
-                                3. How Does Account Payable Automation Work?
-                            </div>
-                            <div className="pl-2 leading-relaxed">
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel3-content"
+                                id="panel3-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">3.&nbsp;</span>How Does Account Payable Automation Work?
+                            </AccordionSummary>
+                            <AccordionDetails>
                                 Account payable automation uses technology to automate data entry, invoice matching,
                                 and payment scheduling, improving accuracy and speed in the AP process.
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
-                                4. How Does Accounts Payable Impact Cash Flow?
-                            </div>
-                            <div className="pl-2 leading-relaxed">
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">4.&nbsp;</span>How Does Accounts Payable Impact Cash Flow?
+                            </AccordionSummary>
+                            <AccordionDetails>
                                 Efficient accounts payable services help optimize cash flow by managing payment
                                 schedules and taking advantage of early payment discounts.
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <div className="font-semibold text-[#1B2D9F] text-lg leading-relaxed">
-                                5. Can Accounts Payable Services Improve Supplier Relationships?
-                            </div>
-                            <div className="pl-2 leading-relaxed">
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel5-content"
+                                id="panel5-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">5.&nbsp;</span>Can Accounts Payable Services Improve Supplier Relationships?
+                            </AccordionSummary>
+                            <AccordionDetails>
                                 Yes, by ensuring timely payments and clear communication, accounts payable services
                                 can strengthen supplier relationships and secure favorable terms.
-                            </div>
-                        </div>
+                            </AccordionDetails>
+                        </Accordion>
                     </div>
                 </div>
             </div>
