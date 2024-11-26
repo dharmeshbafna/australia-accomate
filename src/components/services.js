@@ -17,10 +17,11 @@ import AccountsImg2 from "../../public/accounts3.jpg"
 import WhyusImg from "../../public/whyus.jpg"
 import ReactCardFlip from "react-card-flip";
 
-import { AiOutlineCheckCircle } from "react-icons/ai";
+import { AiOutlineCheckCircle, AiOutlineClockCircle } from "react-icons/ai";
+import { BiNetworkChart } from "react-icons/bi";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
-import { MdCardGiftcard, MdSpeed } from "react-icons/md";
+import { MdCardGiftcard, MdCheckCircleOutline, MdSpeed } from "react-icons/md";
 import { FaChevronDown, FaMoneyBillWave, FaQuestion, FaRocket } from "react-icons/fa";
 import { HiShieldCheck } from "react-icons/hi2";
 
@@ -1275,8 +1276,419 @@ export const AccountsPayableComp = () => {
 
 export const AccountsReconComp = () => {
     return (
-        <div className="px-8 py-14">
-            Accounts Reconciliation Services
+        <div className="">
+
+            <div className="px-8 py-14 bg-gray-100 w-full">
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed">
+                            Accounts Reconciliation Services
+                        </div>
+
+                        <div className="leading-relaxed">
+                            Keeping financial records accurate and consistent is vital for any business. Accomate Global
+                            provides comprehensive account reconciliation services that ensure your financial
+                            transactions are properly accounted for.
+                            <br /><br />
+                            By comparing financial statements, bank records,
+                            and credit card statements with your bank records, we help eliminate discrepancies and
+                            enhance financial integrity. Our services are designed for businesses operating in Australia,
+                            delivering reliability, accuracy, and peace of mind.
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="w-fit relative">
+                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                            <Image
+                                src={AboutImg}
+                                alt="About Image"
+                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="px-8 py-14 w-full space-y-8">
+                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                        Why Choose Accomate Global for Account Reconciliation Services?
+                    </div>
+
+                    <div className="flex justify-center mx-auto">
+                        <Image
+                            src={WhyusImg}
+                            alt="Why Choose Accomate Global for Accounts Payable Services?"
+                            className="h-60 w-auto"
+                        />
+                    </div>
+
+                    <div className="space-y-5">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                            With extensive experience in the Australian market, Accomate Global understands the
+                            complexities of financial reconciliation. Our account reconciliation services are tailored to
+                            meet your business needs, whether you're a small startup or a large enterprise.
+                            <br /><br />
+                            Here’s why businesses trust us for their reconciliation needs:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-6">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <MdCheckCircleOutline className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Error-Free Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Using advanced account reconciliation software, we
+                                    ensure that your financial records are accurate and free of errors.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <BiNetworkChart className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Comprehensive Solutions
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Our services include bank reconciliations, credit card
+                                    account reconciliations, and general ledger reviews, covering all types of accounts.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <AiOutlineClockCircle className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Timely Financial Close
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    We expedite the financial close process, providing timely
+                                    reconciliations that keep your accounts up to date.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Our Account Reconciliation Services
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <Image
+                        src={AccountsImg2}
+                        alt="Accounts Payable Services"
+                        className="h-60 w-auto"
+                    />
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global offers a full range of account reconciliation services designed to
+                            streamline your financial operations and improve accuracy. Our key offerings include:
+                        </div>
+                        <div className="grid grid-cols-2 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Bank Account Reconciliation</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Match bank statement entries with your internal financial records.</li>
+                                    <li>Identify discrepancies early to prevent accounting errors and ensure clean
+                                        records.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Credit Card Reconciliations</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Reconcile credit card statements with your accounts, ensuring every
+                                        transaction is correctly recorded.</li>
+                                    <li>Minimize the risk of fraud and discrepancies through meticulous tracking of
+                                        credit card transactions.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. General Ledger Reconciliation</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Review your general ledger for inconsistencies and unmatched entries.</li>
+                                    <li>Ensure your books align with your financial statements for better accuracy
+                                        and compliance.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Invoice Matching and Reconciliation</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Match invoices against purchase orders and receipts, ensuring every
+                                        payment is accounted for.</li>
+                                    <li>This service improves cash flow management and reduces errors in accounts
+                                        payable.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Customized Reconciliation Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Whether it’s specific types of reconciliation or industry-focused needs, we
+                                        provide customized solutions that suit your business.</li>
+                                    <li>Our services are flexible and adaptable to accommodate different industries
+                                        and business sizes.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Reconciliation of Credit Card Statements</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Regular reconciliation of credit card statements ensures that all transactions
+                                        align with internal records.</li>
+                                    <li>This helps in identifying unauthorized transactions and maintaining financial
+                                        accuracy.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Benefits of Using Account Reconciliation Services by Accomate Global
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                            Our account reconciliation services offer numerous benefits that can transform the way
+                            you manage your financial records. Here’s how partnering with Accomate Global can
+                            enhance your business operations:
+                        </div>
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Improved Accuracy and Reliability</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We provide error-free reconciliation that eliminates discrepancies between
+                                        your bank accounts and financial records.</li>
+                                    <li>Accurate reconciliation leads to better decision-making and financial planning.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Time-Saving Solution</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Reconciliation can be a time-consuming task for businesses. Our services
+                                        allow you to focus on core activities while we handle the reconciliations.</li>
+                                    <li>Automated processes and expert oversight save you time and reduce
+                                        administrative workload.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Enhanced Financial Control</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>By regularly reconciling your accounts, you gain better control over your cash
+                                        flow and financial close cycles.</li>
+                                    <li>Our team provides insights that help you manage your accounts more
+                                        effectively.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Compliance and Risk Reduction</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We help meet reconciliation requirements for regulatory compliance,
+                                        minimizing the risk of penalties and audits.</li>
+                                    <li>Identifying discrepancies early reduces the risk of financial loss or fraud.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Improved Cash Flow Management</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Regular bank reconciliations ensure your cash flow data is accurate, which
+                                        helps in effective budgeting and forecasting.</li>
+                                    <li>Manage incoming and outgoing payments better, avoiding surprises in your
+                                        financial planning.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Tailored Solutions for Different Types of Accounts</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>From credit card reconciliations to multi-currency accounts, our services
+                                        cover various types of accounts for complete reconciliation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    How Accomate Global’s Account Reconciliation Services Work
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Our accounts reconciliation process is straightforward and transparent, designed to keep
+                            your financial records accurate without hassle. Here’s how we approach account
+                            reconciliation:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            01
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Initial Consultation and Assessment
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">We start by understanding your business needs, accounting processes, and
+                                        specific reconciliation challenges.</li>
+                                    <li className="leading-relaxed">Develop a custom reconciliation plan based on your reconciliation
+                                        requirements and business objectives.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            02
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Data Collection and Integration
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Gather relevant data from your bank, general ledger, and financial
+                                        statements to prepare for reconciliation.</li>
+                                    <li className="leading-relaxed">Use secure and advanced account reconciliation software for data
+                                        integration and analysis.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            03
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Reconciliation Execution
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Perform thorough matching of your bank statement, credit card transactions,
+                                        and invoices against internal records.</li>
+                                    <li className="leading-relaxed">Identify and resolve discrepancies, ensuring all accounts are balanced
+                                        accurately.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            04
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Reporting and Documentation
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Provide detailed reconciliation reports that include identified discrepancies,
+                                        adjustments made, and final balances.</li>
+                                    <li className="leading-relaxed">Keep documentation organized for easy access and audit readiness.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            05
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Ongoing Monitoring and Adjustments
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Regularly monitor reconciliations to ensure ongoing accuracy.</li>
+                                    <li className="leading-relaxed">Adjust the reconciliation plan as your business grows or changes, keeping up
+                                        with your financial needs.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     )
 }
