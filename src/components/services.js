@@ -1849,6 +1849,216 @@ export const AccountsReconComp = () => {
                 </div>
 
             </div>
+            
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Account Reconciliation Software and Technology
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Technology is at the core of our account reconciliation services. We use advanced tools
+                            and software that streamline reconciliation and enhance data security:
+                              </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automation : </span>Automated reconciliation processes reduce the potential for human
+                                error, ensuring fast and accurate results.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Security : </span>Protecting your financial data is our priority, with secure software and
+                                encryption for data management.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real-Time Updates : </span>Access reconciliation reports and updates in real-time, allowing
+                                you to monitor account balances and discrepancies.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Industries Served by Accomate Global
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Our account reconciliation services are suitable for various industries in Australia,
+                            including:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage high transaction volumes effectively with accurate
+                                reconciliations.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Construction and Real Estate : </span>Track payments, expenses, and assets for better
+                                cash flow control.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Reconcile patient payments, vendor transactions, and insurance billing
+                                with ease.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Hospitality : </span>Keep track of daily transactions, bookings, and expenses with tailored
+                                reconciliation services.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                The Importance of Reconciliation Services for Business Success
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Maintain Accurate Financial Records : </span>Regular reconciliation ensures that your financial records are up-to-date and
+                                error-free, helping in informed decision-making.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Enhance Financial Planning and Forecasting : </span>With accurate data from reconciled accounts, you can create realistic budgets
+                                and forecasts that support business growth.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Support Compliance and Audit Preparation : </span>Meeting reconciliation requirements ensures compliance with Australian
+                                regulations and makes audits less stressful.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reduce the Risk of Fraud and Errors : </span>By catching discrepancies early, our account reconciliation services reduce
+                                the likelihood of fraud and accounting errors.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={AccountsImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                How Account Reconciliation Services Improve Financial Close
+                Processes
+                  </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={RelationImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Timely and accurate reconciliations are critical for an efficient financial close process.
+                            Accomate Global helps businesses:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Speed Up Financial Close Cycles : </span>With quick reconciliations, businesses can close
+                                their books faster, providing timely financial insights.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Provide Accurate Financial Statements : </span>Comprehensive reconciliations ensure
+                                your financial statements accurately reflect your business’s financial position.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reduce Manual Effort : </span>Automated processes simplify reconciliations, allowing your
+                                team to focus on strategic activities instead.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Frequently Asked Questions
+                </div>
+
+                <div className="lg:w-[75%] flex justify-center mx-auto">
+                    <div>
+                        <Accordion defaultExpanded>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel1-content"
+                                id="panel1-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What are Account Reconciliation Services?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            These services involve comparing financial records to bank and credit card statements to
+                            identify and correct discrepancies.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel2-content"
+                                id="panel2-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why is Account Reconciliation Important?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Reconciliation helps maintain accurate financial records, supports compliance, and
+                            improves cash flow management.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel3-content"
+                                id="panel3-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">3.&nbsp;</span>What Types of Reconciliation Does Accomate Global Offer?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            We provide bank reconciliations, credit card account reconciliations, general ledger
+                            reconciliation, invoice matching, and more.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">4.&nbsp;</span>Can Reconciliation Be Automated?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Yes, we use advanced account reconciliation software to automate parts of the process,
+                            increasing accuracy and efficiency.
+                            </AccordionDetails>
+                        </Accordion>
+                    </div>
+                </div>
+            </div>
 
         </div>
     )
