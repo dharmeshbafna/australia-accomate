@@ -2719,8 +2719,42 @@ export const AccountsReceivableComp = () => {
 
 export const BookkeepingComp = () => {
     return (
-        <div className="px-8 py-14">
-            Book Keeping Services
+        <div className="">
+
+            {/* Bookkeeping Services */}
+            <div className="px-8 py-14 bg-gray-100 w-full">
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed">
+                            Bookkeeping Services
+                        </div>
+
+                        <div className="leading-relaxed">
+                            When it comes to running a business, maintaining accurate and up-to-date financial records
+                            is crucial. Accomate Global offers professional bookkeeping services specifically designed
+                            for Australian businesses.
+                            <br /><br />
+                            With our services, you gain financial clarity, compliance, and
+                            support tailored to the needs of your industry. We streamline your bookkeeping so you can
+                            focus on growing your business.
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="w-fit relative">
+                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                            <Image
+                                src={AboutImg}
+                                alt="About Image"
+                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Choose Accomate Global for Your Bookkeeping Needs? */}
+
         </div>
     )
 }
