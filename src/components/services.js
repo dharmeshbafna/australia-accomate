@@ -21,9 +21,10 @@ import { AiOutlineCheckCircle, AiOutlineClockCircle } from "react-icons/ai";
 import { BiNetworkChart } from "react-icons/bi";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
-import { MdCardGiftcard, MdCheckCircleOutline, MdSpeed } from "react-icons/md";
-import { FaChevronDown, FaMoneyBillWave, FaQuestion, FaRocket } from "react-icons/fa";
-import { HiShieldCheck } from "react-icons/hi2";
+import { MdCardGiftcard, MdCheckCircleOutline, MdOutlineAttachMoney, MdSpeed } from "react-icons/md";
+import { FaChevronDown, FaCreditCard, FaMoneyBillWave, FaQuestion, FaRocket, FaUniversity } from "react-icons/fa";
+import { HiOutlineUsers, HiShieldCheck } from "react-icons/hi2";
+import { RiFilePaper2Line } from "react-icons/ri";
 
 export const Usa = () => {
 
@@ -612,7 +613,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdSpeed className="h-6 w-6" />
                                         </div>
@@ -633,7 +634,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaMoneyBillWave className="h-6 w-6" />
                                         </div>
@@ -654,7 +655,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <HiShieldCheck className="h-6 w-6" />
                                         </div>
@@ -846,7 +847,7 @@ export const AccountsPayableComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             01
                                         </div>
@@ -869,7 +870,7 @@ export const AccountsPayableComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             02
                                         </div>
@@ -892,7 +893,7 @@ export const AccountsPayableComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             03
                                         </div>
@@ -915,7 +916,7 @@ export const AccountsPayableComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             04
                                         </div>
@@ -938,7 +939,7 @@ export const AccountsPayableComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             05
                                         </div>
@@ -1016,7 +1017,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaRocket className="h-6 w-6" />
                                         </div>
@@ -1037,7 +1038,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <AiOutlineCheckCircle className="h-6 w-6" />
                                         </div>
@@ -1058,7 +1059,7 @@ export const AccountsPayableComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaMoneyBillWave className="h-6 w-6" />
                                         </div>
@@ -1337,7 +1338,7 @@ export const AccountsReconComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdCheckCircleOutline className="h-6 w-6" />
                                         </div>
@@ -1358,7 +1359,7 @@ export const AccountsReconComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <BiNetworkChart className="h-6 w-6" />
                                         </div>
@@ -1379,7 +1380,7 @@ export const AccountsReconComp = () => {
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <AiOutlineClockCircle className="h-6 w-6" />
                                         </div>
@@ -1574,7 +1575,7 @@ export const AccountsReconComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             01
                                         </div>
@@ -1597,7 +1598,7 @@ export const AccountsReconComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             02
                                         </div>
@@ -1620,7 +1621,7 @@ export const AccountsReconComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             03
                                         </div>
@@ -1643,7 +1644,7 @@ export const AccountsReconComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             04
                                         </div>
@@ -1665,7 +1666,7 @@ export const AccountsReconComp = () => {
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white">
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             05
                                         </div>
@@ -1683,6 +1684,166 @@ export const AccountsReconComp = () => {
                                 </ul>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Why Outsource Account Reconciliation Services?
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="flex w-full space-x-10">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
+                                <div className="flex justify-center items-center m-auto h-full">
+                                    <FaQuestion className="h-28 w-28" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Outsourcing account reconciliation services to Accomate Global offers a strategic
+                            advantage for businesses seeking efficiency and accuracy:
+                                </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost-Effective Solution : </span>Avoid the costs associated with hiring and training
+                                in-house staff. Our services provide expert reconciliation at a competitive price.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Expertise and Technology : </span>Access experienced professionals and the latest
+                                account reconciliation software, delivering precise and timely reconciliations.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalable Solutions : </span>Whether your reconciliation needs are simple or complex, our
+                                services are adaptable to your business size and requirements.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Types of Reconciliation Services Provided
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global’s account reconciliation services cover different types of
+                            reconciliation, each tailored to meet specific business needs:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-6">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FaUniversity className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Bank Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Reconcile your bank transactions with recorded data to prevent errors and
+                                    ensure cash flow accuracy.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FaCreditCard className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Credit Card Account Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Monitor and reconcile credit card transactions, minimizing discrepancies and
+                                    enhancing financial security.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <HiOutlineUsers className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Vendor and Supplier Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Match invoices, purchase orders, and payments to track outstanding dues
+                                    and avoid payment disputes.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <RiFilePaper2Line className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Balance Sheet Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Ensure that all entries in your balance sheet are accurate, providing a clear
+                                    view of your company’s assets and liabilities.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <MdOutlineAttachMoney className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Expense Reconciliation
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Track and reconcile expenses, helping you manage budgets effectively and
+                                    control spending.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
