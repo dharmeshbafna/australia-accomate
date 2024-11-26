@@ -25,6 +25,9 @@ import { MdCardGiftcard, MdCheckCircleOutline, MdOutlineAttachMoney, MdSpeed } f
 import { FaChevronDown, FaCreditCard, FaMoneyBillWave, FaQuestion, FaRocket, FaUniversity } from "react-icons/fa";
 import { HiOutlineUsers, HiShieldCheck } from "react-icons/hi2";
 import { RiFilePaper2Line } from "react-icons/ri";
+import { TbCurrencyDollar } from "react-icons/tb";
+import { FiTrendingDown } from "react-icons/fi";
+import { IoMdSpeedometer } from "react-icons/io";
 
 export const Usa = () => {
 
@@ -1279,6 +1282,7 @@ export const AccountsReconComp = () => {
     return (
         <div className="">
 
+            {/* Accounts Reconciliation Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-2 gap-6">
                     <div className="space-y-8">
@@ -1311,6 +1315,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* Why Choose Accomate Global for Account Reconciliation Services? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
                     <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
@@ -1403,6 +1408,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* Our Account Reconciliation Services */}
             <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Our Account Reconciliation Services
@@ -1480,6 +1486,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* Benefits of Using Account Reconciliation Services by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Benefits of Using Account Reconciliation Services by Accomate Global
@@ -1556,6 +1563,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* How Accomate Global’s Account Reconciliation Services Work */}
             <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     How Accomate Global’s Account Reconciliation Services Work
@@ -1690,9 +1698,10 @@ export const AccountsReconComp = () => {
 
             </div>
 
+            {/* Why Outsource Account Reconciliation Services? */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Why Outsource Account Reconciliation Services?
+                    Why Outsource Account Reconciliation Services?
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1708,17 +1717,17 @@ export const AccountsReconComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Outsourcing account reconciliation services to Accomate Global offers a strategic
-                            advantage for businesses seeking efficiency and accuracy:
-                                </div>
+                                Outsourcing account reconciliation services to Accomate Global offers a strategic
+                                advantage for businesses seeking efficiency and accuracy:
+                            </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost-Effective Solution : </span>Avoid the costs associated with hiring and training
-                                in-house staff. Our services provide expert reconciliation at a competitive price.</li>
+                                    in-house staff. Our services provide expert reconciliation at a competitive price.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Expertise and Technology : </span>Access experienced professionals and the latest
-                                account reconciliation software, delivering precise and timely reconciliations.</li>
+                                    account reconciliation software, delivering precise and timely reconciliations.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalable Solutions : </span>Whether your reconciliation needs are simple or complex, our
-                                services are adaptable to your business size and requirements.</li>
+                                    services are adaptable to your business size and requirements.</li>
                             </ul>
                         </div>
 
@@ -1726,6 +1735,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* Types of Reconciliation Services Provided */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Types of Reconciliation Services Provided
@@ -1849,10 +1859,11 @@ export const AccountsReconComp = () => {
                 </div>
 
             </div>
-            
+
+            {/* Account Reconciliation Software and Technology */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Account Reconciliation Software and Technology
+                    Account Reconciliation Software and Technology
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1860,17 +1871,17 @@ export const AccountsReconComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Technology is at the core of our account reconciliation services. We use advanced tools
-                            and software that streamline reconciliation and enhance data security:
-                              </div>
+                                Technology is at the core of our account reconciliation services. We use advanced tools
+                                and software that streamline reconciliation and enhance data security:
+                            </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automation : </span>Automated reconciliation processes reduce the potential for human
-                                error, ensuring fast and accurate results.</li>
+                                    error, ensuring fast and accurate results.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Security : </span>Protecting your financial data is our priority, with secure software and
-                                encryption for data management.</li>
+                                    encryption for data management.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real-Time Updates : </span>Access reconciliation reports and updates in real-time, allowing
-                                you to monitor account balances and discrepancies.</li>
+                                    you to monitor account balances and discrepancies.</li>
                             </ul>
                         </div>
 
@@ -1885,9 +1896,10 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* Industries Served by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Industries Served by Accomate Global
+                    Industries Served by Accomate Global
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1903,19 +1915,19 @@ export const AccountsReconComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Our account reconciliation services are suitable for various industries in Australia,
-                            including:
+                                Our account reconciliation services are suitable for various industries in Australia,
+                                including:
                             </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage high transaction volumes effectively with accurate
-                                reconciliations.</li>
+                                    reconciliations.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Construction and Real Estate : </span>Track payments, expenses, and assets for better
-                                cash flow control.</li>
+                                    cash flow control.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Reconcile patient payments, vendor transactions, and insurance billing
-                                with ease.</li>
+                                    with ease.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Hospitality : </span>Keep track of daily transactions, bookings, and expenses with tailored
-                                reconciliation services.</li>
+                                    reconciliation services.</li>
                             </ul>
                         </div>
 
@@ -1923,9 +1935,10 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/* The Importance of Reconciliation Services for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                The Importance of Reconciliation Services for Business Success
+                    The Importance of Reconciliation Services for Business Success
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -1935,13 +1948,13 @@ export const AccountsReconComp = () => {
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Maintain Accurate Financial Records : </span>Regular reconciliation ensures that your financial records are up-to-date and
-                                error-free, helping in informed decision-making.</li>
+                                    error-free, helping in informed decision-making.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Enhance Financial Planning and Forecasting : </span>With accurate data from reconciled accounts, you can create realistic budgets
-                                and forecasts that support business growth.</li>
+                                    and forecasts that support business growth.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Support Compliance and Audit Preparation : </span>Meeting reconciliation requirements ensures compliance with Australian
-                                regulations and makes audits less stressful.</li>
+                                    regulations and makes audits less stressful.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reduce the Risk of Fraud and Errors : </span>By catching discrepancies early, our account reconciliation services reduce
-                                the likelihood of fraud and accounting errors.</li>
+                                    the likelihood of fraud and accounting errors.</li>
                             </ul>
                         </div>
 
@@ -1956,11 +1969,12 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/*  How Account Reconciliation Services Improve Financial Close Processes */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                How Account Reconciliation Services Improve Financial Close
-                Processes
-                  </div>
+                    How Account Reconciliation Services Improve Financial Close
+                    Processes
+                </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-2 w-full gap-4">
@@ -1975,17 +1989,17 @@ export const AccountsReconComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Timely and accurate reconciliations are critical for an efficient financial close process.
-                            Accomate Global helps businesses:
+                                Timely and accurate reconciliations are critical for an efficient financial close process.
+                                Accomate Global helps businesses:
                             </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Speed Up Financial Close Cycles : </span>With quick reconciliations, businesses can close
-                                their books faster, providing timely financial insights.</li>
+                                    their books faster, providing timely financial insights.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Provide Accurate Financial Statements : </span>Comprehensive reconciliations ensure
-                                your financial statements accurately reflect your business’s financial position.</li>
+                                    your financial statements accurately reflect your business’s financial position.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reduce Manual Effort : </span>Automated processes simplify reconciliations, allowing your
-                                team to focus on strategic activities instead.</li>
+                                    team to focus on strategic activities instead.</li>
                             </ul>
                         </div>
 
@@ -1993,6 +2007,7 @@ export const AccountsReconComp = () => {
                 </div>
             </div>
 
+            {/*  Frequently Asked Questions */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Frequently Asked Questions
@@ -2010,8 +2025,8 @@ export const AccountsReconComp = () => {
                                 <span className="text-[#1B2D9F]">1.&nbsp;</span>What are Account Reconciliation Services?
                             </AccordionSummary>
                             <AccordionDetails>
-                            These services involve comparing financial records to bank and credit card statements to
-                            identify and correct discrepancies.
+                                These services involve comparing financial records to bank and credit card statements to
+                                identify and correct discrepancies.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -2024,8 +2039,8 @@ export const AccountsReconComp = () => {
                                 <span className="text-[#1B2D9F]">2.&nbsp;</span>Why is Account Reconciliation Important?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Reconciliation helps maintain accurate financial records, supports compliance, and
-                            improves cash flow management.
+                                Reconciliation helps maintain accurate financial records, supports compliance, and
+                                improves cash flow management.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -2038,8 +2053,8 @@ export const AccountsReconComp = () => {
                                 <span className="text-[#1B2D9F]">3.&nbsp;</span>What Types of Reconciliation Does Accomate Global Offer?
                             </AccordionSummary>
                             <AccordionDetails>
-                            We provide bank reconciliations, credit card account reconciliations, general ledger
-                            reconciliation, invoice matching, and more.
+                                We provide bank reconciliations, credit card account reconciliations, general ledger
+                                reconciliation, invoice matching, and more.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -2052,8 +2067,8 @@ export const AccountsReconComp = () => {
                                 <span className="text-[#1B2D9F]">4.&nbsp;</span>Can Reconciliation Be Automated?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Yes, we use advanced account reconciliation software to automate parts of the process,
-                            increasing accuracy and efficiency.
+                                Yes, we use advanced account reconciliation software to automate parts of the process,
+                                increasing accuracy and efficiency.
                             </AccordionDetails>
                         </Accordion>
                     </div>
@@ -2066,8 +2081,638 @@ export const AccountsReconComp = () => {
 
 export const AccountsReceivableComp = () => {
     return (
-        <div className="px-8 py-14">
-            Accounts Receivable Services
+        <div className="">
+
+            {/* Accounts Receivable Services */}
+            <div className="px-8 py-14 bg-gray-100 w-full">
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed">
+                            Accounts Receivable Service
+                        </div>
+
+                        <div className="leading-relaxed">
+                            Effective management of accounts receivable is crucial for businesses of all sizes. Accomate
+                            Global offers a specialized accounts receivable service tailored to Australian businesses,
+                            helping you streamline collections, improve cash flow, and maintain a healthy balance sheet.
+                            <br /><br />
+                            With expert support in accounts receivable outsourcing, we simplify your accounts
+                            receivable process so you can focus on core business activities.  </div>
+                    </div>
+
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="w-fit relative">
+                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                            <Image
+                                src={AboutImg}
+                                alt="About Image"
+                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Choose Accomate Global’s Accounts Receivable Service? */}
+            <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="px-8 py-14 w-full space-y-8">
+                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                        Why Choose Accomate Global’s Accounts Receivable Service?
+                    </div>
+
+                    <div className="flex justify-center mx-auto">
+                        <Image
+                            src={WhyusImg}
+                            alt="Why Choose Accomate Global for Accounts Payable Services?"
+                            className="h-60 w-auto"
+                        />
+                    </div>
+
+                    <div className="space-y-5">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                            For businesses in today’s competitive environment, managing accounts receivable
+                            efficiently is a key factor in maximizing working capital. Accomate Global’s accounts
+                            receivable service offers a strategic, tech-driven approach to collections that not only
+                            reduces days sales outstanding (DSO) but also increases cash flow, ensuring that you
+                            receive payments faster and with minimal risk of bad debts.
+                            <br /><br />
+                            Here’s why Australian businesses trust Accomate Global’s accounts receivable
+                            management services:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-6">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <TbCurrencyDollar className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Improved Cash Flow and Working Capital
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    By managing customer payments
+                                    and reducing collection delays, we help boost your cash flow, ensuring liquidity.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <FiTrendingDown className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Reduced DSO
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    Through effective accounts receivable collection practices, our
+                                    services reduce DSO, freeing up working capital for reinvestment.
+                                </div>
+                            </div>
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            <IoMdSpeedometer className="h-6 w-6" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            Real-Time Reporting
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="leading-relaxed text-center">
+                                    With real-time updates and advanced accounts receivable
+                                    software, we offer a transparent view of your receivables.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Our Accounts Receivable Services */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Our Accounts Receivable Services
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <Image
+                        src={AccountsImg2}
+                        alt="Accounts Payable Services"
+                        className="h-60 w-auto"
+                    />
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global’s accounts receivable service encompasses all aspects of accounts
+                            receivable management, including accounts receivable outsourcing for streamlined
+                            efficiency. Here’s a look at our key service offerings:
+                        </div>
+                        <div className="grid grid-cols-2 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Invoice Generation and Customer Communication</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We prepare and send professional invoices, ensuring accurate billing for your
+                                        products or services.</li>
+                                    <li>Engage with clients early in the accounts receivable process to maintain
+                                        positive relationships and encourage timely payments.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Customer Payment Tracking and Follow-Up</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Track customer payments closely to ensure consistent cash flow.</li>
+                                    <li>Conduct polite and effective follow-ups, significantly reducing overdue
+                                        accounts and helping collect payments faster.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Accounts Receivable Collection and Aging Analysis</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our accounts receivable collection service includes aging analysis to
+                                        assess the status of receivables.</li>
+                                    <li>Identify potential bad debts early, reducing the risk of revenue loss.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Reconciliation and Dispute Resolution</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We reconcile accounts regularly to maintain an accurate balance sheet.</li>
+                                    <li>Address and resolve disputes promptly, ensuring smooth accounts
+                                        receivable management and stronger client relationships.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Customized Reporting and Real-Time Analytics</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Receive real-time analytics, empowering you to make informed decisions
+                                        regarding working capital.</li>
+                                    <li>Generate customized reports, giving you an overview of all managed
+                                        accounts receivable activities.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Outsource Accounts Receivable Services</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Accomate Global’s accounts receivable outsourcing model helps you avoid
+                                        the costs of maintaining an in-house team.</li>
+                                    <li>Benefit from a scalable solution that adjusts to your business needs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Benefits of Using Accounts Receivable Service by Accomate Global */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Benefits of Using Accounts Receivable Service by Accomate Global
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                            Accomate Global’s accounts receivable service offers many benefits, making it an ideal
+                            solution for businesses across different industries in Australia:
+                        </div>
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Increased Cash Flow</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Fast collection of receivables helps to increase cash flow, ensuring you
+                                        have the resources needed to grow your business.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Effective Accounts Receivable Management</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We use effective strategies and accounts receivable management services
+                                        to reduce unpaid accounts, optimize DSO, and secure consistent cash flow.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Lowered Risk of Bad Debts</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our team mitigates the risk of bad debts through diligent accounts
+                                        receivable collection and thorough aging analysis, minimizing write-offs and
+                                        maximizing returns.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Optimized Working Capital</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Well-managed customer payments ensure a steady flow of working capital,
+                                        giving you the flexibility to reinvest in your business.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Flexible Solutions Across Industries</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>From businesses in the real estate sector to e-commerce, our accounts
+                                        receivable service is adaptable to diverse industries and their specific
+                                        needs.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Enhanced Customer Experience</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Timely and professional communication with clients promotes good
+                                        relationships, creating a seamless payment experience for customers.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Accounts Receivable Service Process */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Accounts Receivable Service Process
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Our accounts receivable service follows a streamlined, five-step process:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            01
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Setup and Integration
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Integrate accounts receivable software with your business systems.</li>
+                                    <li className="leading-relaxed">Set up automated invoicing, reminders, and tracking mechanisms.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            02
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Invoice and Payment Tracking
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Monitor invoices and collect payments on schedule, with reminders sent to
+                                        customers.</li>
+                                    <li className="leading-relaxed">Track all customer payments to avoid delays in receiving dues.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            03
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Reconciliation and Reporting
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Reconcile payments with bank statements and provide comprehensive
+                                        reports.</li>
+                                    <li className="leading-relaxed">Maintain clear and organized records of all receivables.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            04
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Aging Analysis and Collection Strategy
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Conduct an aging analysis to identify overdue accounts and strategize
+                                        collection.</li>
+                                    <li className="leading-relaxed">Follow up with a professional, customer-centric approach to ensure timely
+                                        payments.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            05
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Regular Review and Adjustments
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Review accounts receivable periodically, optimizing the accounts
+                                        receivable process as your business needs evolve.</li>
+                                    <li className="leading-relaxed">Make necessary adjustments to improve collections and lower the DSO.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Industries Served */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Industries Served
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Our accounts receivable service is designed to meet the unique needs of various
+                                industries, including:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real Estate : </span>With the complex transactions involved, businesses in the real estate
+                                    sector benefit greatly from our tailored accounts receivable solutions.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>We assist healthcare providers in managing patient payments,
+                                    insurance billing, and timely collections.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and Wholesale : </span>We optimize receivables for both online and brick-and-mortar
+                                    retailers to maintain healthy cash flow.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Manufacturing : </span>Efficient collections and account management are essential for
+                                    manufacturing businesses to manage high-volume transactions and maintain working
+                                    capital.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Outsource Accounts Receivable Services to Accomate Global? */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Why Outsource Accounts Receivable Services to Accomate Global?
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="flex w-full space-x-10">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
+                                <div className="flex justify-center items-center m-auto h-full">
+                                    <FaQuestion className="h-28 w-28" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Outsourcing accounts receivable services with Accomate Global offers a cost-effective,
+                                efficient solution. Here’s why more Australian businesses are turning to us:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost Savings : </span>Avoid hiring and training expenses by outsourcing to a skilled,
+                                    experienced team that handles all aspects of accounts receivable management.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Expertise on Demand : </span>Access experts trained in managing accounts receivable
+                                    who bring specialized knowledge to the table.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Scalable Solutions : </span>As your business grows, our services grow with you, ensuring
+                                    that your accounts receivable can keep up with increased demand.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* How We Help Improve Your Balance Sheet and Financial Health */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    How We Help Improve Your Balance Sheet and Financial Health
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Accomate Global’s accounts receivable service has a direct impact on the strength of your
+                                balance sheet by:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reducing Outstanding Receivables : </span>A low DSO indicates faster collections, which
+                                    enhances cash flow and adds to working capital.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Improving Collection Ratios : </span>A higher collection ratio indicates a more effective
+                                    accounts receivable process, reducing the chance of bad debts.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Providing Regular Financial Insights : </span>Accurate, timely reporting helps maintain a
+                                    strong balance sheet and aligns with financial goals.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Our Technology-Driven Approach */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Our Technology-Driven Approach
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Technology plays a vital role in our accounts receivable service. Accomate Global
+                                leverages the latest accounts receivable software to deliver a smooth and efficient
+                                experience:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automation : </span>We streamline invoice generation, payment reminders, and
+                                    reconciliation through automation, increasing accuracy and reducing errors.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Data Security : </span>Secure payment handling and customer data protection are a top
+                                    priority.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Analytics : </span>With access to real-time analytics and comprehensive reporting, you can
+                                    easily monitor your financial health and make informed decisions.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* How Accomate Global Boosts Efficiency in Accounts Receivable Management */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    How Accomate Global Boosts Efficiency in Accounts Receivable
+                    Management
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Our accounts receivable service is structured to enhance efficiency and ensure smooth
+                                operations, helping businesses like yours streamline collections and reduce financial risks.
+                                Here’s how we achieve increased efficiency for our clients:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automated Invoicing and Reminders : </span>We use advanced accounts receivable
+                                    software to automate invoicing and payment reminders, ensuring timely
+                                    communication with customers.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Optimized Accounts Receivable Process : </span>Our team follows best practices to make
+                                    the accounts receivable process efficient, with quick payment tracking and detailed
+                                    follow-up processes.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Reduced Administrative Burden : </span>By outsourcing, you save on hiring and training
+                                    costs, while our experts handle the heavy lifting.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Real-Time Tracking and Transparency */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Real-Time Tracking and Transparency
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Accomate Global’s accounts receivable service offers complete transparency and
+                                real-time tracking, allowing you to:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Monitor Payment Progress : </span>Check the status of outstanding invoices and pending
+                                    payments.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access Detailed Reports : </span>View collection rates, DSO, and days sales outstanding
+                                    to stay informed on all accounts.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Plan Effectively : </span>Access insights that support financial planning, budgeting, and
+                                    resource allocation.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
