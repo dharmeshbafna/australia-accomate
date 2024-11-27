@@ -155,7 +155,7 @@ export const Navbar = () => {
                 { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
                 { name: 'Bookkeeping Services', link: '/services/bookkeeping-services' },
                 { name: 'Data Entry Services', link: '/services/data-entry' },
-                { name: 'Financial Reporting Services', link: '#' },
+                { name: 'Financial Reporting Services', link: '/services/financial-reporting-services' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -534,6 +534,7 @@ export const Breadcrumb = () => {
                                                                         path == '/services/accounts-receivable-services' ? 'Accounts Receivable Services' :
                                                                             path == '/services/bookkeeping-services' ? 'Bookkeeping Services' :
                                                                             path == '/services/data-entry' ? 'Data Entry Services' :
+                                                                            path == '/services/financial-reporting-services' ? 'Financial Reporting Service' :
                                                                                 ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
