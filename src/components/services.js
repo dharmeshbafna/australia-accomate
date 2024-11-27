@@ -3303,3 +3303,298 @@ export const BookkeepingComp = () => {
         </div>
     )
 }
+
+export const DataEntryComp = () => {
+    return (
+        <div>
+
+            {/* Data Entry Service */}
+            <div className="px-8 py-14 bg-gray-100 w-full">
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed">
+                            Data Entry Services
+                        </div>
+
+                        <div className="leading-relaxed">
+                            In today’s fast-paced digital world, accurate and efficient data management is critical for any
+                            business’s success. Accomate Global offers a top-tier data entry service for Australian
+                            businesses, providing reliable, accurate, and scalable solutions for various data entry needs.
+                            <br /><br />
+                            With a team of data entry specialists and a commitment to data security, our services are
+                            designed to improve productivity, reduce costs, and enhance data accuracy.
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center items-center m-auto">
+                        <div className="w-fit relative">
+                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                            <Image
+                                src={AboutImg}
+                                alt="About Image"
+                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Choose Accomate Global for Your Data Entry Service Needs? */}
+            <div className="px-8 py-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Why Choose Accomate Global for Your Data Entry Service Needs?
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                            With years of experience and expertise, Accomate Global has become a leading provider of
+                            data entry outsourcing services in Australia. We work with diverse industries, including
+                            real estate, retail, finance, and e-commerce, tailoring our services to meet each client’s
+                            unique requirements. Here’s why businesses trust Accomate Global for their data entry
+                            needs:
+                        </div>
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. High Accuracy</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We ensure accurate data entries through rigorous quality control.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Data Security</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Data protection is our priority, with secure processes that keep your
+                                        information safe.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Fast Turnaround Times</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our streamlined data process enables us to complete
+                                        projects quickly without sacrificing quality.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Cost-Effective Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We offer affordable and efficient data entry outsourcing
+                                        that minimizes operational costs.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Our Bookkeeping Services */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Our Data Entry Services
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global’s data entry service portfolio covers various data entry requirements,
+                            ensuring that we can meet the needs of businesses across industries. Below are our key
+                            data entry offerings:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Product Data Entry
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Ideal for e-commerce platforms, we help businesses manage product
+                                        information with precision.</li>
+                                    <li className="leading-relaxed">Services include updating product descriptions, prices, and SKUs to ensure
+                                        consistency and accuracy across digital platforms.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Real Estate Data Entry
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Accurate data entry for property listings, customer records, and transaction
+                                        documents tailored for the real estate industry.</li>
+                                    <li className="leading-relaxed">Our services streamline real estate data management, saving time and
+                                        improving data accuracy.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Online Data Entry
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">We handle online data entry projects that require high-speed typing and
+                                        accuracy, including form filling, document entry, and online catalog
+                                        management.</li>
+                                    <li className="leading-relaxed">Ideal for businesses looking to update web-based databases or online
+                                        inventories.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Offline Data Entry
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Our team manages offline data tasks, such as digitizing physical documents,
+                                        handwritten forms, and records, converting them into electronic files for easy
+                                        access.</li>
+                                    <li className="leading-relaxed">We provide a seamless transition from paper to digital data, ensuring
+                                        accuracy and accessibility.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Invoice and Billing Data Entry
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Efficient and accurate data entries for invoices, bills, and payment records
+                                        that support accounts payable and receivable processes.</li>
+                                    <li className="leading-relaxed">Reduces manual workload and speeds up financial documentation tasks,
+                                        improving operational efficiency.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Data Conversion and Formatting
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Transform unstructured data into organized, accessible formats, ensuring that
+                                        all information is standardized and ready for analysis.</li>
+                                    <li className="leading-relaxed">Data formatting services ensure compatibility across multiple platforms.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Benefits of Data Entry Service by Accomate Global */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Benefits of Data Entry Service by Accomate Global
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <Image
+                        src={AccountsImg2}
+                        alt="Accounts Payable Services"
+                        className="h-60 w-auto"
+                    />
+                </div>
+
+                <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                    Our data entry service offers numerous advantages, helping businesses across Australia
+                    streamline their operations, cut costs, and improve data accuracy. Here’s how Accomate
+                    Global’s services can support your business:
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="grid grid-cols-2 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Enhanced Data Accuracy</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our quality control measures ensure high accuracy, minimizing errors and
+                                        discrepancies.</li>
+                                    <li>Accurate data entry contributes to better decision-making and smoother
+                                        operations.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Improved Data Security</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Data security is at the core of our services, with secure protocols that protect
+                                        your information from unauthorized access or data breaches.</li>
+                                    <li>We follow industry standards for data protection, ensuring your sensitive
+                                        information remains confidential.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Cost-Effective Data Entry Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our cost-effective data entry services help businesses save on operational
+                                        costs, allowing them to focus resources on core areas.</li>
+                                    <li>By outsourcing to Accomate Global, you avoid the costs associated with
+                                        in-house data entry management.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Flexible and Scalable Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>From one-time projects to ongoing data entry requirements, we offer scalable
+                                        services that grow with your business.</li>
+                                    <li>Flexibility in our services allows us to adapt to fluctuations in workload,
+                                        ensuring timely data processing.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Reduced Turnaround Times</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>With efficient data process workflows, we provide rapid turnaround times
+                                        without compromising on quality.</li>
+                                    <li>Faster data entry helps businesses stay agile and responsive to market
+                                        changes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    )
+};
