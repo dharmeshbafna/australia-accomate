@@ -21,13 +21,14 @@ import { AiOutlineCheckCircle, AiOutlineClockCircle } from "react-icons/ai";
 import { BiNetworkChart } from "react-icons/bi";
 import { SiTicktick } from "react-icons/si";
 import { FaAngleRight } from "react-icons/fa6";
-import { MdCardGiftcard, MdCheckCircleOutline, MdOutlineAttachMoney, MdSpeed } from "react-icons/md";
-import { FaChevronDown, FaCreditCard, FaMoneyBillWave, FaQuestion, FaRocket, FaUniversity } from "react-icons/fa";
+import { MdAutorenew, MdCardGiftcard, MdCheckCircleOutline, MdOutlineAttachMoney, MdSpeed } from "react-icons/md";
+import { FaChevronDown, FaCreditCard, FaMoneyBillWave, FaQuestion, FaRocket, FaServer, FaUniversity } from "react-icons/fa";
 import { HiOutlineUsers, HiShieldCheck } from "react-icons/hi2";
-import { RiFilePaper2Line } from "react-icons/ri";
+import { RiFilePaper2Line, RiSuitcaseLine } from "react-icons/ri";
 import { TbCurrencyDollar } from "react-icons/tb";
 import { FiTrendingDown } from "react-icons/fi";
 import { IoMdSpeedometer } from "react-icons/io";
+import { BsCalendarCheck } from "react-icons/bs";
 
 export const Usa = () => {
 
@@ -3594,7 +3595,444 @@ export const DataEntryComp = () => {
                 </div>
             </div>
 
-            
+            {/* Data Entry Process at Accomate Global */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Data Entry Process at Accomate Global
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Our data entry service is designed to be efficient, secure, and accurate. Here’s an overview
+                            of our structured data entry process:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            01
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Initial Consultation and Needs Assessment
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">We begin by understanding your business requirements, data entry needs,
+                                        and project goals.</li>
+                                    <li className="leading-relaxed">This step allows us to create a tailored plan that meets your expectations and
+                                        budget.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            02
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Data Collection and Preparation
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Gather the required data and prepare it for entry, ensuring accuracy and
+                                        relevance.</li>
+                                    <li className="leading-relaxed">Organize data by category, format, and priority, allowing for smooth
+                                        processing.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            03
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Data Entry Execution
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Our data entry specialists handle data input, whether it’s product data
+                                        entry, invoices, or customer records.</li>
+                                    <li className="leading-relaxed">We utilize account reconciliation software for accuracy and consistency
+                                        across entries.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            04
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Quality Control and Verification
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Each entry goes through rigorous quality checks to ensure error-free and
+                                        accurate data entries.</li>
+                                    <li className="leading-relaxed">Discrepancies are identified and corrected, providing high accuracy in final
+                                        outputs.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            05
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                        Delivery and Reporting
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Once completed, we deliver the final data in the required format,
+                                        accompanied by comprehensive reporting if requested.</li>
+                                    <li className="leading-relaxed">We offer regular updates on data progress, ensuring transparency and
+                                        keeping you informed.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Why Data Security Matters in Data Entry Service */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Why Data Security Matters in Data Entry Service?
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="flex w-full space-x-10">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
+                                <div className="flex justify-center items-center m-auto h-full">
+                                    <FaQuestion className="h-28 w-28" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Data security is a critical aspect of any data entry service. Accomate Global prioritizes data
+                                security in every project we undertake:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Confidentiality Agreements : </span>All our team members sign confidentiality agreements,
+                                    ensuring strict data handling.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Secure Data Transfer Protocols : </span>We use encrypted channels for data transmission,
+                                    minimizing risk during transfer.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access Control Measures : </span>Only authorized personnel have access to sensitive
+                                    information, maintaining client privacy.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Types of Data Entry Projects We Handle */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Types of Data Entry Projects We Handle
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            At Accomate Global, we understand that every business has unique data needs. Our data
+                            entry service can be customized to fit a variety of data entry projects:
+                        </div>
+
+                        <div className="flex justify-center mx-auto lg:w-[75%]">
+                            <div className="grid grid-cols-2 gap-10">
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                            <div className="flex justify-center items-center m-auto h-full">
+                                                <FaServer className="h-6 w-6" />
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                                High-Volume Data Processing
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="leading-relaxed text-center">
+                                        Handling large volumes of data with speed and
+                                        accuracy.
+                                    </div>
+                                </div>
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                            <div className="flex justify-center items-center m-auto h-full">
+                                                <MdAutorenew className="h-6 w-6" />
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                                Ongoing Data Maintenance
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="leading-relaxed text-center">
+                                        For businesses requiring continuous updates and
+                                        maintenance.
+                                    </div>
+                                </div>
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                            <div className="flex justify-center items-center m-auto h-full">
+                                                <BsCalendarCheck className="h-6 w-6" />
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                                One-Time Data Entry Projects
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="leading-relaxed text-center">
+                                        Perfect for projects with specific, short-term needs.
+                                    </div>
+                                </div>
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                            <div className="flex justify-center items-center m-auto h-full">
+                                                <RiSuitcaseLine className="h-6 w-6" />
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                                Specialized Data Entry for Industries
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="leading-relaxed text-center">
+                                        Tailored data entry services for real estate,
+                                        healthcare, retail, and more.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Industry-Specific Data Entry Solutions */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Industry-Specific Data Entry Solutions
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Our data entry service is designed to meet the unique requirements of various industries,
+                                providing customized solutions for each sector’s specific data needs:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real Estate : </span>Manage property listings, customer records, and transaction data
+                                    efficiently.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">E-Commerce : </span>Ensure product data entry is accurate, updating product details,
+                                    prices, and inventory data.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Maintain patient records, billing information, and inventory data
+                                    accurately.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Finance : </span>Process invoices, bills, and account information with high accuracy.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Leading Data Entry Services Company */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Leading Data Entry Services Company
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Accomate Global has positioned itself as a leading data entry services company in
+                                Australia. Our team is equipped with the latest tools, including account reconciliation
+                                software and specialized data entry technology, allowing us to meet the demands of various
+                                businesses across industries.
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Commitment to Quality : </span>We aim to provide accurate data entries with the highest
+                                    standards of quality.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Flexible Outsourcing Solutions : </span>Choose from a range of data entry outsourcing
+                                    services tailored to your business.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Trusted by Businesses Nationwide : </span>With a strong reputation for reliability and
+                                    excellence, we are trusted by clients across Australia.</li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/*  Frequently Asked Questions */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Frequently Asked Questions
+                </div>
+
+                <div className="lg:w-[75%] flex justify-center mx-auto">
+                    <div>
+                        <Accordion defaultExpanded>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel1-content"
+                                id="panel1-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What is Data Entry Service?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Data entry involves inputting, updating, and managing data across various formats, from
+                                physical records to digital databases. A data entry service handles these tasks for
+                                businesses, ensuring accurate data management.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel2-content"
+                                id="panel2-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why Outsource Data Entry?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Data entry outsourcing services provide a cost-effective solution to handle data
+                                management, freeing up resources and ensuring accuracy without the need for in-house
+                                staff.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel3-content"
+                                id="panel3-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">3.&nbsp;</span>How Secure is My Data with Accomate Global?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                We prioritize data security, using encryption, access control, and confidentiality agreements
+                                to protect client data.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">4.&nbsp;</span>How Fast is the Turnaround Time?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Our turnaround times vary based on project size and complexity, but we strive to meet
+                                client timelines without compromising quality.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">5.&nbsp;</span>Can You Handle Large Data Volumes?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                Yes, we handle both high-volume and specialized data entry projects, ensuring accuracy
+                                and efficiency regardless of data size.
+                            </AccordionDetails>
+                        </Accordion>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 };
