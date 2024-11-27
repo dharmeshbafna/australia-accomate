@@ -2754,6 +2754,366 @@ export const BookkeepingComp = () => {
             </div>
 
             {/* Why Choose Accomate Global for Your Bookkeeping Needs? */}
+            <div className="px-8 py-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Why Choose Accomate Global for Your Bookkeeping Needs?
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                            Our team at Accomate Global understands the unique requirements in Australia. With
+                            expertise in compliance, tax laws, and the latest financial software, we bring peace of mind
+                            to our clients. Here’s why businesses across Australia choose Accomate Global for their
+                            bookkeeping needs:
+                        </div>
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Accuracy and Compliance</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our team ensures that your financial records are
+                                        always precise and in line with Australian accounting standards.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Industry Expertise</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>From small startups to established companies, we offer
+                                        solutions that suit the needs of diverse industries.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Cost-Effective Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Avoid the costs of hiring full-time staff. Our flexible
+                                        bookkeeping services can be tailored to fit your budget.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Advanced Technology Integration</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We leverage the latest bookkeeping and
+                                        accounting software, ensuring your records are efficient, secure, and easy to access.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Our Bookkeeping Services */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Our Bookkeeping Services
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            At Accomate Global, we cover all aspects of bookkeeping to give you a complete,
+                            hassle-free solution:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            01
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Daily Transaction Recording
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Maintain daily records of your business’s financial transactions.</li>
+                                    <li className="leading-relaxed">Accurate data entry for every sale, purchase, and expense.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            02
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Accounts Payable and Receivable
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Efficiently manage invoices and payments.</li>
+                                    <li className="leading-relaxed">Ensure timely payments from clients and accurate tracking of expenses.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            03
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Payroll Processing
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Handle all aspects of payroll, from employee payments to tax withholding.</li>
+                                    <li className="leading-relaxed">Guarantee compliance with the Fair Work Act and the Australian Tax Office
+                                    (ATO) requirements.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            04
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Bank Reconciliation
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Reconcile your accounts with your bank statements.</li>
+                                    <li className="leading-relaxed">Detect any discrepancies early and maintain financial accuracy.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            05
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Expense Tracking and Management
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Track expenses to help identify and control unnecessary costs.</li>
+                                    <li className="leading-relaxed">Provide detailed reports for more effective budget planning.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            06
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Financial Reporting
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Monthly, quarterly, and annual financial statements.</li>
+                                    <li className="leading-relaxed">Customized reporting options to suit your business’s needs and give you a
+                                    clear picture of your financial health.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            07
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    BAS (Business Activity Statement) Preparation and Lodgment
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Ensure your BAS is accurate and submitted on time.</li>
+                                    <li className="leading-relaxed">Maximize tax efficiency with compliant practices.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            08
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Tax-Ready Financials
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Keep your books tax-ready to avoid end-of-year surprises.</li>
+                                    <li className="leading-relaxed">Streamline the tax preparation process by maintaining organized records.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            09
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Inventory Management Assistance
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Track and manage your inventory effectively.</li>
+                                    <li className="leading-relaxed">Help you make informed decisions about stock and supply management.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="rounded-full bg-[#1B2D9F] h-9 w-9 text-white flex shrink-0">
+                                        <div className="flex justify-center items-center m-auto h-full">
+                                            10
+                                        </div>
+                                    </div>
+
+                                    <div className="text-[#1B2D9F]">
+                                    Cash Flow Management
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Monitor cash flow to ensure your business stays financially healthy.</li>
+                                    <li className="leading-relaxed">Provide insights to help you manage future cash flow effectively.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            {/* Benefits of Our Bookkeeping Services for Australian Businesses */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Benefits of Our Bookkeeping Services for Australian Businesses
+                </div>
+
+                <div className="flex justify-center mx-auto">
+                    <Image
+                        src={AccountsImg2}
+                        alt="Accounts Payable Services"
+                        className="h-60 w-auto"
+                    />
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="grid grid-cols-2 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Enhanced Financial Visibility</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Access detailed financial insights that help you make informed business
+                                    decisions.</li>
+                                    <li>Understand your revenue, expenses, and profit trends to better manage your
+                                    business.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Increased Efficiency</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Let our team handle the tedious tasks so you can focus on what matters
+                                    most: growing your business.</li>
+                                    <li>Access a team of professionals with the latest accounting tools at their
+                                    disposal.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Tax Compliance and Accuracy</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Accomate Global stays up-to-date with the latest tax laws and compliance
+                                    requirements from the ATO.</li>
+                                    <li>Avoid penalties and maximize deductions with our accurate, compliant
+                                    bookkeeping services.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Scalable Solutions</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our bookkeeping services grow with your business. Whether you’re a startup
+                                    or a growing enterprise, we adapt our solutions to match your needs.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Reduced Costs and Risks</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Cut down on costs associated with hiring and training in-house staff.</li>
+                                    <li>Minimize risks of inaccuracies that could lead to costly penalties or financial
+                                    mismanagement.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">6. Advanced Technology Integration</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We utilize cloud-based software like Xero, MYOB, and QuickBooks, enabling
+                                    real-time access to your records.</li>
+                                    <li>Collaborate seamlessly with our team from anywhere in Australia, with
+                                    up-to-date financial data at your fingertips.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     )
