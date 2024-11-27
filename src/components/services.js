@@ -4249,6 +4249,500 @@ export const FinancialComp = () => {
                 </div>
             </div>
 
+            {/* Types of Financial Reports Provided by Accomate Global */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Types of Financial Reports Provided by Accomate Global
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Accomate Global’s financial reporting service includes a range of report types to suit every
+                            business need:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Balance Sheets
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Provide a snapshot of your assets, liabilities, and equity, essential for
+                                        assessing financial position.</li>
+                                    <li className="leading-relaxed">Balance sheets help track financial stability and liquidity, guiding future
+                                        investment decisions.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Income Statements
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Show revenue, expenses, and net income over a specified period.</li>
+                                    <li className="leading-relaxed">These statements offer a clear picture of profitability, guiding cost
+                                        management and growth strategies.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Cash Flow Statements
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Track the flow of cash within your business, revealing liquidity and operational
+                                        efficiency.</li>
+                                    <li className="leading-relaxed">Cash flow statements support financial planning by highlighting areas of cash
+                                        surplus or deficit.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Equity Statements
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Outline changes in equity over time, including retained earnings and owner
+                                        contributions.</li>
+                                    <li className="leading-relaxed">These reports are essential for understanding shareholder value and
+                                        investment potential.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Customized and Ad Hoc Reports
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">We offer customized reports to meet specific business needs, providing
+                                        insights beyond standard reporting.</li>
+                                    <li className="leading-relaxed">From detailed financial statement analysis to niche industry metrics, we
+                                        tailor reports for valuable insights.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* Benefits of Accomate Global’s Financial Reporting Service */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Benefits of Accomate Global’s Financial Reporting Service
+                </div>
+
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+
+                        <Image
+                            src={Benefits}
+                            alt="benefits of accounts payable services by accomate global"
+                            className="flex justify-center mx-auto h-72 w-auto"
+                        />
+
+                        <div className="grid grid-cols-1 gap-7">
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">1. Enhanced Financial Performance Monitoring</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Our financial reporting service provides precise data on financial
+                                        performance, enabling you to set realistic goals and measure achievements.</li>
+                                    <li>Track profitability and growth metrics effectively, gaining insights that support
+                                        strategic planning.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">2. Improved Financial Health Management</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Regular reporting helps you monitor cash flow, manage liabilities, and
+                                        increase financial health.</li>
+                                    <li>Easily track assets and debts, ensuring your business remains financially
+                                        sound.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">3. Time-Saving Outsourcing Option</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>Preparing financial reports is a time-consuming task. By choosing
+                                        Accomate Global, you can outsource financial reporting, freeing up time
+                                        and resources for core business functions.</li>
+                                    <li>Our experts handle the complexities, giving you reliable reports without the
+                                        in-house effort.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">4. Streamlined Reporting Process</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>With advanced financial reporting software, we automate key parts of the
+                                        reporting process, reducing errors and enhancing accuracy.</li>
+                                    <li>Quick turnaround on essential reports helps you stay proactive with financial
+                                        decision-making.</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-3">
+                                <div className="font-semibold text-[#1B2D9F]">5. Compliance with Reporting Requirements</div>
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li>We ensure your business meets all regulatory reporting requirements,
+                                        minimizing the risk of penalties or non-compliance.</li>
+                                    <li>Our knowledge of Indian accounting standards and Australian regulations
+                                        ensures all reports are accurate and compliant.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Outsource Financial Reporting: A Smart Choice for Australian Businesses */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Outsource Financial Reporting: A Smart Choice for Australian
+                    Businesses
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Outsourcing your financial reporting to Accomate Global offers many advantages. Here’s
+                                how outsourcing financial reporting services can benefit Australian businesses:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost-Effective : </span>Avoid the costs associated with hiring and training an in-house
+                                    financial team. Our financial reporting service provides expertise at a fraction of
+                                    the cost.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access to Experts : </span>Gain access to industry experts well-versed in both Australian
+                                    and international financial reporting standards.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Enhanced Focus on Core Business : </span>With financial reporting in capable hands, you
+                                    can focus on business growth and operational excellence.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Advanced Financial Reporting Software and Technology */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Advanced Financial Reporting Software and Technology
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                                Accomate Global uses top-of-the-line financial reporting software to provide secure,
+                                efficient reporting solutions:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automation : </span>Reduce the potential for human error with automated tools that
+                                    streamline data entry and report generation.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Data Security : </span>All financial data is managed under strict security protocols, ensuring
+                                    confidentiality and protection.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real-Time Updates : </span>Access real-time updates for ongoing reports, allowing you to
+                                    monitor financial changes instantly.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* How Accomate Global’s Financial Reporting Service Works */}
+            <div className="px-8 pb-14 w-full space-y-6">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    How Accomate Global’s Financial Reporting Service Works
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="space-y-6">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                            Our financial reporting service is designed to be user-friendly and efficient, with a simple
+                            process to manage and track your financial data:
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-5">
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Initial Consultation and Needs Assessment
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">We begin with a detailed consultation to understand your business, reporting
+                                        needs, and reporting requirements.</li>
+                                    <li className="leading-relaxed">Customize a service plan that covers everything from profit and loss
+                                        statements to compliance reporting.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Data Collection and Organization
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Collect financial data, including transaction history, general ledger reports,
+                                        and previous financial statement records.</li>
+                                    <li className="leading-relaxed">Organize data in compliance with relevant standards and business
+                                        requirements.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Report Preparation and Verification
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Prepare reports with accurate data entries and reconciliations.</li>
+                                    <li className="leading-relaxed">Our team ensures each report meets quality standards and aligns with
+                                        business objectives.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Comprehensive Analysis Services
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Offer analysis services to help interpret key insights from your financial data.</li>
+                                    <li className="leading-relaxed">Discuss trends, growth opportunities, and areas for improvement in financial
+                                        performance.</li>
+                                </ul>
+                            </div>
+
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+
+                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                        Ongoing Support and Adjustments
+                                    </div>
+                                </div>
+
+                                <ul className="list-disc space-y-2 pl-4">
+                                    <li className="leading-relaxed">Provide continuous support to adjust reports as your business needs change.</li>
+                                    <li className="leading-relaxed">Keep you updated on new regulations and standards, ensuring ongoing
+                                        compliance.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            {/* Financial Reporting for Various Industries */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Financial Reporting for Various Industries
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="space-y-4">
+                            <div className="leading-relaxed">
+                            Our financial reporting service is designed to suit a range of industries in Australia:
+                            </div>
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Maintain transparency and accuracy in patient billing, vendor payments,
+                                and revenue tracking.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Manufacturing : </span>Track production costs, sales revenue, and inventory with
+                                comprehensive financial reports.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real Estate : </span>Ensure accurate reporting of property values, asset management, and
+                                balance sheets.
+                                </li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage expenses, revenue, and inventory data with
+                                tailored reports for improved profitability.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-80 w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Key Elements of Financial Reporting Service for Business Success */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                Key Elements of Financial Reporting Service for Business Success
+                </div>
+
+                <div className="flex justify-center mx-auto lg:w-[90%]">
+                    <div className="grid grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
+
+                        <div className="space-y-4">
+
+                            <ul className="list-disc pl-4 space-y-3">
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Strategic Planning and Budgeting : </span>Leverage insights from financial reporting service to set realistic budgets,
+                                plan effectively, and manage cash flow efficiently.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Risk Management : </span>Identify potential financial risks through detailed reporting, allowing you to
+                                mitigate issues before they impact your business.</li>
+                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Decision-Making Support : </span>Data-driven decisions are easier with a clear financial statement and
+                                accurate reports that highlight key business metrics.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/*  Frequently Asked Questions */}
+            <div className="px-8 pb-14 w-full space-y-8">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    Frequently Asked Questions
+                </div>
+
+                <div className="lg:w-[75%] flex justify-center mx-auto">
+                    <div>
+                        <Accordion defaultExpanded>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel1-content"
+                                id="panel1-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What is included in Accomate Global’s Financial Reporting Service?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Our financial reporting service includes balance sheets, income statements, cash flow
+                            statements, profit and loss statements, and more, tailored to fit your unique needs.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel2-content"
+                                id="panel2-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why is Financial Reporting Important?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Financial reporting is essential for understanding your business’s financial health, ensuring
+                            compliance, and providing data for strategic decision-making.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel3-content"
+                                id="panel3-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">3.&nbsp;</span>Can I Customize the Financial Reports?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Yes, we provide customized types of financial reports to fit your industry and business
+                            goals, with options for ad hoc reporting.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                                expandIcon={<FaChevronDown />}
+                                aria-controls="panel4-content"
+                                id="panel4-header"
+                                className="font-semibold"
+                            >
+                                <span className="text-[#1B2D9F]">4.&nbsp;</span>How Secure is My Financial Data?
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            We use advanced financial reporting software with data security protocols to protect your
+                            sensitive information.
+                            </AccordionDetails>
+                        </Accordion>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
