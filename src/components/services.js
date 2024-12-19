@@ -7,6 +7,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import ReactCardFlip from "react-card-flip";
 
 import AboutImg from "../../public/About Us.jpg"
 import AboutImg1 from "../../public/aboutus3.jpg"
