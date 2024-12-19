@@ -601,7 +601,7 @@ export const AccountsPayableComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Payable Services
                         </div>
 
