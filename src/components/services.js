@@ -8,14 +8,55 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 
-import AboutImg from "../../public/accounts.jpg"
-import Benefits from "../../public/benefits.jpg"
-import IndustryImg from "../../public/industry.jpg"
-import RelationImg from "../../public/relation.jpg"
-import AccountsImg from "../../public/accounts2.jpg"
-import AccountsImg2 from "../../public/accounts3.jpg"
-import WhyusImg from "../../public/whyus.jpg"
-import ReactCardFlip from "react-card-flip";
+import AboutImg from "../../public/About Us.jpg"
+import AboutImg1 from "../../public/aboutus3.jpg"
+import AboutImg2 from "../../public/aboutus4.jpg"
+import AboutImg3 from "../../public/aboutus5.jpg"
+import AboutImg4 from "../../public/aboutus6.jpg"
+import service_recorn from "../../public/service_recorn.jpg"
+
+import Benefits from "../../public/whyus6.jpg"
+import icon2 from "../../public/newimage2.jpg"
+import icon1 from "../../public/newimage1.jpg"
+import icon3 from "../../public/newimage3.jpg"
+import icon4 from "../../public/newimage4.jpg"
+import icon5 from "../../public/newimage5.jpg"
+import Benefits1 from "../../public/benefit1.jpg"
+import Benefits2 from "../../public/benefits2.jpg"
+import Benefits3 from "../../public/benefits3.jpg"
+import Benefits4 from "../../public/benefits4.jpg"
+import Benefits5 from "../../public/benefits5.jpg"
+import IndustryImg from "../../public/service1_5.jpg"
+import IndustryImg1 from "../../public/service2_3.jpg"
+import IndustryImg2 from "../../public/service2_4.jpg"
+import IndustryImg3 from "../../public/industry1.jpg"
+import IndustryImg4 from "../../public/industry2.jpg"
+import IndustryImg5 from "../../public/industry3.jpg"
+import IndustryImg6 from "../../public/industry4.jpg"
+import IndustryImg7 from "../../public/industry5.jpg"
+import IndustryImg8 from "../../public/industry6.jpg"
+import IndustryImg9 from "../../public/industry7.jpg"
+import IndustryImg11 from "../../public/industry9.jpg"
+import IndustryImg12 from "../../public/industry10.jpg"
+import IndustryImg10 from "../../public/industry8.jpg"
+import IndustryImg14 from "../../public/industry12.jpg"
+import IndustryImg15 from "../../public/industry13.jpg"
+import IndustryImg13 from "../../public/industry11.jpg"
+import RelationImg from "../../public/Demo2.jpg"
+import RelationImg1 from "../../public/demo4.jpg"
+import AccountsImg from "../../public/Demo3.jpg"
+import AccountsImg2 from "../../public/whyus10.jpg"
+import AccountsImg7 from "../../public/account4.jpg"
+import AccountsImg5 from "../../public/service3_4.jpg"
+import AccountsImg6 from "../../public/account1.jpg"
+import AccountsImg3 from "../../public/payment.jpg"
+import AccountsImg4 from "../../public/service2_6.jpg"
+
+import WhyusImg from "../../public/whyus5.jpg"
+import WhyusImg1 from "../../public/service3_2.jpg"
+import WhyusImg2 from "../../public/whyus2.jpg"
+import myimages from "../../public/financial1.png"
+import myimages1 from "../../public/service2_2.jpg"
 
 import { AiOutlineCheckCircle, AiOutlineClockCircle } from "react-icons/ai";
 import { BiNetworkChart } from "react-icons/bi";
@@ -558,10 +599,21 @@ export const AccountsPayableComp = () => {
         <div className="">
 
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
                         <div className="font-semibold text-3xl leading-relaxed">
                             Accounts Payable Services
+                        </div>
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={service_recorn}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
                         </div>
 
                         <div className="leading-relaxed">
@@ -576,11 +628,11 @@ export const AccountsPayableComp = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
-                                src={AboutImg}
+                                src={service_recorn}
                                 alt="About Image"
                                 className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
                             />
@@ -614,18 +666,18 @@ export const AccountsPayableComp = () => {
                             services:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdSpeed className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Enhanced Efficiency
                                         </div>
                                     </div>
@@ -638,15 +690,15 @@ export const AccountsPayableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaMoneyBillWave className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Cash Flow Optimization
                                         </div>
                                     </div>
@@ -659,15 +711,15 @@ export const AccountsPayableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <HiShieldCheck className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Compliance and Security
                                         </div>
                                     </div>
@@ -692,18 +744,18 @@ export const AccountsPayableComp = () => {
                     <Image
                         src={AccountsImg2}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-auto md:h-60 md:w-auto"
                     />
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed md:text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s accounts payable services cover every aspect of the accounts payable
                             lifecycle, from invoice processing to payment disbursement. Here are the key components of
                             our offerings
                         </div>
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Invoice Processing</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -774,7 +826,7 @@ export const AccountsPayableComp = () => {
                         <Image
                             src={Benefits}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-72 md:w-auto"
                         />
 
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
@@ -846,7 +898,7 @@ export const AccountsPayableComp = () => {
                             our AP process:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -975,14 +1027,14 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="flex w-full space-x-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
 
-                        <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                                <div className="flex justify-center items-center m-auto h-full">
-                                    <FaQuestion className="h-28 w-28" />
-                                </div>
-                            </div>
+                        <div className="flex justify-center items-center m-auto h-full">
+                            <Image
+                                src={icon5}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-auto h-56"
+                            />
                         </div>
 
                         <div className="space-y-4">
@@ -1018,18 +1070,18 @@ export const AccountsPayableComp = () => {
                             payable services:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaRocket className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Faster Processing
                                         </div>
                                     </div>
@@ -1042,15 +1094,15 @@ export const AccountsPayableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <AiOutlineCheckCircle className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Reduced Errors
                                         </div>
                                     </div>
@@ -1063,15 +1115,15 @@ export const AccountsPayableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaMoneyBillWave className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Improved Cash Flow
                                         </div>
                                     </div>
@@ -1094,9 +1146,18 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="space-y-4">
+                        <div className="space-y-8 lg:space-y-4">
+
+                            <div className="flex justify-center items-center m-auto">
+                                <Image
+                                    src={IndustryImg}
+                                    alt="Industry-Specific Accounts Payable Solutions"
+                                    className="w-full h-auto md:h-60 md:w-auto"
+                                />
+                            </div>
+
                             <div className="leading-relaxed">
                                 Accomate Global’s accounts payable services are designed to serve businesses across
                                 different industries, offering tailored solutions to meet industry-specific requirements:
@@ -1112,11 +1173,11 @@ export const AccountsPayableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -1129,7 +1190,7 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
@@ -1166,7 +1227,15 @@ export const AccountsPayableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
+
+                        <div className="flex justify-center items-center m-auto">
+                            <Image
+                                src={AccountsImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -1185,13 +1254,6 @@ export const AccountsPayableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
-                            <Image
-                                src={AccountsImg}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
-                            />
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1326,7 +1388,7 @@ export const AccountsReconComp = () => {
 
                     <div className="flex justify-center mx-auto">
                         <Image
-                            src={WhyusImg}
+                            src={myimages1}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
                             className="h-60 w-auto"
                         />
@@ -1418,7 +1480,7 @@ export const AccountsReconComp = () => {
 
                 <div className="flex justify-center mx-auto">
                     <Image
-                        src={AccountsImg2}
+                        src={AccountsImg3}
                         alt="Accounts Payable Services"
                         className="h-60 w-auto"
                     />
@@ -1499,7 +1561,7 @@ export const AccountsReconComp = () => {
                     <div className="space-y-6">
 
                         <Image
-                            src={Benefits}
+                            src={Benefits1}
                             alt="benefits of accounts payable services by accomate global"
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
@@ -1710,10 +1772,15 @@ export const AccountsReconComp = () => {
                     <div className="flex w-full space-x-10">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                                <div className="flex justify-center items-center m-auto h-full">
-                                    <FaQuestion className="h-28 w-28" />
+                            <div className="h-60 w-60 rounded-full text-white">
+                                <div className="flex justify-center items-center m-auto">
+                                    <Image
+                                        src={icon3}
+                                        alt="Industry-Specific Accounts Payable Solutions"
+                                        className="h-60 w-auto"
+                                    />
                                 </div>
+
                             </div>
                         </div>
 
@@ -1889,7 +1956,7 @@ export const AccountsReconComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -1909,7 +1976,7 @@ export const AccountsReconComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg2}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -1962,7 +2029,7 @@ export const AccountsReconComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={AccountsImg}
+                                src={AccountsImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -1983,7 +2050,7 @@ export const AccountsReconComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={RelationImg}
+                                src={RelationImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -2106,7 +2173,7 @@ export const AccountsReceivableComp = () => {
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
-                                src={AboutImg}
+                                src={AboutImg1}
                                 alt="About Image"
                                 className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
                             />
@@ -2124,7 +2191,7 @@ export const AccountsReceivableComp = () => {
 
                     <div className="flex justify-center mx-auto">
                         <Image
-                            src={WhyusImg}
+                            src={WhyusImg1}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
                             className="h-60 w-auto"
                         />
@@ -2219,7 +2286,7 @@ export const AccountsReceivableComp = () => {
 
                 <div className="flex justify-center mx-auto">
                     <Image
-                        src={AccountsImg2}
+                        src={AccountsImg5}
                         alt="Accounts Payable Services"
                         className="h-60 w-auto"
                     />
@@ -2299,7 +2366,7 @@ export const AccountsReceivableComp = () => {
                     <div className="space-y-6">
 
                         <Image
-                            src={Benefits}
+                            src={Benefits2}
                             alt="benefits of accounts payable services by accomate global"
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
@@ -2518,7 +2585,7 @@ export const AccountsReceivableComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg3}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -2537,9 +2604,13 @@ export const AccountsReceivableComp = () => {
                     <div className="flex w-full space-x-10">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                                <div className="flex justify-center items-center m-auto h-full">
-                                    <FaQuestion className="h-28 w-28" />
+                            <div className="h-60 w-60 rounded-full text-white">
+                                <div className="flex justify-center items-center m-auto">
+                                    <Image
+                                        src={icon2}
+                                        alt="Industry-Specific Accounts Payable Solutions"
+                                        className="h-60 w-auto"
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -2591,7 +2662,7 @@ export const AccountsReceivableComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -2611,7 +2682,7 @@ export const AccountsReceivableComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg5}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -2669,7 +2740,7 @@ export const AccountsReceivableComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg6}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -2689,7 +2760,7 @@ export const AccountsReceivableComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg7}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -2746,7 +2817,7 @@ export const BookkeepingComp = () => {
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
-                                src={AboutImg}
+                                src={AboutImg2}
                                 alt="About Image"
                                 className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
                             />
@@ -2766,7 +2837,7 @@ export const BookkeepingComp = () => {
                     <div className="space-y-6">
 
                         <Image
-                            src={Benefits}
+                            src={Benefits3}
                             alt="benefits of accounts payable services by accomate global"
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
@@ -3197,9 +3268,13 @@ export const BookkeepingComp = () => {
                     <div className="flex w-full space-x-10">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                                <div className="flex justify-center items-center m-auto h-full">
-                                    <FaQuestion className="h-28 w-28" />
+                            <div className="h-60 w-60 rounded-full text-white">
+                                <div className="flex justify-center items-center m-auto">
+                                    <Image
+                                        src={icon4}
+                                        alt="Industry-Specific Accounts Payable Solutions"
+                                        className="h-60 w-auto"
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -3253,7 +3328,7 @@ export const BookkeepingComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg8}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -3273,7 +3348,7 @@ export const BookkeepingComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg9}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -3316,6 +3391,7 @@ export const DataEntryComp = () => {
                     <div className="space-y-8">
                         <div className="font-semibold text-3xl leading-relaxed">
                             Data Entry Services
+
                         </div>
 
                         <div className="leading-relaxed">
@@ -3332,7 +3408,7 @@ export const DataEntryComp = () => {
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
-                                src={AboutImg}
+                                src={AboutImg3}
                                 alt="About Image"
                                 className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
                             />
@@ -3352,7 +3428,7 @@ export const DataEntryComp = () => {
                     <div className="space-y-6">
 
                         <Image
-                            src={Benefits}
+                            src={Benefits4}
                             alt="benefits of accounts payable services by accomate global"
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
@@ -3527,11 +3603,12 @@ export const DataEntryComp = () => {
             <div className="px-8 pb-14 w-full space-y-6">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Benefits of Data Entry Service by Accomate Global
+
                 </div>
 
                 <div className="flex justify-center mx-auto">
                     <Image
-                        src={AccountsImg2}
+                        src={AccountsImg6}
                         alt="Accounts Payable Services"
                         className="h-60 w-auto"
                     />
@@ -3742,10 +3819,12 @@ export const DataEntryComp = () => {
                     <div className="flex w-full space-x-10">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full bg-[#1b2d9f5b] text-white">
-                                <div className="flex justify-center items-center m-auto h-full">
-                                    <FaQuestion className="h-28 w-28" />
-                                </div>
+                            <div className="h-60 w-60 rounded-full  text-white">
+                                <Image
+                                    src={icon1}
+                                    alt="Industry-Specific Accounts Payable Solutions"
+                                    className="h-60 w-auto"
+                                />
                             </div>
                         </div>
 
@@ -3885,7 +3964,7 @@ export const DataEntryComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg10}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -3941,7 +4020,7 @@ export const DataEntryComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg11}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -4065,7 +4144,7 @@ export const FinancialComp = () => {
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
-                                src={AboutImg}
+                                src={AboutImg4}
                                 alt="About Image"
                                 className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
                             />
@@ -4083,7 +4162,7 @@ export const FinancialComp = () => {
 
                     <div className="flex justify-center mx-auto">
                         <Image
-                            src={WhyusImg}
+                            src={WhyusImg2}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
                             className="h-60 w-auto"
                         />
@@ -4177,7 +4256,7 @@ export const FinancialComp = () => {
 
                 <div className="flex justify-center mx-auto">
                     <Image
-                        src={AccountsImg2}
+                        src={AccountsImg7}
                         alt="Accounts Payable Services"
                         className="h-60 w-auto"
                     />
@@ -4365,7 +4444,7 @@ export const FinancialComp = () => {
                     <div className="space-y-6">
 
                         <Image
-                            src={Benefits}
+                            src={Benefits5}
                             alt="benefits of accounts payable services by accomate global"
                             className="flex justify-center mx-auto h-72 w-auto"
                         />
@@ -4452,7 +4531,7 @@ export const FinancialComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg12}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -4472,7 +4551,7 @@ export const FinancialComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg13}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -4601,11 +4680,11 @@ export const FinancialComp = () => {
                 </div>
 
             </div>
-            
+
             {/* Financial Reporting for Various Industries */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Financial Reporting for Various Industries
+                    Financial Reporting for Various Industries
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -4613,26 +4692,26 @@ export const FinancialComp = () => {
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
-                            Our financial reporting service is designed to suit a range of industries in Australia:
+                                Our financial reporting service is designed to suit a range of industries in Australia:
                             </div>
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Maintain transparency and accuracy in patient billing, vendor payments,
-                                and revenue tracking.</li>
+                                    and revenue tracking.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Manufacturing : </span>Track production costs, sales revenue, and inventory with
-                                comprehensive financial reports.</li>
+                                    comprehensive financial reports.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real Estate : </span>Ensure accurate reporting of property values, asset management, and
-                                balance sheets.
+                                    balance sheets.
                                 </li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage expenses, revenue, and inventory data with
-                                tailored reports for improved profitability.
+                                    tailored reports for improved profitability.
                                 </li>
                             </ul>
                         </div>
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg14}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-80 w-auto"
                             />
@@ -4644,7 +4723,7 @@ export const FinancialComp = () => {
             {/* Key Elements of Financial Reporting Service for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
                 <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                Key Elements of Financial Reporting Service for Business Success
+                    Key Elements of Financial Reporting Service for Business Success
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
@@ -4652,7 +4731,7 @@ export const FinancialComp = () => {
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
-                                src={IndustryImg}
+                                src={IndustryImg15}
                                 alt="Industry-Specific Accounts Payable Solutions"
                                 className="h-60 w-auto"
                             />
@@ -4662,11 +4741,11 @@ export const FinancialComp = () => {
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Strategic Planning and Budgeting : </span>Leverage insights from financial reporting service to set realistic budgets,
-                                plan effectively, and manage cash flow efficiently.</li>
+                                    plan effectively, and manage cash flow efficiently.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Risk Management : </span>Identify potential financial risks through detailed reporting, allowing you to
-                                mitigate issues before they impact your business.</li>
+                                    mitigate issues before they impact your business.</li>
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Decision-Making Support : </span>Data-driven decisions are easier with a clear financial statement and
-                                accurate reports that highlight key business metrics.
+                                    accurate reports that highlight key business metrics.
                                 </li>
                             </ul>
                         </div>
@@ -4693,8 +4772,8 @@ export const FinancialComp = () => {
                                 <span className="text-[#1B2D9F]">1.&nbsp;</span>What is included in Accomate Global’s Financial Reporting Service?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Our financial reporting service includes balance sheets, income statements, cash flow
-                            statements, profit and loss statements, and more, tailored to fit your unique needs.
+                                Our financial reporting service includes balance sheets, income statements, cash flow
+                                statements, profit and loss statements, and more, tailored to fit your unique needs.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -4707,8 +4786,8 @@ export const FinancialComp = () => {
                                 <span className="text-[#1B2D9F]">2.&nbsp;</span>Why is Financial Reporting Important?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Financial reporting is essential for understanding your business’s financial health, ensuring
-                            compliance, and providing data for strategic decision-making.
+                                Financial reporting is essential for understanding your business’s financial health, ensuring
+                                compliance, and providing data for strategic decision-making.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -4721,8 +4800,8 @@ export const FinancialComp = () => {
                                 <span className="text-[#1B2D9F]">3.&nbsp;</span>Can I Customize the Financial Reports?
                             </AccordionSummary>
                             <AccordionDetails>
-                            Yes, we provide customized types of financial reports to fit your industry and business
-                            goals, with options for ad hoc reporting.
+                                Yes, we provide customized types of financial reports to fit your industry and business
+                                goals, with options for ad hoc reporting.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion>
@@ -4735,8 +4814,8 @@ export const FinancialComp = () => {
                                 <span className="text-[#1B2D9F]">4.&nbsp;</span>How Secure is My Financial Data?
                             </AccordionSummary>
                             <AccordionDetails>
-                            We use advanced financial reporting software with data security protocols to protect your
-                            sensitive information.
+                                We use advanced financial reporting software with data security protocols to protect your
+                                sensitive information.
                             </AccordionDetails>
                         </Accordion>
                     </div>

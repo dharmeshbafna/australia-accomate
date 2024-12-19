@@ -5,6 +5,7 @@ import Image from "next/image"
 import CircleIcon from "../../public/n_accomate_circle.png"
 
 import AboutImg from "../../public/team.jpg"
+import newimage from "../../public/newabout.jpg"
 import Banner1 from "../../public/banner1.jpg"
 import Banner2 from "../../public/banner2.jpg"
 import USA from "../../public/usa.webp"
@@ -174,7 +175,7 @@ export const About = () => {
                 <div className="flex justify-center items-center m-auto">
                     <div className="w-fit relative">
                         <Image
-                            src={AboutImg}
+                            src={newimage}
                             alt="About Image"
                             className="w-full md:w-auto md:h-80 h-auto drop-shadow-xl"
                         />
@@ -185,7 +186,8 @@ export const About = () => {
                 <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="flex items-center my-auto">
                     <div>
                         <div className="font-semibold text-3xl">
-                            About Us
+                            About Us 
+                        
                         </div>
                         <div className="my-4 leading-relaxed">
                             Accomate Global Pty Ltd is the brainchild of industry veterans with decades of experience in accounting, taxation, and financial services. Established with a mission to provide Australian businesses with tailored, high-quality financial solutions, we are proud to serve both established firms and small business entrepreneurs.
