@@ -2916,7 +2916,7 @@ export const BookkeepingComp = () => {
                         <Image
                             src={Benefits3}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-60 md:w-auto"
                         />
 
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
@@ -2972,7 +2972,7 @@ export const BookkeepingComp = () => {
                             hassle-free solution:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -3142,13 +3142,13 @@ export const BookkeepingComp = () => {
                     <Image
                         src={AccountsImg2}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-auto md:h-60 md:w-auto"
                     />
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Enhanced Financial Visibility</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -3218,7 +3218,7 @@ export const BookkeepingComp = () => {
                             how we make bookkeeping easier for you:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -3342,17 +3342,15 @@ export const BookkeepingComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="flex w-full space-x-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full text-white">
-                                <div className="flex justify-center items-center m-auto">
-                                    <Image
-                                        src={icon4}
-                                        alt="Industry-Specific Accounts Payable Solutions"
-                                        className="h-60 w-auto"
-                                    />
-                                </div>
+                            <div className="flex justify-center items-center m-auto">
+                                <Image
+                                    src={icon4}
+                                    alt="Industry-Specific Accounts Payable Solutions"
+                                    className="w-full h-auto md:h-60 md:w-auto"
+                                />
                             </div>
                         </div>
 
@@ -3385,7 +3383,15 @@ export const BookkeepingComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg8}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -3403,11 +3409,11 @@ export const BookkeepingComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg8}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -3421,13 +3427,13 @@ export const BookkeepingComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg9}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -3517,7 +3523,7 @@ export const DataEntryComp = () => {
                         <Image
                             src={Benefits4}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-72 md:w-auto"
                         />
 
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
@@ -3575,7 +3581,7 @@ export const DataEntryComp = () => {
                             data entry offerings:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -3697,7 +3703,7 @@ export const DataEntryComp = () => {
                     <Image
                         src={AccountsImg6}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-full md:h-60 md:w-auto"
                     />
                 </div>
 
@@ -3709,7 +3715,7 @@ export const DataEntryComp = () => {
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Enhanced Data Accuracy</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -3773,7 +3779,7 @@ export const DataEntryComp = () => {
                             of our structured data entry process:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -3903,16 +3909,14 @@ export const DataEntryComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="flex w-full space-x-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full  text-white">
-                                <Image
-                                    src={icon1}
-                                    alt="Industry-Specific Accounts Payable Solutions"
-                                    className="h-60 w-auto"
-                                />
-                            </div>
+                            <Image
+                                src={icon1}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
                         </div>
 
                         <div className="space-y-4">
@@ -3949,7 +3953,7 @@ export const DataEntryComp = () => {
                         </div>
 
                         <div className="flex justify-center mx-auto lg:w-[75%]">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
                                 <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                     <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
@@ -4047,13 +4051,13 @@ export const DataEntryComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg10}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -4085,7 +4089,15 @@ export const DataEntryComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg11}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-60 w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -4105,11 +4117,11 @@ export const DataEntryComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg11}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -4262,7 +4274,7 @@ export const FinancialComp = () => {
                         <Image
                             src={WhyusImg2}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
-                            className="h-60 w-auto"
+                            className="w-full h-auto md:h-60 md:w-auto"
                         />
                     </div>
 
@@ -4356,7 +4368,7 @@ export const FinancialComp = () => {
                     <Image
                         src={AccountsImg7}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-auto md:h-60 md:w-auto"
                     />
                 </div>
 
@@ -4366,7 +4378,7 @@ export const FinancialComp = () => {
                             Accomate Global’s financial reporting service includes everything you need to understand
                             and optimize your financial activity. Here’s what we offer:
                         </div>
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Balance Sheet Preparation</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -4439,7 +4451,7 @@ export const FinancialComp = () => {
                             business need:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -4544,7 +4556,7 @@ export const FinancialComp = () => {
                         <Image
                             src={Benefits5}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-60 md:w-auto"
                         />
 
                         <div className="grid grid-cols-1 gap-7">
@@ -4607,7 +4619,15 @@ export const FinancialComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg12}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -4627,11 +4647,11 @@ export const FinancialComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg12}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -4645,13 +4665,13 @@ export const FinancialComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg13}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -4689,7 +4709,7 @@ export const FinancialComp = () => {
                             process to manage and track your financial data:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -4786,7 +4806,16 @@ export const FinancialComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg14}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -4807,11 +4836,11 @@ export const FinancialComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg14}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -4825,13 +4854,13 @@ export const FinancialComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg15}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 

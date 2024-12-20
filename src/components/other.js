@@ -518,7 +518,7 @@ export const Breadcrumb = () => {
             <div className="absolute w-full h-full bg-[#00000084] top-0 left-0 flex justify-center items-center m-auto">
 
                 <div className="space-y-3">
-                    <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="100" className="text-white font-semibold text-[2.5rem] md:text-[3.5rem] text-center">
+                    <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="100" className="text-white font-semibold text-[2.3rem] md:text-[3.5rem] text-center px-4">
                         {
                             path == '/about' ? 'About Us' :
                                 path == '/team' ? 'Our Team' :
