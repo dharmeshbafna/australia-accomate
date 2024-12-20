@@ -1959,7 +1959,7 @@ export const AccountsReconComp = () => {
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="w-full h-auto md:h-80 md:w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -1983,7 +1983,7 @@ export const AccountsReconComp = () => {
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
