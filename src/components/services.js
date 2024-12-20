@@ -1424,18 +1424,18 @@ export const AccountsReconComp = () => {
                             Here’s why businesses trust us for their reconciliation needs:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdCheckCircleOutline className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Error-Free Reconciliation
                                         </div>
                                     </div>
@@ -1448,15 +1448,15 @@ export const AccountsReconComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <BiNetworkChart className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Comprehensive Solutions
                                         </div>
                                     </div>
@@ -1469,15 +1469,15 @@ export const AccountsReconComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <AiOutlineClockCircle className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Timely Financial Close
                                         </div>
                                     </div>
@@ -1503,7 +1503,7 @@ export const AccountsReconComp = () => {
                     <Image
                         src={AccountsImg3}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-auto md:h-60 md:w-auto"
                     />
                 </div>
 
@@ -1513,7 +1513,7 @@ export const AccountsReconComp = () => {
                             Accomate Global offers a full range of account reconciliation services designed to
                             streamline your financial operations and improve accuracy. Our key offerings include:
                         </div>
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Bank Account Reconciliation</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -1584,7 +1584,7 @@ export const AccountsReconComp = () => {
                         <Image
                             src={Benefits1}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-72 md:w-auto"
                         />
 
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
@@ -1662,7 +1662,7 @@ export const AccountsReconComp = () => {
                             reconciliation:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -1790,19 +1790,16 @@ export const AccountsReconComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="flex w-full space-x-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full text-white">
                                 <div className="flex justify-center items-center m-auto">
                                     <Image
                                         src={icon3}
                                         alt="Industry-Specific Accounts Payable Solutions"
-                                        className="h-60 w-auto"
+                                        className="w-full h-auto md:h-60 md:w-auto"
                                     />
                                 </div>
-
-                            </div>
                         </div>
 
                         <div className="space-y-4">
@@ -1838,18 +1835,18 @@ export const AccountsReconComp = () => {
                             reconciliation, each tailored to meet specific business needs:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaUniversity className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Bank Reconciliation
                                         </div>
                                     </div>
@@ -1862,15 +1859,15 @@ export const AccountsReconComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FaCreditCard className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Credit Card Account Reconciliation
                                         </div>
                                     </div>
@@ -1883,15 +1880,15 @@ export const AccountsReconComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <HiOutlineUsers className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Vendor and Supplier Reconciliation
                                         </div>
                                     </div>
@@ -1904,15 +1901,15 @@ export const AccountsReconComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <RiFilePaper2Line className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Balance Sheet Reconciliation
                                         </div>
                                     </div>
@@ -1924,16 +1921,15 @@ export const AccountsReconComp = () => {
                                 </div>
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
-
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdOutlineAttachMoney className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Expense Reconciliation
                                         </div>
                                     </div>
@@ -1957,7 +1953,15 @@ export const AccountsReconComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+                    <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg1}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-80 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -1975,7 +1979,7 @@ export const AccountsReconComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1993,13 +1997,13 @@ export const AccountsReconComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg2}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -2032,7 +2036,15 @@ export const AccountsReconComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+                    <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={AccountsImg4}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
 
@@ -2048,7 +2060,7 @@ export const AccountsReconComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={AccountsImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2067,13 +2079,13 @@ export const AccountsReconComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={RelationImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -2241,18 +2253,18 @@ export const AccountsReceivableComp = () => {
                             management services:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <TbCurrencyDollar className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Improved Cash Flow and Working Capital
                                         </div>
                                     </div>
@@ -2265,15 +2277,15 @@ export const AccountsReceivableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FiTrendingDown className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Reduced DSO
                                         </div>
                                     </div>
@@ -2286,15 +2298,15 @@ export const AccountsReceivableComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <IoMdSpeedometer className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Real-Time Reporting
                                         </div>
                                     </div>
@@ -3915,18 +3927,18 @@ export const DataEntryComp = () => {
                         </div>
 
                         <div className="flex justify-center mx-auto lg:w-[75%]">
-                            <div className="grid grid-cols-2 gap-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                 <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                    <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                             <div className="flex justify-center items-center m-auto h-full">
                                                 <FaServer className="h-6 w-6" />
                                             </div>
                                         </div>
 
                                         <div>
-                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                                 High-Volume Data Processing
                                             </div>
                                         </div>
@@ -3939,15 +3951,15 @@ export const DataEntryComp = () => {
                                 </div>
                                 <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                    <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                             <div className="flex justify-center items-center m-auto h-full">
                                                 <MdAutorenew className="h-6 w-6" />
                                             </div>
                                         </div>
 
                                         <div>
-                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                                 Ongoing Data Maintenance
                                             </div>
                                         </div>
@@ -3960,15 +3972,15 @@ export const DataEntryComp = () => {
                                 </div>
                                 <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                    <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                             <div className="flex justify-center items-center m-auto h-full">
                                                 <BsCalendarCheck className="h-6 w-6" />
                                             </div>
                                         </div>
 
                                         <div>
-                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                                 One-Time Data Entry Projects
                                             </div>
                                         </div>
@@ -3980,15 +3992,15 @@ export const DataEntryComp = () => {
                                 </div>
                                 <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                    <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                    <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                        <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                             <div className="flex justify-center items-center m-auto h-full">
                                                 <RiSuitcaseLine className="h-6 w-6" />
                                             </div>
                                         </div>
 
                                         <div>
-                                            <div className="font-semibold text-lg text-[#9F8D1B]">
+                                            <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                                 Specialized Data Entry for Industries
                                             </div>
                                         </div>
@@ -4241,18 +4253,18 @@ export const FinancialComp = () => {
                             Here’s why partnering with Accomate Global is a smart move:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <FiFileText className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Expertise and Accuracy
                                         </div>
                                     </div>
@@ -4265,15 +4277,15 @@ export const FinancialComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <GiAustralia className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Tailored for Australian Standards
                                         </div>
                                     </div>
@@ -4287,15 +4299,15 @@ export const FinancialComp = () => {
                             </div>
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
-                                <div className=" flex space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0">
+                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
+                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
                                             <MdOutlineTrendingUp className="h-6 w-6" />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B]">
+                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
                                             Scalability and Flexibility
                                         </div>
                                     </div>
