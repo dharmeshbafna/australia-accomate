@@ -1357,10 +1357,22 @@ export const AccountsReconComp = () => {
 
             {/* Accounts Reconciliation Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Reconciliation Services
+                        </div>
+
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={service_recorn}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
                         </div>
 
                         <div className="leading-relaxed">
@@ -1375,7 +1387,7 @@ export const AccountsReconComp = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -2163,10 +2175,21 @@ export const AccountsReceivableComp = () => {
 
             {/* Accounts Receivable Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Receivable Service
+                        </div>
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={AboutImg1}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
                         </div>
 
                         <div className="leading-relaxed">
@@ -2178,7 +2201,7 @@ export const AccountsReceivableComp = () => {
                             receivable process so you can focus on core business activities.  </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -2805,10 +2828,21 @@ export const BookkeepingComp = () => {
 
             {/* Bookkeeping Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Bookkeeping Services
+                        </div>
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={AboutImg2}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
                         </div>
 
                         <div className="leading-relaxed">
@@ -2822,7 +2856,7 @@ export const BookkeepingComp = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -3396,13 +3430,23 @@ export const DataEntryComp = () => {
 
             {/* Data Entry Service */}
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Data Entry Services
 
                         </div>
 
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={AboutImg3}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
+                        </div>
                         <div className="leading-relaxed">
                             In today’s fast-paced digital world, accurate and efficient data management is critical for any
                             business’s success. Accomate Global offers a top-tier data entry service for Australian
@@ -3413,7 +3457,7 @@ export const DataEntryComp = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -4132,10 +4176,21 @@ export const FinancialComp = () => {
 
             {/* Financial Reporting Service */}
             <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="space-y-12 lg:space-y-8">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Financial Reporting Service
+                        </div>
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <div className="w-fit relative">
+                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                                <Image
+                                    src={AboutImg4}
+                                    alt="About Image"
+                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                />
+                            </div>
                         </div>
 
                         <div className="leading-relaxed">
@@ -4149,7 +4204,7 @@ export const FinancialComp = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
