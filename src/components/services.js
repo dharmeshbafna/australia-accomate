@@ -1151,7 +1151,7 @@ export const AccountsPayableComp = () => {
 
                         <div className="space-y-8 lg:space-y-4">
 
-                            <div className="flex justify-center items-center m-auto">
+                            <div className="flex lg:hidden justify-center items-center m-auto">
                                 <Image
                                     src={IndustryImg}
                                     alt="Industry-Specific Accounts Payable Solutions"
@@ -1230,7 +1230,7 @@ export const AccountsPayableComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto">
                             <Image
                                 src={AccountsImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1253,6 +1253,14 @@ export const AccountsPayableComp = () => {
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Transparency and Reporting : </span>Our detailed reports provide transparency, giving you
                                     insights into your AP process and allowing better financial planning.</li>
                             </ul>
+                        </div>
+
+                        <div className="hidden lg:flex justify-center items-center m-auto">
+                            <Image
+                                src={AccountsImg}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
                         </div>
 
                     </div>
