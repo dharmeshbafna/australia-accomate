@@ -1793,13 +1793,13 @@ export const AccountsReconComp = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
                         <div className="flex justify-center items-center m-auto">
-                                <div className="flex justify-center items-center m-auto">
-                                    <Image
-                                        src={icon3}
-                                        alt="Industry-Specific Accounts Payable Solutions"
-                                        className="w-full h-auto md:h-60 md:w-auto"
-                                    />
-                                </div>
+                            <div className="flex justify-center items-center m-auto">
+                                <Image
+                                    src={icon3}
+                                    alt="Industry-Specific Accounts Payable Solutions"
+                                    className="w-full h-auto md:h-60 md:w-auto"
+                                />
+                            </div>
                         </div>
 
                         <div className="space-y-4">
@@ -1955,7 +1955,7 @@ export const AccountsReconComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                    <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2038,7 +2038,7 @@ export const AccountsReconComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                    <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto">
                             <Image
                                 src={AccountsImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2332,7 +2332,7 @@ export const AccountsReceivableComp = () => {
                     <Image
                         src={AccountsImg5}
                         alt="Accounts Payable Services"
-                        className="h-60 w-auto"
+                        className="w-full h-auto md:h-60 md:w-auto"
                     />
                 </div>
 
@@ -2343,7 +2343,7 @@ export const AccountsReceivableComp = () => {
                             receivable management, including accounts receivable outsourcing for streamlined
                             efficiency. Here’s a look at our key service offerings:
                         </div>
-                        <div className="grid grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Invoice Generation and Customer Communication</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -2412,7 +2412,7 @@ export const AccountsReceivableComp = () => {
                         <Image
                             src={Benefits2}
                             alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto h-72 w-auto"
+                            className="flex justify-center mx-auto w-full h-auto md:h-60 md:w-auto"
                         />
 
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
@@ -2481,7 +2481,7 @@ export const AccountsReceivableComp = () => {
                             Our accounts receivable service follows a streamlined, five-step process:
                         </div>
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                             <div className="p-5 rounded-lg border border-[#9F8D1B]">
 
@@ -2606,7 +2606,15 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg3}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -2627,11 +2635,11 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg3}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -2645,17 +2653,15 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="flex w-full space-x-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
                         <div className="flex justify-center items-center m-auto">
-                            <div className="h-60 w-60 rounded-full text-white">
-                                <div className="flex justify-center items-center m-auto">
-                                    <Image
-                                        src={icon2}
-                                        alt="Industry-Specific Accounts Payable Solutions"
-                                        className="h-60 w-auto"
-                                    />
-                                </div>
+                            <div className="flex justify-center items-center m-auto">
+                                <Image
+                                    src={icon2}
+                                    alt="Industry-Specific Accounts Payable Solutions"
+                                    className="w-full h-auto md:h-60 md:w-auto"
+                                />
                             </div>
                         </div>
 
@@ -2686,7 +2692,15 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg4}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="h-auto w-full md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -2704,11 +2718,11 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="h-60 w-auto"
                             />
                         </div>
                     </div>
@@ -2722,13 +2736,13 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg5}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
@@ -2761,7 +2775,15 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+                        <div className="flex lg:hidden justify-center items-center m-auto">
+                            <Image
+                                src={IndustryImg6}
+                                alt="Industry-Specific Accounts Payable Solutions"
+                                className="w-full h-auto md:h-60 md:w-auto"
+                            />
+                        </div>
 
                         <div className="space-y-4">
                             <div className="leading-relaxed">
@@ -2782,11 +2804,11 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg6}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-80 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
                     </div>
@@ -2800,13 +2822,13 @@ export const AccountsReceivableComp = () => {
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-2 w-full gap-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
                         <div className="flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg7}
                                 alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
+                                className="w-full h-auto md:h-60 md:w-auto"
                             />
                         </div>
 
