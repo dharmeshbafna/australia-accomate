@@ -8,6 +8,8 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ReactCardFlip from "react-card-flip";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import AboutImg from "../../public/About Us.jpg"
 import AboutImg1 from "../../public/aboutus3.jpg"
@@ -596,12 +598,20 @@ export const Softwares = () => {
 }
 
 export const AccountsPayableComp = () => {
+
+
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        });
+    }, []);
+
     return (
         <div className="">
 
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8">
+                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="space-y-12 lg:space-y-8">
                         <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Payable Services
                         </div>
@@ -629,7 +639,7 @@ export const AccountsPayableComp = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="hidden lg:flex justify-center items-center m-auto">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -644,11 +654,11 @@ export const AccountsPayableComp = () => {
 
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                         Why Choose Accomate Global for Accounts Payable Services?
                     </div>
 
-                    <div className="flex justify-center mx-auto">
+                    <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
                         <Image
                             src={WhyusImg}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
@@ -657,7 +667,7 @@ export const AccountsPayableComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto">
                             Managing accounts payable can be a complex and time-consuming process, with risks of
                             errors, delayed payments, and strained supplier relationships. At Accomate Global, we
                             simplify your accounts payable processes by providing comprehensive accounts payable
@@ -668,7 +678,7 @@ export const AccountsPayableComp = () => {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -689,7 +699,7 @@ export const AccountsPayableComp = () => {
                                     delays.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -710,7 +720,7 @@ export const AccountsPayableComp = () => {
                                     early payment discounts.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -737,11 +747,11 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Our Accounts Payable Services
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <Image
                         src={AccountsImg2}
                         alt="Accounts Payable Services"
@@ -749,7 +759,7 @@ export const AccountsPayableComp = () => {
                     />
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
                         <div className="leading-relaxed md:text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s accounts payable services cover every aspect of the accounts payable
@@ -816,12 +826,12 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Accounts Payable Services by Accomate Global
                 </div>
 
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
 
                         <Image
@@ -887,13 +897,13 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Accounts Payable Process at Accomate Global
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Our accounts payable services are designed to be efficient and secure, ensuring that all
                             payments are processed correctly and on time. Here’s an overview of the steps involved in
                             our AP process:
@@ -901,7 +911,7 @@ export const AccountsPayableComp = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -924,7 +934,7 @@ export const AccountsPayableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -947,7 +957,7 @@ export const AccountsPayableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -970,7 +980,7 @@ export const AccountsPayableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -993,7 +1003,7 @@ export const AccountsPayableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1023,14 +1033,14 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Accounts Payable Outsourcing Makes Sense?
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
 
-                        <div className="flex justify-center items-center m-auto h-full">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center items-center m-auto h-full">
                             <Image
                                 src={icon5}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1038,7 +1048,7 @@ export const AccountsPayableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="space-y-4">
                             <div className="leading-relaxed">
                                 Outsourcing accounts payable services allows businesses to focus on core activities while
                                 professionals handle the AP process. Here are some key advantages of outsourcing:
@@ -1059,20 +1069,20 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Account Payable Automation for Improved Efficiency
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global employs advanced account payable automation technology, bringing
                             automation to key parts of the AP process. Here’s how automation enhances our accounts
                             payable services:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1093,7 +1103,7 @@ export const AccountsPayableComp = () => {
                                     reducing the overall cycle time.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1114,7 +1124,7 @@ export const AccountsPayableComp = () => {
                                     discrepancies in invoice processing.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1142,14 +1152,14 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Industry-Specific Accounts Payable Solutions
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="space-y-8 lg:space-y-4">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="space-y-8 lg:space-y-4">
 
                             <div className="flex lg:hidden justify-center items-center m-auto">
                                 <Image
@@ -1174,7 +1184,7 @@ export const AccountsPayableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1186,14 +1196,14 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     The Importance of Supplier Relationships in Accounts Payable
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={RelationImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1201,7 +1211,7 @@ export const AccountsPayableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Strong supplier relationships are crucial for maintaining a steady supply chain and gaining
                                 favorable terms. Here’s how Accomate Global’s accounts payable services support
@@ -1223,14 +1233,14 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Accounts Payable Services Company for Australian Businesses
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex lg:hidden justify-center items-center m-auto">
                             <Image
                                 src={AccountsImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1238,7 +1248,7 @@ export const AccountsPayableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="space-y-4">
                             <div className="leading-relaxed">
                                 Accomate Global is a leading accounts payable outsourcing company in Australia,
                                 providing high-quality accounts payable services tailored to local business needs. Here’s
@@ -1255,7 +1265,7 @@ export const AccountsPayableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={AccountsImg}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1358,7 +1368,7 @@ export const AccountsReconComp = () => {
             {/* Accounts Reconciliation Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8">
+                    <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                         <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Reconciliation Services
                         </div>
@@ -1387,7 +1397,7 @@ export const AccountsReconComp = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -1403,11 +1413,11 @@ export const AccountsReconComp = () => {
             {/* Why Choose Accomate Global for Account Reconciliation Services? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                         Why Choose Accomate Global for Account Reconciliation Services?
                     </div>
 
-                    <div className="flex justify-center mx-auto">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
                         <Image
                             src={myimages1}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
@@ -1416,7 +1426,7 @@ export const AccountsReconComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto">
                             With extensive experience in the Australian market, Accomate Global understands the
                             complexities of financial reconciliation. Our account reconciliation services are tailored to
                             meet your business needs, whether you're a small startup or a large enterprise.
@@ -1425,7 +1435,7 @@ export const AccountsReconComp = () => {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1446,7 +1456,7 @@ export const AccountsReconComp = () => {
                                     ensure that your financial records are accurate and free of errors.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1467,7 +1477,7 @@ export const AccountsReconComp = () => {
                                     account reconciliations, and general ledger reviews, covering all types of accounts.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1495,11 +1505,11 @@ export const AccountsReconComp = () => {
 
             {/* Our Account Reconciliation Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Our Account Reconciliation Services
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
                     <Image
                         src={AccountsImg3}
                         alt="Accounts Payable Services"
@@ -1507,7 +1517,7 @@ export const AccountsReconComp = () => {
                     />
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global offers a full range of account reconciliation services designed to
@@ -1573,13 +1583,13 @@ export const AccountsReconComp = () => {
 
             {/* Benefits of Using Account Reconciliation Services by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Using Account Reconciliation Services by Accomate Global
                 </div>
 
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
+                    <div className="space-y-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
 
                         <Image
                             src={Benefits1}
@@ -1650,13 +1660,13 @@ export const AccountsReconComp = () => {
 
             {/* How Accomate Global’s Account Reconciliation Services Work */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global’s Account Reconciliation Services Work
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Our accounts reconciliation process is straightforward and transparent, designed to keep
                             your financial records accurate without hassle. Here’s how we approach account
                             reconciliation:
@@ -1664,7 +1674,7 @@ export const AccountsReconComp = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1687,7 +1697,7 @@ export const AccountsReconComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1710,7 +1720,7 @@ export const AccountsReconComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1733,7 +1743,7 @@ export const AccountsReconComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1755,7 +1765,7 @@ export const AccountsReconComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -1785,14 +1795,14 @@ export const AccountsReconComp = () => {
 
             {/* Why Outsource Account Reconciliation Services? */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Outsource Account Reconciliation Services?
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center items-center m-auto">
                             <div className="flex justify-center items-center m-auto">
                                 <Image
                                     src={icon3}
@@ -1802,7 +1812,7 @@ export const AccountsReconComp = () => {
                             </div>
                         </div>
 
-                        <div className="space-y-4">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="space-y-4">
                             <div className="leading-relaxed">
                                 Outsourcing account reconciliation services to Accomate Global offers a strategic
                                 advantage for businesses seeking efficiency and accuracy:
@@ -1824,19 +1834,19 @@ export const AccountsReconComp = () => {
 
             {/* Types of Reconciliation Services Provided */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div  data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Types of Reconciliation Services Provided
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s account reconciliation services cover different types of
                             reconciliation, each tailored to meet specific business needs:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1857,7 +1867,7 @@ export const AccountsReconComp = () => {
                                     ensure cash flow accuracy.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1878,7 +1888,7 @@ export const AccountsReconComp = () => {
                                     enhancing financial security.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1899,7 +1909,7 @@ export const AccountsReconComp = () => {
                                     and avoid payment disputes.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -1920,7 +1930,7 @@ export const AccountsReconComp = () => {
                                     view of your company’s assets and liabilities.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
                                         <div className="flex justify-center items-center m-auto h-full">
@@ -1948,14 +1958,14 @@ export const AccountsReconComp = () => {
 
             {/* Account Reconciliation Software and Technology */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Account Reconciliation Software and Technology
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex lg:hidden justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1963,7 +1973,7 @@ export const AccountsReconComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="space-y-4">
                             <div className="leading-relaxed">
                                 Technology is at the core of our account reconciliation services. We use advanced tools
                                 and software that streamline reconciliation and enhance data security:
@@ -1979,7 +1989,7 @@ export const AccountsReconComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" className="hidden lg:flex justify-center items-center m-auto">
                             <Image
                                 src={IndustryImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -1992,14 +2002,14 @@ export const AccountsReconComp = () => {
 
             {/* Industries Served by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Industries Served by Accomate Global
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg2}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2007,7 +2017,7 @@ export const AccountsReconComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Our account reconciliation services are suitable for various industries in Australia,
                                 including:
@@ -2031,14 +2041,14 @@ export const AccountsReconComp = () => {
 
             {/* The Importance of Reconciliation Services for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     The Importance of Reconciliation Services for Business Success
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={AccountsImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2046,7 +2056,7 @@ export const AccountsReconComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Maintain Accurate Financial Records : </span>Regular reconciliation ensures that your financial records are up-to-date and
@@ -2060,7 +2070,7 @@ export const AccountsReconComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={AccountsImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2073,7 +2083,7 @@ export const AccountsReconComp = () => {
 
             {/*  How Account Reconciliation Services Improve Financial Close Processes */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How Account Reconciliation Services Improve Financial Close
                     Processes
                 </div>
@@ -2081,7 +2091,7 @@ export const AccountsReconComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={RelationImg1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2089,7 +2099,7 @@ export const AccountsReconComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Timely and accurate reconciliations are critical for an efficient financial close process.
                                 Accomate Global helps businesses:
@@ -2188,7 +2198,7 @@ export const AccountsReceivableComp = () => {
             {/* Accounts Receivable Services */}
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8">
+                    <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                         <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Receivable Service
                         </div>
@@ -2213,7 +2223,7 @@ export const AccountsReceivableComp = () => {
                             receivable process so you can focus on core business activities.  </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -2229,11 +2239,11 @@ export const AccountsReceivableComp = () => {
             {/* Why Choose Accomate Global’s Accounts Receivable Service? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                         Why Choose Accomate Global’s Accounts Receivable Service?
                     </div>
 
-                    <div className="flex justify-center mx-auto">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
                         <Image
                             src={WhyusImg1}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
@@ -2242,7 +2252,7 @@ export const AccountsReceivableComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto">
                             For businesses in today’s competitive environment, managing accounts receivable
                             efficiently is a key factor in maximizing working capital. Accomate Global’s accounts
                             receivable service offers a strategic, tech-driven approach to collections that not only
@@ -2254,7 +2264,7 @@ export const AccountsReceivableComp = () => {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -2275,7 +2285,7 @@ export const AccountsReceivableComp = () => {
                                     and reducing collection delays, we help boost your cash flow, ensuring liquidity.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -2296,7 +2306,7 @@ export const AccountsReceivableComp = () => {
                                     services reduce DSO, freeing up working capital for reinvestment.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -2324,11 +2334,11 @@ export const AccountsReceivableComp = () => {
 
             {/* Our Accounts Receivable Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Our Accounts Receivable Services
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <Image
                         src={AccountsImg5}
                         alt="Accounts Payable Services"
@@ -2338,12 +2348,12 @@ export const AccountsReceivableComp = () => {
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Accomate Global’s accounts receivable service encompasses all aspects of accounts
                             receivable management, including accounts receivable outsourcing for streamlined
                             efficiency. Here’s a look at our key service offerings:
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <div className="space-y-3">
                                 <div className="font-semibold text-[#1B2D9F]">1. Invoice Generation and Customer Communication</div>
                                 <ul className="list-disc space-y-2 pl-4">
@@ -2401,13 +2411,13 @@ export const AccountsReceivableComp = () => {
 
             {/* Benefits of Using Accounts Receivable Service by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Using Accounts Receivable Service by Accomate Global
                 </div>
 
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
+                    <div className="space-y-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
 
                         <Image
                             src={Benefits2}
@@ -2471,19 +2481,19 @@ export const AccountsReceivableComp = () => {
 
             {/* Accounts Receivable Service Process */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Accounts Receivable Service Process
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Our accounts receivable service follows a streamlined, five-step process:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2504,7 +2514,7 @@ export const AccountsReceivableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2526,7 +2536,7 @@ export const AccountsReceivableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2548,7 +2558,7 @@ export const AccountsReceivableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2571,7 +2581,7 @@ export const AccountsReceivableComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2601,14 +2611,14 @@ export const AccountsReceivableComp = () => {
 
             {/* Industries Served */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Industries Served
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg3}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2616,7 +2626,7 @@ export const AccountsReceivableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Our accounts receivable service is designed to meet the unique needs of various
                                 industries, including:
@@ -2635,7 +2645,7 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg3}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2648,14 +2658,14 @@ export const AccountsReceivableComp = () => {
 
             {/* Why Outsource Accounts Receivable Services to Accomate Global? */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Why Outsource Accounts Receivable Services to Accomate Global?
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="flex justify-center items-center m-auto">
                                 <Image
                                     src={icon2}
@@ -2665,7 +2675,7 @@ export const AccountsReceivableComp = () => {
                             </div>
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Outsourcing accounts receivable services with Accomate Global offers a cost-effective,
                                 efficient solution. Here’s why more Australian businesses are turning to us:
@@ -2687,14 +2697,14 @@ export const AccountsReceivableComp = () => {
 
             {/* How We Help Improve Your Balance Sheet and Financial Health */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How We Help Improve Your Balance Sheet and Financial Health
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2702,7 +2712,7 @@ export const AccountsReceivableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Accomate Global’s accounts receivable service has a direct impact on the strength of your
                                 balance sheet by:
@@ -2718,7 +2728,7 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg4}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2731,14 +2741,14 @@ export const AccountsReceivableComp = () => {
 
             {/* Our Technology-Driven Approach */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Technology-Driven Approach
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg5}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2746,7 +2756,7 @@ export const AccountsReceivableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Technology plays a vital role in our accounts receivable service. Accomate Global
                                 leverages the latest accounts receivable software to deliver a smooth and efficient
@@ -2769,7 +2779,7 @@ export const AccountsReceivableComp = () => {
 
             {/* How Accomate Global Boosts Efficiency in Accounts Receivable Management */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global Boosts Efficiency in Accounts Receivable
                     Management
                 </div>
@@ -2777,7 +2787,7 @@ export const AccountsReceivableComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg6}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2785,7 +2795,7 @@ export const AccountsReceivableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Our accounts receivable service is structured to enhance efficiency and ensure smooth
                                 operations, helping businesses like yours streamline collections and reduce financial risks.
@@ -2804,7 +2814,7 @@ export const AccountsReceivableComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg6}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2817,14 +2827,14 @@ export const AccountsReceivableComp = () => {
 
             {/* Real-Time Tracking and Transparency */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Real-Time Tracking and Transparency
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg7}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2832,7 +2842,7 @@ export const AccountsReceivableComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Accomate Global’s accounts receivable service offers complete transparency and
                                 real-time tracking, allowing you to:
