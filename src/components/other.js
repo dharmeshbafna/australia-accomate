@@ -9,7 +9,7 @@ import WhiteLogo2 from "../../public/n_accomate_white.png"
 import CircleIcon from "../../public/n_accomate_circle.png"
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaBars, FaWhatsapp } from "react-icons/fa6";
+import { FaBars, FaChevronDown, FaWhatsapp } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiChevronDown } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
@@ -36,9 +36,12 @@ export const Sidebar = ({ toogle, setToogle }) => {
         {
             name: 'Services', link: '/services/australia',
             dropdown: [
-                { name: 'USA', link: '/services/usa' },
-                { name: 'Canada', link: '/services/canada' },
-                { name: 'Australia', link: '/services/australia' },
+                { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
+                { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
+                { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
+                { name: 'Bookkeeping Services', link: '/services/bookkeeping-services' },
+                { name: 'Data Entry Services', link: '/services/data-entry' },
+                { name: 'Financial Reporting Services', link: '/services/financial-reporting-services' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -52,7 +55,7 @@ export const Sidebar = ({ toogle, setToogle }) => {
 
     return (
         <div className="">
-            <div className={`space-y-4 px-6 py-4 bg-white lg:hidden ${toogle ? 'translate-x-0 transition-transform duration-700 ease-in-out transform' : 'translate-x-full transition-transform duration-700 ease-in-out transform'} fixed z-40 right-0 top-0 h-full w-[70%] md:w-1/2 shadow-lg z-50`}>
+            <div className={`space-y-4 px-6 py-4 bg-white lg:hidden ${toogle ? 'translate-x-0 transition-transform duration-700 ease-in-out transform' : 'translate-x-full transition-transform duration-700 ease-in-out transform'} fixed z-40 right-0 top-0 h-full w-[70%] md:w-1/2 shadow-lg z-50 overflow-y-auto`}>
 
                 <IoClose onClick={() => setToogle(false)} className="focus:outline-none absolute top-3 right-4 h-8 w-8" />
                 <div className="w-full">
@@ -68,43 +71,31 @@ export const Sidebar = ({ toogle, setToogle }) => {
                         return (
                             <div key={index} className="w-full border-b pb-2">
                                 <div className="w-full">
-                                    {i.link ?
-                                        <div className="w-fit relative">
-                                            <a href={i.link} className="hover:text-[#1B2D9F] duration-300 text-nowrap">
-                                                <span className="flex items-center my-auto">
-                                                    {i.name} <FiChevronDown className={`ml-1 ${i.name == "abc" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
-                                                </span>
-                                            </a>
 
-                                            <span className={`absolute -bottom-2 h-1 transform ${isActive(i.link) ? 'w-full h-[2px] scale-x-100' : 'scale-x-0'} bg-[#1B2D9F] transition-transform duration-200 ease-out origin-center hover:scale-x-100`}>
+                                    <div className="w-fit relative flex items-center my-auto">
+                                        <a href={i.link} className="hover:text-[#1B2D9F] duration-300 text-nowrap">
+                                            <span className="flex items-center my-auto">
+                                                {i.name}
                                             </span>
-                                        </div>
-                                        :
-                                        <div>
-                                            <button className="text-nowrap" onClick={
-                                                i.name == 'Company' ? () => setD1(!d1) :
-                                                    i.name == 'Services' ? () => setD2(!d2) :
-                                                        () => { }
-                                            }>
-                                                <span className="flex items-center my-auto">
-                                                    {i.name} <FiChevronDown className={`ml-1 ${i.name == "abc" || i.name == "Company" ? '' : 'hidden'} flex-shrink-0`} />
-                                                </span>
-                                            </button>
+                                        </a>
 
-                                            {d2 && i.name == 'Services' ?
-                                                <div className="border space-y-2 px-2 py-3 rounded-lg md:w-1/2 w-[80%]">
-                                                    {i.dropdown.map((j, ind) => {
-                                                        return (
-                                                            <div key={ind} className={`${isActive(j.link) ? 'text-[#1B2D9F]' : ''} hover:text-[#1B2D9F] duration-300 pb-2 border-b border-[#9F8D1B]`}>
-                                                                <a href={j.link} className="text-nowrap">
-                                                                    {j.name}
-                                                                </a>
-                                                            </div>
-                                                        )
-                                                    })}
-                                                </div> : ''}
-                                        </div>
-                                    }
+                                        <span className={`absolute -bottom-2 h-1 transform ${isActive(i.link) ? 'w-full h-[2px] scale-x-100' : 'scale-x-0'} bg-[#1B2D9F] transition-transform duration-200 ease-out origin-center hover:scale-x-100`}>
+                                        </span>
+                                    </div>
+
+                                    {i.name == 'Services' ?
+                                        <div className="text-sm space-y-2 pl-1 pt-3">
+                                            {i.dropdown.map((a, x) => {
+                                                return (
+                                                    <div key={x}>
+                                                        <a href={a.link} className={`${isActive(a.link) ? 'text-[#1B2D9F]' : 'text-black'} text-nowrap block hover:text-[#1B2D9F] hover:pl-1 duration-300 pb-1 mt-1 ${index !== i.dropdown.length - 1 ? 'border-b border-[#9F8D1B]' : ''}`}>
+                                                            {a.name}
+                                                        </a>
+                                                    </div>
+                                                )
+                                            })}
+                                        </div> : ''}
+
                                 </div>
                             </div>
                         )
@@ -533,9 +524,9 @@ export const Breadcrumb = () => {
                                                                     path == '/services/accounts-reconciliation-services' ? 'Accounts Reconciliation Services' :
                                                                         path == '/services/accounts-receivable-services' ? 'Accounts Receivable Services' :
                                                                             path == '/services/bookkeeping-services' ? 'Bookkeeping Services' :
-                                                                            path == '/services/data-entry' ? 'Data Entry Services' :
-                                                                            path == '/services/financial-reporting-services' ? 'Financial Reporting Service' :
-                                                                                ''}
+                                                                                path == '/services/data-entry' ? 'Data Entry Services' :
+                                                                                    path == '/services/financial-reporting-services' ? 'Financial Reporting Service' :
+                                                                                        ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
                         Home
