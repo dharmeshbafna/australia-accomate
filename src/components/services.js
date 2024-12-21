@@ -2878,7 +2878,7 @@ export const BookkeepingComp = () => {
                             Bookkeeping Services
                         </div>
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <div className="w-fit relative">
                                 <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                                 <Image
@@ -2889,7 +2889,7 @@ export const BookkeepingComp = () => {
                             </div>
                         </div>
 
-                        <div className="leading-relaxed">
+                        <div className="leading-relaxed" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             When it comes to running a business, maintaining accurate and up-to-date financial records
                             is crucial. Accomate Global offers professional bookkeeping services specifically designed
                             for Australian businesses.
@@ -2900,7 +2900,7 @@ export const BookkeepingComp = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -2915,13 +2915,13 @@ export const BookkeepingComp = () => {
 
             {/* Why Choose Accomate Global for Your Bookkeeping Needs? */}
             <div className="px-8 py-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Choose Accomate Global for Your Bookkeeping Needs?
                 </div>
 
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
+                    <div className="space-y-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
 
                         <Image
                             src={Benefits3}
@@ -2971,20 +2971,20 @@ export const BookkeepingComp = () => {
 
             {/* Our Bookkeeping Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Bookkeeping Services
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             At Accomate Global, we cover all aspects of bookkeeping to give you a complete,
                             hassle-free solution:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -2999,7 +2999,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3014,7 +3014,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3030,7 +3030,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3045,7 +3045,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3060,7 +3060,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3076,7 +3076,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3091,7 +3091,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="800">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3106,7 +3106,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3121,7 +3121,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1000">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3144,11 +3144,11 @@ export const BookkeepingComp = () => {
 
             {/* Benefits of Our Bookkeeping Services for Australian Businesses */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Our Bookkeeping Services for Australian Businesses
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <Image
                         src={AccountsImg2}
                         alt="Accounts Payable Services"
@@ -3156,7 +3156,7 @@ export const BookkeepingComp = () => {
                     />
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
@@ -3217,20 +3217,20 @@ export const BookkeepingComp = () => {
 
             {/* Our Bookkeeping Process */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Bookkeeping Process
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Our streamlined process ensures efficient, transparent, and reliable bookkeeping. Here’s
                             how we make bookkeeping easier for you:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3251,7 +3251,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3274,7 +3274,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3295,7 +3295,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3316,7 +3316,7 @@ export const BookkeepingComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3347,14 +3347,14 @@ export const BookkeepingComp = () => {
 
             {/* Why Accurate Bookkeeping Matters for Businesses in Australia */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Accurate Bookkeeping Matters for Businesses in Australia
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="flex justify-center items-center m-auto">
                                 <Image
                                     src={icon4}
@@ -3364,7 +3364,7 @@ export const BookkeepingComp = () => {
                             </div>
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Operating a business in Australia presents unique challenges and opportunities. By
                                 partnering with Accomate Global, you ensure that your financial records meet ATO
@@ -3388,14 +3388,14 @@ export const BookkeepingComp = () => {
 
             {/* Advanced Technology and Cloud-Based Bookkeeping */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Advanced Technology and Cloud-Based Bookkeeping
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg8}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -3403,7 +3403,7 @@ export const BookkeepingComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Accomate Global embraces advanced technology to keep your records safe, secure, and
                                 accessible. Our cloud-based bookkeeping solutions include:
@@ -3419,7 +3419,7 @@ export const BookkeepingComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg8}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -3432,14 +3432,14 @@ export const BookkeepingComp = () => {
 
             {/* Industries Served by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Industries We Serve
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg9}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -3447,7 +3447,7 @@ export const BookkeepingComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 No matter the industry, Accomate Global tailors its services to meet the specific bookkeeping
                                 requirements and compliance standards relevant to each sector.
