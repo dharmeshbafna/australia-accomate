@@ -3481,7 +3481,7 @@ export const DataEntryComp = () => {
             {/* Data Entry Service */}
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8">
+                    <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                         <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
                             Data Entry Services
 
@@ -3507,7 +3507,7 @@ export const DataEntryComp = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -3522,12 +3522,12 @@ export const DataEntryComp = () => {
 
             {/* Why Choose Accomate Global for Your Data Entry Service Needs? */}
             <div className="px-8 py-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Choose Accomate Global for Your Data Entry Service Needs?
                 </div>
 
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
 
                         <Image
@@ -3577,15 +3577,15 @@ export const DataEntryComp = () => {
                 </div>
             </div>
 
-            {/* Our Bookkeeping Services */}
+            {/* Our Data-Entry Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Data Entry Services
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Accomate Global’s data entry service portfolio covers various data entry requirements,
                             ensuring that we can meet the needs of businesses across industries. Below are our key
                             data entry offerings:
@@ -3593,7 +3593,7 @@ export const DataEntryComp = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3610,7 +3610,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3627,7 +3627,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3645,7 +3645,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3663,7 +3663,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3680,7 +3680,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3704,12 +3704,12 @@ export const DataEntryComp = () => {
 
             {/* Benefits of Data Entry Service by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Data Entry Service by Accomate Global
 
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <Image
                         src={AccountsImg6}
                         alt="Accounts Payable Services"
@@ -3717,13 +3717,13 @@ export const DataEntryComp = () => {
                     />
                 </div>
 
-                <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
+                <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Our data entry service offers numerous advantages, helping businesses across Australia
                     streamline their operations, cut costs, and improve data accuracy. Here’s how Accomate
                     Global’s services can support your business:
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                             <div className="space-y-3">
@@ -3778,20 +3778,20 @@ export const DataEntryComp = () => {
 
             {/* Data Entry Process at Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Data Entry Process at Accomate Global
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             Our data entry service is designed to be efficient, secure, and accurate. Here’s an overview
                             of our structured data entry process:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3814,7 +3814,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3837,7 +3837,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3860,7 +3860,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3883,7 +3883,7 @@ export const DataEntryComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -3914,14 +3914,14 @@ export const DataEntryComp = () => {
 
             {/* Why Data Security Matters in Data Entry Service */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Data Security Matters in Data Entry Service?
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={icon1}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -3929,7 +3929,7 @@ export const DataEntryComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Data security is a critical aspect of any data entry service. Accomate Global prioritizes data
                                 security in every project we undertake:
@@ -3951,20 +3951,20 @@ export const DataEntryComp = () => {
 
             {/* Types of Data Entry Projects We Handle */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Types of Data Entry Projects We Handle
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             At Accomate Global, we understand that every business has unique data needs. Our data
                             entry service can be customized to fit a variety of data entry projects:
                         </div>
 
                         <div className="flex justify-center mx-auto lg:w-[75%]">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
-                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                     <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                         <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -3985,7 +3985,7 @@ export const DataEntryComp = () => {
                                         accuracy.
                                     </div>
                                 </div>
-                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                     <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                         <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4006,7 +4006,7 @@ export const DataEntryComp = () => {
                                         maintenance.
                                     </div>
                                 </div>
-                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                     <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                         <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4026,7 +4026,7 @@ export const DataEntryComp = () => {
                                         Perfect for projects with specific, short-term needs.
                                     </div>
                                 </div>
-                                <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                                <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                     <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                         <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4056,14 +4056,14 @@ export const DataEntryComp = () => {
 
             {/* Industry-Specific Data Entry Solutions */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Industry-Specific Data Entry Solutions
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg10}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4071,7 +4071,7 @@ export const DataEntryComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Our data entry service is designed to meet the unique requirements of various industries,
                                 providing customized solutions for each sector’s specific data needs:
@@ -4094,14 +4094,14 @@ export const DataEntryComp = () => {
 
             {/* Leading Data Entry Services Company */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Leading Data Entry Services Company
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg11}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4109,7 +4109,7 @@ export const DataEntryComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Accomate Global has positioned itself as a leading data entry services company in
                                 Australia. Our team is equipped with the latest tools, including account reconciliation
@@ -4127,7 +4127,7 @@ export const DataEntryComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg11}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4234,11 +4234,11 @@ export const FinancialComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             Financial Reporting Service
                         </div>
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <div className="w-fit relative">
                                 <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                                 <Image
@@ -4249,7 +4249,7 @@ export const FinancialComp = () => {
                             </div>
                         </div>
 
-                        <div className="leading-relaxed">
+                        <div className="leading-relaxed" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             Financial reporting is essential for understanding a company’s performance, making
                             informed decisions, and staying compliant with regulatory standards. Accomate Global offers
                             a comprehensive financial reporting service designed to simplify complex reporting tasks,
@@ -4260,7 +4260,7 @@ export const FinancialComp = () => {
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto">
+                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div className="w-fit relative">
                             <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
                             <Image
@@ -4276,11 +4276,11 @@ export const FinancialComp = () => {
             {/* Why Choose Accomate Global for Financial Reporting Services? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                         Why Choose Accomate Global for Financial Reporting Services?
                     </div>
 
-                    <div className="flex justify-center mx-auto">
+                    <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                         <Image
                             src={WhyusImg2}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
@@ -4289,7 +4289,7 @@ export const FinancialComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             Accomate Global understands the challenges Australian businesses face in managing and
                             interpreting financial data. By providing a dedicated financial reporting service, we help
                             you stay compliant, reduce errors, and achieve financial performance goals.
@@ -4298,7 +4298,7 @@ export const FinancialComp = () => {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4319,7 +4319,7 @@ export const FinancialComp = () => {
                                     to deliver precise reports.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4341,7 +4341,7 @@ export const FinancialComp = () => {
                                     unique needs.
                                 </div>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -4370,11 +4370,11 @@ export const FinancialComp = () => {
 
             {/* Our Comprehensive Financial Reporting Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Comprehensive Financial Reporting Services
                 </div>
 
-                <div className="flex justify-center mx-auto">
+                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <Image
                         src={AccountsImg7}
                         alt="Accounts Payable Services"
@@ -4382,7 +4382,7 @@ export const FinancialComp = () => {
                     />
                 </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
                         <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
                             Accomate Global’s financial reporting service includes everything you need to understand
@@ -4450,20 +4450,20 @@ export const FinancialComp = () => {
 
             {/* Types of Financial Reports Provided by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Types of Financial Reports Provided by Accomate Global
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             Accomate Global’s financial reporting service includes a range of report types to suit every
                             business need:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4480,7 +4480,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4496,7 +4496,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4513,7 +4513,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4530,7 +4530,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4555,13 +4555,13 @@ export const FinancialComp = () => {
 
             {/* Benefits of Accomate Global’s Financial Reporting Service */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Accomate Global’s Financial Reporting Service
                 </div>
 
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
+                    <div className="space-y-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
 
                         <Image
                             src={Benefits5}
@@ -4623,7 +4623,7 @@ export const FinancialComp = () => {
 
             {/* Outsource Financial Reporting: A Smart Choice for Australian Businesses */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Outsource Financial Reporting: A Smart Choice for Australian
                     Businesses
                 </div>
@@ -4631,7 +4631,7 @@ export const FinancialComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg12}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4639,7 +4639,7 @@ export const FinancialComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Outsourcing your financial reporting to Accomate Global offers many advantages. Here’s
                                 how outsourcing financial reporting services can benefit Australian businesses:
@@ -4657,7 +4657,7 @@ export const FinancialComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg12}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4670,14 +4670,14 @@ export const FinancialComp = () => {
 
             {/* Advanced Financial Reporting Software and Technology */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Advanced Financial Reporting Software and Technology
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg13}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4685,7 +4685,7 @@ export const FinancialComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Accomate Global uses top-of-the-line financial reporting software to provide secure,
                                 efficient reporting solutions:
@@ -4708,20 +4708,20 @@ export const FinancialComp = () => {
 
             {/* How Accomate Global’s Financial Reporting Service Works */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global’s Financial Reporting Service Works
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
+                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             Our financial reporting service is designed to be user-friendly and efficient, with a simple
                             process to manage and track your financial data:
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4738,7 +4738,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4755,7 +4755,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4771,7 +4771,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4787,7 +4787,7 @@ export const FinancialComp = () => {
                                 </ul>
                             </div>
 
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
 
                                 <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
@@ -4811,7 +4811,7 @@ export const FinancialComp = () => {
 
             {/* Financial Reporting for Various Industries */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Financial Reporting for Various Industries
                 </div>
 
@@ -4819,7 +4819,7 @@ export const FinancialComp = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
+                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg14}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4827,7 +4827,7 @@ export const FinancialComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <div className="leading-relaxed">
                                 Our financial reporting service is designed to suit a range of industries in Australia:
                             </div>
@@ -4846,7 +4846,7 @@ export const FinancialComp = () => {
                             </ul>
                         </div>
 
-                        <div className="hidden lg:flex justify-center items-center m-auto">
+                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg14}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4859,14 +4859,14 @@ export const FinancialComp = () => {
 
             {/* Key Elements of Financial Reporting Service for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Key Elements of Financial Reporting Service for Business Success
                 </div>
 
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg15}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -4874,7 +4874,7 @@ export const FinancialComp = () => {
                             />
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
 
                             <ul className="list-disc pl-4 space-y-3">
                                 <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Strategic Planning and Budgeting : </span>Leverage insights from financial reporting service to set realistic budgets,
