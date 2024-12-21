@@ -612,7 +612,7 @@ export const AccountsPayableComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Payable Services
                         </div>
 
@@ -654,7 +654,7 @@ export const AccountsPayableComp = () => {
 
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                    <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                         Why Choose Accomate Global for Accounts Payable Services?
                     </div>
 
@@ -747,7 +747,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Our Accounts Payable Services
                 </div>
 
@@ -826,7 +826,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Accounts Payable Services by Accomate Global
                 </div>
 
@@ -897,7 +897,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Accounts Payable Process at Accomate Global
                 </div>
 
@@ -1033,7 +1033,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Accounts Payable Outsourcing Makes Sense?
                 </div>
 
@@ -1069,7 +1069,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Account Payable Automation for Improved Efficiency
                 </div>
 
@@ -1152,7 +1152,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Industry-Specific Accounts Payable Solutions
                 </div>
 
@@ -1196,7 +1196,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     The Importance of Supplier Relationships in Accounts Payable
                 </div>
 
@@ -1233,7 +1233,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Accounts Payable Services Company for Australian Businesses
                 </div>
 
@@ -1278,7 +1278,7 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Frequently Asked Questions
                 </div>
 
@@ -1369,7 +1369,7 @@ export const AccountsReconComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Reconciliation Services
                         </div>
 
@@ -1413,7 +1413,7 @@ export const AccountsReconComp = () => {
             {/* Why Choose Accomate Global for Account Reconciliation Services? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                         Why Choose Accomate Global for Account Reconciliation Services?
                     </div>
 
@@ -1505,7 +1505,7 @@ export const AccountsReconComp = () => {
 
             {/* Our Account Reconciliation Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Our Account Reconciliation Services
                 </div>
 
@@ -1583,7 +1583,7 @@ export const AccountsReconComp = () => {
 
             {/* Benefits of Using Account Reconciliation Services by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Using Account Reconciliation Services by Accomate Global
                 </div>
 
@@ -1660,7 +1660,7 @@ export const AccountsReconComp = () => {
 
             {/* How Accomate Global’s Account Reconciliation Services Work */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global’s Account Reconciliation Services Work
                 </div>
 
@@ -1795,7 +1795,7 @@ export const AccountsReconComp = () => {
 
             {/* Why Outsource Account Reconciliation Services? */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Outsource Account Reconciliation Services?
                 </div>
 
@@ -1834,7 +1834,7 @@ export const AccountsReconComp = () => {
 
             {/* Types of Reconciliation Services Provided */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div  data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div  data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Types of Reconciliation Services Provided
                 </div>
 
@@ -1958,7 +1958,7 @@ export const AccountsReconComp = () => {
 
             {/* Account Reconciliation Software and Technology */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Account Reconciliation Software and Technology
                 </div>
 
@@ -2002,7 +2002,7 @@ export const AccountsReconComp = () => {
 
             {/* Industries Served by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Industries Served by Accomate Global
                 </div>
 
@@ -2041,7 +2041,7 @@ export const AccountsReconComp = () => {
 
             {/* The Importance of Reconciliation Services for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     The Importance of Reconciliation Services for Business Success
                 </div>
 
@@ -2083,7 +2083,7 @@ export const AccountsReconComp = () => {
 
             {/*  How Account Reconciliation Services Improve Financial Close Processes */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How Account Reconciliation Services Improve Financial Close
                     Processes
                 </div>
@@ -2121,7 +2121,7 @@ export const AccountsReconComp = () => {
 
             {/*  Frequently Asked Questions */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Frequently Asked Questions
                 </div>
 
@@ -2199,7 +2199,7 @@ export const AccountsReceivableComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
                             Accounts Receivable Service
                         </div>
 
@@ -2239,7 +2239,7 @@ export const AccountsReceivableComp = () => {
             {/* Why Choose Accomate Global’s Accounts Receivable Service? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                    <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                         Why Choose Accomate Global’s Accounts Receivable Service?
                     </div>
 
@@ -2334,7 +2334,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Our Accounts Receivable Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Our Accounts Receivable Services
                 </div>
 
@@ -2411,7 +2411,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Benefits of Using Accounts Receivable Service by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Using Accounts Receivable Service by Accomate Global
                 </div>
 
@@ -2481,7 +2481,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Accounts Receivable Service Process */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Accounts Receivable Service Process
                 </div>
 
@@ -2611,7 +2611,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Industries Served */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Industries Served
                 </div>
 
@@ -2658,7 +2658,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Why Outsource Accounts Receivable Services to Accomate Global? */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Why Outsource Accounts Receivable Services to Accomate Global?
                 </div>
 
@@ -2697,7 +2697,7 @@ export const AccountsReceivableComp = () => {
 
             {/* How We Help Improve Your Balance Sheet and Financial Health */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     How We Help Improve Your Balance Sheet and Financial Health
                 </div>
 
@@ -2741,7 +2741,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Our Technology-Driven Approach */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Technology-Driven Approach
                 </div>
 
@@ -2779,7 +2779,7 @@ export const AccountsReceivableComp = () => {
 
             {/* How Accomate Global Boosts Efficiency in Accounts Receivable Management */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global Boosts Efficiency in Accounts Receivable
                     Management
                 </div>
@@ -2827,7 +2827,7 @@ export const AccountsReceivableComp = () => {
 
             {/* Real-Time Tracking and Transparency */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Real-Time Tracking and Transparency
                 </div>
 
@@ -2874,7 +2874,7 @@ export const BookkeepingComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
                             Bookkeeping Services
                         </div>
 
@@ -2915,7 +2915,7 @@ export const BookkeepingComp = () => {
 
             {/* Why Choose Accomate Global for Your Bookkeeping Needs? */}
             <div className="px-8 py-14 w-full space-y-6">
-                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Why Choose Accomate Global for Your Bookkeeping Needs?
                 </div>
 
@@ -2971,7 +2971,7 @@ export const BookkeepingComp = () => {
 
             {/* Our Bookkeeping Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Bookkeeping Services
                 </div>
 
@@ -3144,7 +3144,7 @@ export const BookkeepingComp = () => {
 
             {/* Benefits of Our Bookkeeping Services for Australian Businesses */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Our Bookkeeping Services for Australian Businesses
                 </div>
 
@@ -3217,7 +3217,7 @@ export const BookkeepingComp = () => {
 
             {/* Our Bookkeeping Process */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Bookkeeping Process
                 </div>
 
@@ -3347,7 +3347,7 @@ export const BookkeepingComp = () => {
 
             {/* Why Accurate Bookkeeping Matters for Businesses in Australia */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Accurate Bookkeeping Matters for Businesses in Australia
                 </div>
 
@@ -3388,7 +3388,7 @@ export const BookkeepingComp = () => {
 
             {/* Advanced Technology and Cloud-Based Bookkeeping */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Advanced Technology and Cloud-Based Bookkeeping
                 </div>
 
@@ -3432,7 +3432,7 @@ export const BookkeepingComp = () => {
 
             {/* Industries Served by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Industries We Serve
                 </div>
 
@@ -3482,7 +3482,7 @@ export const DataEntryComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
                             Data Entry Services
 
                         </div>
@@ -3522,7 +3522,7 @@ export const DataEntryComp = () => {
 
             {/* Why Choose Accomate Global for Your Data Entry Service Needs? */}
             <div className="px-8 py-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Choose Accomate Global for Your Data Entry Service Needs?
                 </div>
 
@@ -3579,7 +3579,7 @@ export const DataEntryComp = () => {
 
             {/* Our Data-Entry Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Data Entry Services
                 </div>
 
@@ -3704,7 +3704,7 @@ export const DataEntryComp = () => {
 
             {/* Benefits of Data Entry Service by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Data Entry Service by Accomate Global
 
                 </div>
@@ -3778,7 +3778,7 @@ export const DataEntryComp = () => {
 
             {/* Data Entry Process at Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Data Entry Process at Accomate Global
                 </div>
 
@@ -3914,7 +3914,7 @@ export const DataEntryComp = () => {
 
             {/* Why Data Security Matters in Data Entry Service */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Why Data Security Matters in Data Entry Service?
                 </div>
 
@@ -3951,7 +3951,7 @@ export const DataEntryComp = () => {
 
             {/* Types of Data Entry Projects We Handle */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Types of Data Entry Projects We Handle
                 </div>
 
@@ -4056,7 +4056,7 @@ export const DataEntryComp = () => {
 
             {/* Industry-Specific Data Entry Solutions */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Industry-Specific Data Entry Solutions
                 </div>
 
@@ -4094,7 +4094,7 @@ export const DataEntryComp = () => {
 
             {/* Leading Data Entry Services Company */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Leading Data Entry Services Company
                 </div>
 
@@ -4140,7 +4140,7 @@ export const DataEntryComp = () => {
 
             {/*  Frequently Asked Questions */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Frequently Asked Questions
                 </div>
 
@@ -4234,7 +4234,7 @@ export const FinancialComp = () => {
             <div className="px-8 py-14 bg-gray-100 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-3xl leading-relaxed text-center lg:text-left" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                             Financial Reporting Service
                         </div>
 
@@ -4276,7 +4276,7 @@ export const FinancialComp = () => {
             {/* Why Choose Accomate Global for Financial Reporting Services? */}
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                    <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                         Why Choose Accomate Global for Financial Reporting Services?
                     </div>
 
@@ -4370,7 +4370,7 @@ export const FinancialComp = () => {
 
             {/* Our Comprehensive Financial Reporting Services */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Our Comprehensive Financial Reporting Services
                 </div>
 
@@ -4450,7 +4450,7 @@ export const FinancialComp = () => {
 
             {/* Types of Financial Reports Provided by Accomate Global */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Types of Financial Reports Provided by Accomate Global
                 </div>
 
@@ -4555,7 +4555,7 @@ export const FinancialComp = () => {
 
             {/* Benefits of Accomate Global’s Financial Reporting Service */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Accomate Global’s Financial Reporting Service
                 </div>
 
@@ -4623,7 +4623,7 @@ export const FinancialComp = () => {
 
             {/* Outsource Financial Reporting: A Smart Choice for Australian Businesses */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Outsource Financial Reporting: A Smart Choice for Australian
                     Businesses
                 </div>
@@ -4670,7 +4670,7 @@ export const FinancialComp = () => {
 
             {/* Advanced Financial Reporting Software and Technology */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Advanced Financial Reporting Software and Technology
                 </div>
 
@@ -4708,7 +4708,7 @@ export const FinancialComp = () => {
 
             {/* How Accomate Global’s Financial Reporting Service Works */}
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     How Accomate Global’s Financial Reporting Service Works
                 </div>
 
@@ -4811,7 +4811,7 @@ export const FinancialComp = () => {
 
             {/* Financial Reporting for Various Industries */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Financial Reporting for Various Industries
                 </div>
 
@@ -4859,7 +4859,7 @@ export const FinancialComp = () => {
 
             {/* Key Elements of Financial Reporting Service for Business Success */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
                     Key Elements of Financial Reporting Service for Business Success
                 </div>
 
@@ -4893,7 +4893,7 @@ export const FinancialComp = () => {
 
             {/*  Frequently Asked Questions */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Frequently Asked Questions
                 </div>
 
