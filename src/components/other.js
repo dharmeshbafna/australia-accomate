@@ -69,7 +69,7 @@ export const Sidebar = ({ toogle, setToogle }) => {
                 <div className="space-y-4">
                     {navitems.map((i, index) => {
                         return (
-                            <div key={index} className="w-full border-b pb-2 flex items-center my-auto">
+                            <div key={index} className="w-full border-b pb-2 flex">
                                 <div className="w-full">
 
                                     <div className="w-fit relative flex items-center my-auto">
@@ -98,7 +98,7 @@ export const Sidebar = ({ toogle, setToogle }) => {
 
                                 </div>
                                 {i.name == 'Services' ? 
-                                <button onClick={() => setD1(!d1)} className="flex justify-end w-full shrink-0">
+                                <button onClick={() => setD1(!d1)} className="flex justify-end shrink-0">
                                     <FaChevronDown />
                                 </button> : ''}
                             </div>
