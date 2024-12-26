@@ -6,6 +6,28 @@ export const metadata = {
     icons: {
         icon: '/n_icon.ico',
     },
+    keywords: [
+        'products or services',
+        'accounts receivable outsourcing',
+        'balance sheet',
+        'increased efficiency',
+        'collect payments',
+        'customer payments',
+        'managed accounts receivable',
+        'accounts receivable process',
+        'accounts receivable management services',
+        'working capital',
+        'days sales outstanding dso',
+        'increase cash flow',
+        'accounts receivable collection',
+        'effective accounts receivable management',
+        'businesses in the real estate',
+        'bad debts',
+        'accounts receivable software',
+        'outsource accounts receivable services',
+        'real time',
+        'goods or services'
+    ],
 }
 
 export default function AccountsRecon() {

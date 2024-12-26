@@ -6,6 +6,27 @@ export const metadata = {
     icons: {
         icon: '/n_icon.ico',
     },
+    keywords: [
+        'accounts payable outsourcing services',
+        'payable service',
+        'payment process',
+        'accounts payable outsourcing company',
+        'duplicate payments',
+        'accounts payable functions',
+        'accounts payable processes',
+        'ap process',
+        'invoice processing',
+        'working capital',
+        'accounts payable ap',
+        'account payable automation',
+        'improve cash flow',
+        'supplier relationships',
+        'time consuming',
+        'purchase orders',
+        'managed account payable',
+        'early payment discount',
+        'due dates'
+    ],    
 }
 
 export default function AccountsPayable() {
