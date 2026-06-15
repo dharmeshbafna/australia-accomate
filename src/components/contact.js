@@ -134,7 +134,7 @@ export const Contact = () => {
                 </div>
                 
                 <div className="w-full">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.045032761575!2d144.7462187!3d-37.8358316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad689814ee7c77b%3A0x7d1841cf981be82e!2sUnit%20203%2F2%20Infinity%20Dr%2C%20Truganina%20VIC%203029%2C%20Australia!5e0!3m2!1sen!2sin!4v1726052119912!5m2!1sen!2sin" className="shadow-lg rounded-lg h-96 w-full md:h-full" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6294.240613287623!2d145.1094625!3d-37.92761979999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66b10a9cd5457%3A0x9203246ef8a69e11!2s2%2F1240%20Centre%20Rd%2C%20Clarinda%20VIC%203169%2C%20Australia!5e0!3m2!1sen!2sin!4v1781532684382!5m2!1sen!2sin" className="shadow-lg rounded-lg h-96 w-full md:h-full" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
