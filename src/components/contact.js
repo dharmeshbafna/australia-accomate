@@ -36,7 +36,7 @@ export const Contact = () => {
     const [success, setSuccess] = useState('');
     const [err, setErr] = useState('');
     const contactdetails = [
-        { country: 'Australia', phone: '+61 4  3319  7164', email: 'australia@accomateglobal.com', add: '203/2 Infinity Drive Truganina, VIC, Australia, 3029' },
+        { country: 'Australia', phone: '+61 485886110', email: 'info@accomateglobal.com', add: 'Unit 2, 1240 Centre Road, Clarina VIC 3169' },
         // { country: 'India', phone: '+91 9016200968', email: 'info@accomateglobal.com', add: 'G-3,85, Madhuvan Building, Ellisbridge, Ahmedabad, INDIA – 380006' },
         // { country: 'Canada', phone: '+1 647 512 0026', email: 'canada@accomateglobal.com', add: '1234051 Dunmow Crescent Mississauga Ontario L4Z1E1' },
         // { country: 'USA', phone: '+1 917 744 7835', email: 'usa@accomateglobal.com', add: '1234051 Dunmow Crescent Mississauga Ontario L4Z1E1' },
