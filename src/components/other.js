@@ -137,12 +137,12 @@ export const Navbar = () => {
         {
             name: 'Services', link: '/services/australia',
             dropdown: [
-                { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
-                { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
-                { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
-                { name: 'Bookkeeping Services', link: '/services/bookkeeping-services' },
-                { name: 'Data Entry Services', link: '/services/data-entry' },
-                { name: 'Financial Reporting Services', link: '/services/financial-reporting-services' },
+   //             { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
+     //           { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
+       //         { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
+                { name: 'Accounting & Bookkeeping', link: '/services/bookkeeping-services' },
+                { name: 'SMSF Administration', link: '/services/data-entry' },
+                { name: 'Mortgage Broking', link: '/services/financial-reporting-services' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -334,18 +334,11 @@ export const Footer = () => {
                         Insurance, Healthcare, and Manufacturing.
                     </div>
                     <div className="flex items-center my-auto space-x-5">
-                        <a href="#" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                            <FaFacebookF className="text-lg" />
-                        </a>
-                        <a href="#" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                            <FaInstagram className="text-lg" />
-                        </a>
-                        <a href="#" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
+                     
+                        <a href="https://www.linkedin.com/company/accomate-global/" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
                             <FaLinkedinIn className="text-lg" />
                         </a>
-                        <a href="#" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                            <FaXTwitter className="text-lg" />
-                        </a>
+                     
                     </div>
                 </div>
                 {/* Useful Links */}
