@@ -36,12 +36,12 @@ export const Sidebar = ({ toogle, setToogle }) => {
         {
             name: 'Services', link: '/services/australia',
             dropdown: [
-                { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
-                { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
-                { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
-                { name: 'Bookkeeping Services', link: '/services/bookkeeping-services' },
-                { name: 'Data Entry Services', link: '/services/data-entry' },
-                { name: 'Financial Reporting Services', link: '/services/financial-reporting-services' },
+                //{ name: 'Accounts Payable', link: '/services/accounts-payable-services' },
+               // { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
+               // { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
+                { name: 'Accounting & Bookkeeping', link: '/services/bookkeeping-services' },
+                { name: 'SMSF Administration', link: '/services/data-entry' },
+                { name: 'Mortgage Broking', link: '/services/financial-reporting-services' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -112,19 +112,11 @@ export const Sidebar = ({ toogle, setToogle }) => {
                 </div>
 
                 <div className="flex justify-between">
-                    <a href="#" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                        <FaFacebookF className="text-lg" />
-                    </a>
-                    <a href="#" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                        <FaInstagram className="text-lg" />
-                    </a>
-                    <a href="#" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
+                
+                    <a href="https://www.linkedin.com/company/accomate-global" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
                         <FaLinkedinIn className="text-lg" />
                     </a>
-                    <a href="#" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
-                        <FaXTwitter className="text-lg" />
-                    </a>
-                </div>
+                                </div>
             </div>
             <div onClick={() => setToogle(false)} className={`bg-transparent lg:hidden ${toogle ? 'translate-x-0 transition-transform duration-700 ease-in-out transform' : 'translate-x-full transition-transform duration-700 ease-in-out transform'} fixed z-40 right-0 top-0 h-full w-full shadow-lg z-40`}>
             </div>
@@ -385,17 +377,18 @@ export const Footer = () => {
                             Contact Us
                         </div>
                         <div className="mt-4 pl-2 grid grid-cols-1 gap-2">
-                            <a href="mailto:australia@accomateglobal.com" className="flex items-center my-auto hover:text-blue-500 duration-300">
+                            <a href="mailto: info@accomateglobal.com" className="flex items-center my-auto hover:text-blue-500 duration-300">
                                 <MdOutlineEmail className="flex-shrink-0 mr-2 text-xl" />
-                                australia@accomateglobal.com
+                                 info@accomateglobal.com
                             </a>
-                            <a href="tel:+61 433197164" className="flex items-center my-auto hover:text-blue-500 duration-300">
+                            <a href="tel:+61 485886110" className="flex items-center my-auto hover:text-blue-500 duration-300">
                                 <IoCallOutline className="flex-shrink-0 mr-2 text-xl" />
-                                +61 433197164
+                                +61 485886110
                             </a>
-                            <a href="https://maps.app.goo.gl/gkFKMoX17dB4D8Md6" target="_blank" className="flex hover:text-blue-500 duration-300">
+                            <a href="#" target="_blank" className="flex hover:text-blue-500 duration-300">
                                 <IoLocationOutline className="flex-shrink-0 mr-2 text-xl mt-1" />
-                                203/2 Infinity Drive Truganina, VIC, Australia, 3029
+                                Unit 2, 1240 Centre Road, Clarina VIC 3169
+                    
                             </a>
                         </div>
                     </div>
