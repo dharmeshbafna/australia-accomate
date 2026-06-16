@@ -654,11 +654,11 @@ export const AccountsPayableComp = () => {
 
             <div className="flex justify-center mx-auto lg:w-[90%]">
                 <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                    <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                         Why Choose Accomate Global for Accounts Payable Services?
                     </div>
 
-                    <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="flex justify-center mx-auto">
                         <Image
                             src={WhyusImg}
                             alt="Why Choose Accomate Global for Accounts Payable Services?"
@@ -667,7 +667,7 @@ export const AccountsPayableComp = () => {
                     </div>
 
                     <div className="space-y-5">
-                        <div  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="leading-relaxed text-center flex justify-center mx-auto">
                             Managing accounts payable can be a complex and time-consuming process, with risks of
                             errors, delayed payments, and strained supplier relationships. At Accomate Global, we
                             simplify your accounts payable processes by providing comprehensive accounts payable
@@ -678,7 +678,7 @@ export const AccountsPayableComp = () => {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -699,7 +699,7 @@ export const AccountsPayableComp = () => {
                                     delays.
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -720,7 +720,7 @@ export const AccountsPayableComp = () => {
                                     early payment discounts.
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className="p-5 rounded-lg border border-[#9F8D1B]">
+                            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className="p-5 rounded-lg border border-[#9F8D1B]">
 
                                 <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
                                     <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
@@ -826,12 +826,12 @@ export const AccountsPayableComp = () => {
             </div>
 
             <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     Benefits of Accounts Payable Services by Accomate Global
                 </div>
 
 
-                <div className="flex justify-center mx-auto lg:w-[90%]"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <div className="space-y-6">
 
                         <Image
@@ -1834,7 +1834,7 @@ export const AccountsReconComp = () => {
 
             {/* Types of Reconciliation Services Provided */}
             <div className="px-8 pb-14 w-full space-y-8">
-                <div  data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
+                <div data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100" className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
                     Types of Reconciliation Services Provided
                 </div>
 
@@ -2009,7 +2009,7 @@ export const AccountsReconComp = () => {
                 <div className="flex justify-center mx-auto lg:w-[90%]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
 
-                        <div className="flex justify-center items-center m-auto"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
+                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
                             <Image
                                 src={IndustryImg2}
                                 alt="Industry-Specific Accounts Payable Solutions"
@@ -2866,7 +2866,302 @@ export const AccountsReceivableComp = () => {
     )
 }
 
+export const AccountingTaxComp = () => {
+    const serviceCards = [
+        {
+            title: 'Accounting',
+            intro: 'Running a profitable firm means your numbers have to work - not just at year-end, but every day. Accomate Global provides dedicated offshore accounting support for Australian CPA and advisory firms, handling the production work so your senior team can focus on clients and growth. Every engagement includes a Manager review as standard.',
+            items: [
+                'Data entry and transaction processing',
+                'Bank and credit card reconciliations',
+                'Accounts payable and accounts receivable management',
+                'Payroll processing - salary calculations, STP, super, and ABA files',
+                'General ledger maintenance and journal entries',
+                'Month-end and year-end closing support',
+                'Management reporting - P&L, balance sheet, cash flow, and KPI dashboards',
+            ],
+            tools: 'Xero, MYOB, QuickBooks, Dext, HbDoc',
+        },
+        {
+            title: 'Financial Statement Compilation',
+            intro: 'Accurate, timely financial statements are the foundation of every business decision. Our qualified professionals prepare comprehensive financial reports that meet Australian accounting standards - freeing your team from production work and giving your clients the confidence they need.',
+            items: [
+                'Balance sheet preparation',
+                'Income statement (P&L) compilation',
+                'Cash flow statement preparation',
+                'Variance analysis and management commentary',
+                'Board packs and investor reporting',
+            ],
+        },
+        {
+            title: 'Tax Compilation',
+            intro: "Tax season should not mean late nights for your senior staff. Accomate Global provides end-to-end tax preparation support for Australian accounting firms - handling returns for individuals, companies, trusts, and partnerships so you can meet every deadline without stretching your team.",
+            items: [
+                'Individual Tax Returns (ITR) - including investment properties and capital gains',
+                'Company, Trust, and Partnership Tax Returns',
+                'Business Activity Statement (BAS) and IAS preparation and finalisation',
+                'PAYG withholding and payroll tax management',
+                'Tax planning support and workpaper preparation',
+                'Liaison with your tax software - HandiTax, CCH iFirm, Xero Tax',
+            ],
+        },
+        {
+            title: 'Audit & Assurance',
+            intro: 'Maintaining financial transparency and meeting regulatory requirements demands precision. Our audit support team works alongside your qualified auditors to prepare schedules, workpapers, and documentation - ensuring every engagement is accurate, compliant, and delivered on time.',
+            items: [
+                'Preparation of audit schedules and workpapers',
+                'Financial statement audit support',
+                'Assisting with auditor queries and correspondence',
+                'Internal control assessment documentation',
+                'Compliance with AUASB auditing standards',
+            ],
+        },
+    ];
+
+    const partnerReasons = [
+        {
+            title: 'Manager review included',
+            desc: 'Every engagement includes structured review support before work is returned to your team.',
+        },
+        {
+            title: 'Australian-market experience',
+            desc: 'Support across Australian accounting standards, tax workflows, BAS, IAS, and AUASB requirements.',
+        },
+        {
+            title: 'Flexible offshore capacity',
+            desc: 'Scale production support during tax season, month-end, year-end, or ongoing client growth.',
+        },
+        {
+            title: 'Your workflow, your file',
+            desc: 'We work inside your templates, systems, and review process so client ownership stays with you.',
+        },
+    ];
+
+    return (
+        <div className="bg-white text-slate-950">
+            <div className="px-6 md:px-8 py-16 md:py-24 w-full">
+                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_390px] gap-10 lg:gap-14 items-center">
+                    <div className="space-y-5 accounting-tax-load" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            What we do
+                        </div>
+                        <div className="max-w-3xl space-y-4 text-slate-600 leading-relaxed">
+                            <p>
+                                Accomate Global provides offshore accounting, tax, financial statement, and audit support for Australian CPA and advisory firms.
+                            </p>
+                            <p>
+                                Our team manages production work with structured review support, helping your senior team focus on client relationships, advisory work, and growth. Every engagement includes a Manager review as standard.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="accounting-tax-load" style={{ animationDelay: '120ms' }} data-aos="fade-left" data-aos-duration="1600" data-aos-delay="150">
+                        <div className="relative overflow-hidden rounded-lg border border-slate-200 bg-slate-50 shadow-sm">
+                            <Image
+                                src={AccountsImg6}
+                                alt="Accounting and tax services"
+                                className="h-72 w-full object-cover"
+                                priority
+                            />
+                            <div className="absolute inset-0 bg-[#1B2D9F12]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full bg-slate-50 border-y border-slate-200">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="space-y-3 accounting-tax-load" style={{ animationDelay: '180ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            Our service offerings
+                        </div>
+                        <div className="max-w-3xl text-slate-600 leading-relaxed">
+                            A complete set of accounting, tax, financial reporting, and audit-support capabilities delivered by qualified professionals with Australian-market experience.
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        {serviceCards.map((service, index) => (
+                            <div key={service.title} style={{ animationDelay: `${240 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load h-full rounded-lg border border-slate-200 bg-white p-6 shadow-sm space-y-5">
+                                <div className="h-1 w-10 rounded-full bg-[#1B2D9F]"></div>
+                                <div className="space-y-3">
+                                    <div className="font-semibold text-lg text-slate-950">
+                                        {service.title}
+                                    </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {service.intro}
+                                    </div>
+                                </div>
+
+                                <ul className="list-none space-y-2.5">
+                                    {service.items.map((item) => (
+                                        <li key={item} className="flex text-slate-600 leading-relaxed">
+                                            <span className="mt-2 mr-3 h-1.5 w-1.5 rounded-full bg-[#1B2D9F] flex shrink-0"></span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+
+                                {service.tools ?
+                                    <div className="border-t border-slate-200 pt-4 text-sm leading-relaxed text-slate-600">
+                                        <span className="font-semibold text-slate-950">Software support: </span>{service.tools}
+                                    </div>
+                                    : ''}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="font-semibold text-3xl md:text-4xl leading-tight accounting-tax-load" style={{ animationDelay: '260ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        Why partner with Accomate
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-8">
+                        {partnerReasons.map((reason, index) => (
+                            <div key={reason.title} style={{ animationDelay: `${320 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load flex gap-4">
+                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#1B2D9F12] text-[#1B2D9F]">
+                                    <SiTicktick className="text-base" />
+                                </div>
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-slate-950">
+                                        {reason.title}
+                                    </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {reason.desc}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
 export const BookkeepingComp = () => {
+    const bookkeepingServices = [
+        'Day-to-day transaction recording and categorisation',
+        'Bank and credit card reconciliations',
+        'Accounts payable - invoice entry, bill processing, payment preparation',
+        'Accounts receivable - invoicing, receipt posting, debtor follow-up',
+        'Payroll processing - STP, superannuation, leave tracking, ABA files',
+        'GST reconciliation and BAS data preparation',
+        'Month-end close - accruals, prepayments, trial balance review',
+        'Year-end support - adjustments, audit workpapers, final ledger review',
+    ];
+
+    const partnerReasons = [
+        {
+            title: 'Current, accurate books',
+            desc: 'Daily transaction processing and reconciliation support keeps client files clean and decision-ready.',
+        },
+        {
+            title: 'Audit-ready records',
+            desc: 'Month-end and year-end support helps maintain workpapers, trial balances, and final ledgers with care.',
+        },
+        {
+            title: 'Flexible offshore support',
+            desc: 'Scale bookkeeping capacity for ongoing work, catch-up files, BAS periods, or year-end pressure.',
+        },
+        {
+            title: 'Software-ready workflow',
+            desc: 'Support across Xero, MYOB, QuickBooks, Dext, HubDoc, and Receipt Bank.',
+        },
+    ];
+
+    return (
+        <div className="bg-white text-slate-950">
+            <div className="px-6 md:px-8 py-16 md:py-24 w-full">
+                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_390px] gap-10 lg:gap-14 items-center">
+                    <div className="space-y-5 accounting-tax-load" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            What we do
+                        </div>
+                        <div className="max-w-3xl space-y-4 text-slate-600 leading-relaxed">
+                            <p>
+                                Clean books are the backbone of every healthy business. Accomate Global provides dedicated offshore bookkeeping support for Australian accounting firms and small businesses.
+                            </p>
+                            <p>
+                                We handle day-to-day transactions, reconciliations, and reporting so your numbers are always current, accurate, and audit-ready.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="accounting-tax-load" style={{ animationDelay: '120ms' }} data-aos="fade-left" data-aos-duration="1600" data-aos-delay="150">
+                        <div className="relative overflow-hidden rounded-lg border border-slate-200 bg-slate-50 shadow-sm">
+                            <Image
+                                src={AboutImg2}
+                                alt="Bookkeeping services"
+                                className="h-72 w-full object-cover"
+                                priority
+                            />
+                            <div className="absolute inset-0 bg-[#1B2D9F12]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full bg-slate-50 border-y border-slate-200">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="space-y-3 accounting-tax-load" style={{ animationDelay: '180ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            Our service offerings
+                        </div>
+                        <div className="max-w-3xl text-slate-600 leading-relaxed">
+                            Dedicated bookkeeping capabilities for Australian accounting firms and small businesses, delivered with clean workflow controls and practical software support.
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {bookkeepingServices.map((service, index) => (
+                            <div key={service} style={{ animationDelay: `${240 + index * 70}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 80}`} className="accounting-tax-load rounded-lg border border-slate-200 bg-white p-6 shadow-sm space-y-4">
+                                <div className="h-1 w-10 rounded-full bg-[#1B2D9F]"></div>
+                                <div className="font-semibold text-slate-950">
+                                    {service}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="accounting-tax-load rounded-lg border border-slate-200 bg-white p-6 shadow-sm text-slate-600 leading-relaxed" style={{ animationDelay: '780ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <span className="font-semibold text-slate-950">Software support: </span>
+                        Xero, MYOB, QuickBooks, Dext, HubDoc, Receipt Bank
+                    </div>
+                </div>
+            </div>
+
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="font-semibold text-3xl md:text-4xl leading-tight accounting-tax-load" style={{ animationDelay: '260ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        Why partner with Accomate
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-8">
+                        {partnerReasons.map((reason, index) => (
+                            <div key={reason.title} style={{ animationDelay: `${320 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load flex gap-4">
+                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#1B2D9F12] text-[#1B2D9F]">
+                                    <SiTicktick className="text-base" />
+                                </div>
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-slate-950">
+                                        {reason.title}
+                                    </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {reason.desc}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+
     return (
         <div className="">
 
@@ -3474,232 +3769,187 @@ export const BookkeepingComp = () => {
     )
 }
 
-export const DataEntryComp = () => {
+export const SMSFComp = () => {
+    const smsfbullets = [
+        'SMSF accounting and general ledger maintenance',
+        'Preparation of financial statements — income statement, balance sheet, and member statements',
+        'SMSF tax return preparation',
+        'Preparation of audit workpapers and audit-ready documentation',
+        'Compliance with SIS Act regulations and ATO reporting obligations',
+        'Pension calculations — TBAR, transfer balance cap reporting',
+        'Investment transaction processing — equities, property, term deposits',
+        'Annual compliance checklist and trustee minute preparation support',
+    ];
+
     return (
-        <div>
-
-            {/* Data Entry Service */}
-            <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left">
-                            Data Entry Services
-
+        <div className="bg-white text-slate-950 overflow-x-hidden">
+            <div className="px-6 md:px-8 py-16 md:py-24 w-full">
+                <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.05fr_420px] gap-10 lg:gap-14 items-start">
+                    <div className="space-y-8" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-4xl md:text-5xl leading-tight">
+                            Managing SMSF
                         </div>
 
-                        <div className="flex lg:hidden justify-center items-center m-auto">
-                            <div className="w-fit relative">
-                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                        <div className="max-w-3xl text-slate-600 leading-relaxed text-lg">
+                            SMSF compliance is complex, time-consuming, and leaves little room for error. Accomate Global provides end-to-end SMSF administration support for Australian accounting and advisory firms — from fund accounting and financial statements through to tax returns and audit workpapers. Every file is manager-reviewed and delivered audit-ready.
+                        </div>
+
+                        <div className="grid gap-4">
+                            {smsfbullets.map((bullet, index) => (
+                                <div key={index} className="flex gap-4">
+                                    <div className="mt-2 h-3 w-3 rounded-full bg-[#1B2D9F] flex-shrink-0" />
+                                    <div className="text-slate-600 leading-relaxed">{bullet}</div>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+                            <div className="text-sm uppercase tracking-[0.2em] text-[#1B2D9F] font-semibold">
+                                BGL 360 · ClassSuper · SuperMate
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="space-y-6">
+                        <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm overflow-hidden" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="150">
+
+                            <div className="text-slate-600 leading-relaxed mb-6">
+                                Our SMSF administration service is built for Australian firms that require reliable fund accounting, tax preparation and audit-ready documentation. We handle the complexity so your team can focus on client advice and compliance.
+                            </div>
+                            <div className="overflow-hidden rounded-3xl">
                                 <Image
                                     src={AboutImg3}
-                                    alt="About Image"
-                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                    alt="Managing SMSF"
+                                    className="w-full h-72 object-cover"
+                                    priority
                                 />
                             </div>
                         </div>
-                        <div className="leading-relaxed">
-                            In today’s fast-paced digital world, accurate and efficient data management is critical for any
-                            business’s success. Accomate Global offers a top-tier data entry service for Australian
-                            businesses, providing reliable, accurate, and scalable solutions for various data entry needs.
-                            <br /><br />
-                            With a team of data entry specialists and a commitment to data security, our services are
-                            designed to improve productivity, reduce costs, and enhance data accuracy.
-                        </div>
-                    </div>
-
-                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="w-fit relative">
-                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
-                            <Image
-                                src={AboutImg3}
-                                alt="About Image"
-                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
-                            />
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    )
+};
 
-            {/* Why Choose Accomate Global for Your Data Entry Service Needs? */}
-            <div className="px-8 py-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Why Choose Accomate Global for Your Data Entry Service Needs?
-                </div>
+export const DataEntryComp = () => {
+    return (
+        <div className="">
+            <div className="flex justify-center mx-auto lg:w-[90%]">
+                <div className="space-y-6">
+                    <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                        Accomate Global’s data entry service portfolio covers various data entry requirements,
+                        ensuring that we can meet the needs of businesses across industries. Below are our key
+                        data entry offerings:
+                    </div>
 
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                    <div className="space-y-6">
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
 
-                        <Image
-                            src={Benefits4}
-                            alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto w-full h-auto md:h-72 md:w-auto"
-                        />
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
 
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[90%]">
-                            With years of experience and expertise, Accomate Global has become a leading provider of
-                            data entry outsourcing services in Australia. We work with diverse industries, including
-                            real estate, retail, finance, and e-commerce, tailoring our services to meet each client’s
-                            unique requirements. Here’s why businesses trust Accomate Global for their data entry
-                            needs:
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Product Data Entry
+                                </div>
+                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">Ideal for e-commerce platforms, we help businesses manage product
+                                    information with precision.</li>
+                                <li className="leading-relaxed">Services include updating product descriptions, prices, and SKUs to ensure
+                                    consistency and accuracy across digital platforms.</li>
+                            </ul>
                         </div>
-                        <div className="grid grid-cols-1 gap-7">
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">1. High Accuracy</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>We ensure accurate data entries through rigorous quality control.</li>
-                                </ul>
+
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
+
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Real Estate Data Entry
+                                </div>
                             </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">2. Data Security</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Data protection is our priority, with secure processes that keep your
-                                        information safe.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">3. Fast Turnaround Times</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Our streamlined data process enables us to complete
-                                        projects quickly without sacrificing quality.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">4. Cost-Effective Solutions</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>We offer affordable and efficient data entry outsourcing
-                                        that minimizes operational costs.
-                                    </li>
-                                </ul>
-                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">Accurate data entry for property listings, customer records, and transaction
+                                    documents tailored for the real estate industry.</li>
+                                <li className="leading-relaxed">Our services streamline real estate data management, saving time and
+                                    improving data accuracy.</li>
+                            </ul>
                         </div>
+
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
+
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Online Data Entry
+                                </div>
+                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">We handle online data entry projects that require high-speed typing and
+                                    accuracy, including form filling, document entry, and online catalog
+                                    management.</li>
+                                <li className="leading-relaxed">Ideal for businesses looking to update web-based databases or online
+                                    inventories.</li>
+                            </ul>
+                        </div>
+
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
+
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Offline Data Entry
+                                </div>
+                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">Our team manages offline data tasks, such as digitizing physical documents,
+                                    handwritten forms, and records, converting them into electronic files for easy
+                                    access.</li>
+                                <li className="leading-relaxed">We provide a seamless transition from paper to digital data, ensuring
+                                    accuracy and accessibility.</li>
+                            </ul>
+                        </div>
+
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Invoice and Billing Data Entry
+                                </div>
+                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">Efficient and accurate data entries for invoices, bills, and payment records
+                                    that support accounts payable and receivable processes.</li>
+                                <li className="leading-relaxed">Reduces manual workload and speeds up financial documentation tasks,
+                                    improving operational efficiency.</li>
+                            </ul>
+                        </div>
+
+                        <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
+
+                            <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
+
+                                <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
+                                    Data Conversion and Formatting
+                                </div>
+                            </div>
+
+                            <ul className="list-disc space-y-2 pl-4">
+                                <li className="leading-relaxed">Transform unstructured data into organized, accessible formats, ensuring that
+                                    all information is standardized and ready for analysis.</li>
+                                <li className="leading-relaxed">Data formatting services ensure compatibility across multiple platforms.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-
-            {/* Our Data-Entry Services */}
-            <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Our Data Entry Services
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                            Accomate Global’s data entry service portfolio covers various data entry requirements,
-                            ensuring that we can meet the needs of businesses across industries. Below are our key
-                            data entry offerings:
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Product Data Entry
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Ideal for e-commerce platforms, we help businesses manage product
-                                        information with precision.</li>
-                                    <li className="leading-relaxed">Services include updating product descriptions, prices, and SKUs to ensure
-                                        consistency and accuracy across digital platforms.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Real Estate Data Entry
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Accurate data entry for property listings, customer records, and transaction
-                                        documents tailored for the real estate industry.</li>
-                                    <li className="leading-relaxed">Our services streamline real estate data management, saving time and
-                                        improving data accuracy.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Online Data Entry
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">We handle online data entry projects that require high-speed typing and
-                                        accuracy, including form filling, document entry, and online catalog
-                                        management.</li>
-                                    <li className="leading-relaxed">Ideal for businesses looking to update web-based databases or online
-                                        inventories.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Offline Data Entry
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Our team manages offline data tasks, such as digitizing physical documents,
-                                        handwritten forms, and records, converting them into electronic files for easy
-                                        access.</li>
-                                    <li className="leading-relaxed">We provide a seamless transition from paper to digital data, ensuring
-                                        accuracy and accessibility.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Invoice and Billing Data Entry
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Efficient and accurate data entries for invoices, bills, and payment records
-                                        that support accounts payable and receivable processes.</li>
-                                    <li className="leading-relaxed">Reduces manual workload and speeds up financial documentation tasks,
-                                        improving operational efficiency.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Data Conversion and Formatting
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Transform unstructured data into organized, accessible formats, ensuring that
-                                        all information is standardized and ready for analysis.</li>
-                                    <li className="leading-relaxed">Data formatting services ensure compatibility across multiple platforms.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             {/* Benefits of Data Entry Service by Accomate Global */}
@@ -4227,738 +4477,365 @@ export const DataEntryComp = () => {
 };
 
 export const FinancialComp = () => {
+    const serviceCards = [
+        {
+            title: 'Balance Sheet Preparation',
+            intro: 'Detailed balance sheet preparation to give you a clear snapshot of your assets, liabilities, and equity.',
+            items: [
+                'Snapshot of assets, liabilities, and equity',
+                'Track growth, liquidity, and overall financial stability',
+                'Owner contributions and retained earnings tracking',
+            ],
+        },
+        {
+            title: 'Income Statements & Profit and Loss',
+            intro: 'Accurate income statement preparation, providing a comprehensive view of your revenue, expenses, and net income.',
+            items: [
+                'Profit and loss statements for specific periods',
+                'Revenue, expenses, and net income tracking',
+                'Budgeting, forecasting, and profitability trend analysis',
+            ],
+        },
+        {
+            title: 'Cash Flow Statements',
+            intro: 'Track cash inflows and outflows, enabling a better understanding of your business’s liquidity and operational cash requirements.',
+            items: [
+                'Track cash inflows and outflows',
+                'Liquidity analysis and operational cash requirements',
+                'Strategic investment and expense decision support',
+            ],
+        },
+        {
+            title: 'General Ledger & Journal Entries',
+            intro: 'Organize and manage your general ledger to ensure transactions are accurately recorded and categorised.',
+            items: [
+                'General ledger organization and maintenance',
+                'Journal entries for day-to-day transactions',
+                'Trial balance preparation and review',
+            ],
+        },
+        {
+            title: 'Custom & Ad Hoc Reports',
+            intro: 'Customized reports suited to the needs of specific industries, management teams, or stakeholder requirements.',
+            items: [
+                'Custom metrics and industry-specific indicators',
+                'Detailed financial statement analysis',
+                'Ad hoc reporting for management decision making',
+            ],
+        },
+        {
+            title: 'International Compliance',
+            intro: 'For businesses with global operations, we support international financial reporting standards (IFRS) to ensure consistency.',
+            items: [
+                'International Financial Reporting Standards (IFRS) support',
+                'Multi-region compliance and consolidation',
+                'Consistency across international subsidiaries',
+            ],
+        },
+    ];
+
+    const partnerReasons = [
+        {
+            title: 'Expertise & Accuracy',
+            desc: 'We use financial reporting software and advanced tools to deliver precise reports.',
+        },
+        {
+            title: 'Tailored for Australian Standards',
+            desc: 'We ensure compliance with Australian regulations, offering solutions aligned with your business’s unique needs.',
+        },
+        {
+            title: 'Scalability & Flexibility',
+            desc: 'Whether you’re a small business or a growing enterprise, our solutions scale with your operations.',
+        },
+        {
+            title: 'Decision-Ready Insights',
+            desc: 'Accurate balance sheets, income statements, and cash flows to guide your growth.',
+        },
+    ];
+
     return (
-        <div>
-
-            {/* Financial Reporting Service */}
-            <div className="px-8 py-14 bg-gray-100 w-full">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div className="space-y-12 lg:space-y-8">
-                        <div className="font-semibold text-xl md:text-3xl leading-relaxed text-center lg:text-left" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                            Financial Reporting Service
+        <div className="bg-white text-slate-950">
+            <div className="px-6 md:px-8 py-16 md:py-24 w-full">
+                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_390px] gap-10 lg:gap-14 items-center">
+                    <div className="space-y-5 accounting-tax-load" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            What we do
                         </div>
-
-                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                            <div className="w-fit relative">
-                                <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
-                                <Image
-                                    src={AboutImg4}
-                                    alt="About Image"
-                                    className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="leading-relaxed" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                            Financial reporting is essential for understanding a company’s performance, making
-                            informed decisions, and staying compliant with regulatory standards. Accomate Global offers
-                            a comprehensive financial reporting service designed to simplify complex reporting tasks,
-                            deliver accurate insights, and meet Australia’s stringent reporting requirements.
-                            <br /><br />
-                            With our
-                            professional support, businesses gain a clear bird’s-eye view of their financial health.
+                        <div className="max-w-3xl space-y-4 text-slate-600 leading-relaxed">
+                            <p>
+                                Financial reporting is essential for understanding a company’s performance, making informed decisions, and staying compliant with regulatory standards.
+                            </p>
+                            <p>
+                                Accomate Global offers a comprehensive financial reporting service designed to simplify complex reporting tasks, deliver accurate insights, and meet Australia’s stringent reporting requirements. With our professional support, businesses gain a clear bird’s-eye view of their financial health.
+                            </p>
                         </div>
                     </div>
 
-                    <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-                        <div className="w-fit relative">
-                            <div className="drop-shadow-lg absolute w-full h-auto md:w-full md:h-72 bg-[#9f8e1b5c] -bottom-5 -right-5"></div>
+                    <div className="accounting-tax-load" style={{ animationDelay: '120ms' }} data-aos="fade-left" data-aos-duration="1600" data-aos-delay="150">
+                        <div className="relative overflow-hidden rounded-lg border border-slate-200 bg-slate-50 shadow-sm">
                             <Image
                                 src={AboutImg4}
-                                alt="About Image"
-                                className="w-full md:w-auto md:h-72 h-auto drop-shadow-xl"
+                                alt="Financial Reporting Services"
+                                className="h-72 w-full object-cover"
+                                priority
                             />
+                            <div className="absolute inset-0 bg-[#1B2D9F12]"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/* Why Choose Accomate Global for Financial Reporting Services? */}
-            <div className="flex justify-center mx-auto lg:w-[90%]">
-                <div className="px-8 py-14 w-full space-y-8">
-                    <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                        Why Choose Accomate Global for Financial Reporting Services?
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full bg-slate-50 border-y border-slate-200">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="space-y-3 accounting-tax-load" style={{ animationDelay: '180ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            Our service offerings
+                        </div>
+                        <div className="max-w-3xl text-slate-600 leading-relaxed">
+                            A complete set of financial reporting capabilities delivered by qualified professionals with experience in local and international standards.
+                        </div>
                     </div>
 
-                    <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                        <Image
-                            src={WhyusImg2}
-                            alt="Why Choose Accomate Global for Accounts Payable Services?"
-                            className="w-full h-auto md:h-60 md:w-auto"
-                        />
-                    </div>
-
-                    <div className="space-y-5">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                            Accomate Global understands the challenges Australian businesses face in managing and
-                            interpreting financial data. By providing a dedicated financial reporting service, we help
-                            you stay compliant, reduce errors, and achieve financial performance goals.
-                            <br /><br />
-                            Here’s why partnering with Accomate Global is a smart move:
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
-
-                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
-                                        <div className="flex justify-center items-center m-auto h-full">
-                                            <FiFileText className="h-6 w-6" />
-                                        </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        {serviceCards.map((service, index) => (
+                            <div key={service.title} style={{ animationDelay: `${240 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load h-full rounded-lg border border-slate-200 bg-white p-6 shadow-sm space-y-5">
+                                <div className="h-1 w-10 rounded-full bg-[#1B2D9F]"></div>
+                                <div className="space-y-3">
+                                    <div className="font-semibold text-lg text-slate-950">
+                                        {service.title}
                                     </div>
-
-                                    <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
-                                            Expertise and Accuracy
-                                        </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {service.intro}
                                     </div>
                                 </div>
 
-                                <div className="leading-relaxed text-center">
-                                    We use financial reporting software and advanced tools
-                                    to deliver precise reports.
-                                </div>
+                                <ul className="list-none space-y-2.5">
+                                    {service.items.map((item) => (
+                                        <li key={item} className="flex text-slate-600 leading-relaxed">
+                                            <span className="mt-2 mr-3 h-1.5 w-1.5 rounded-full bg-[#1B2D9F] flex shrink-0"></span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
-
-                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
-                                        <div className="flex justify-center items-center m-auto h-full">
-                                            <GiAustralia className="h-6 w-6" />
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
-                                            Tailored for Australian Standards
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="leading-relaxed text-center">
-                                    We ensure compliance with Indian accounting
-                                    standards and Australian regulations, offering solutions aligned with your business’s
-                                    unique needs.
-                                </div>
-                            </div>
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
-
-                                <div className="grid grid-cols-1 gap-4 lg:flex lg:space-x-3 items-center my-auto w-full border-b pb-4 mb-4">
-                                    <div className="h-12 w-12 rounded-full bg-[#1B2D9F] text-white flex shrink-0 justify-center mx-auto lg:justify-start lg:mx-0">
-                                        <div className="flex justify-center items-center m-auto h-full">
-                                            <MdOutlineTrendingUp className="h-6 w-6" />
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div className="font-semibold text-lg text-[#9F8D1B] text-center lg:text-left">
-                                            Scalability and Flexibility
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="leading-relaxed text-center">
-                                    Whether you’re a small business or a growing enterprise,
-                                    our solutions scale with your operations, providing customizable, high-quality
-                                    financial reports.
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
 
-            {/* Our Comprehensive Financial Reporting Services */}
-            <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Our Comprehensive Financial Reporting Services
-                </div>
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="font-semibold text-3xl md:text-4xl leading-tight accounting-tax-load" style={{ animationDelay: '260ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        Why partner with Accomate
+                    </div>
 
-                <div className="flex justify-center mx-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                    <Image
-                        src={AccountsImg7}
-                        alt="Accounts Payable Services"
-                        className="w-full h-auto md:h-60 md:w-auto"
-                    />
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                    <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]">
-                            Accomate Global’s financial reporting service includes everything you need to understand
-                            and optimize your financial activity. Here’s what we offer:
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">1. Balance Sheet Preparation</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Detailed balance sheet preparation to give you a clear snapshot of your
-                                        assets, liabilities, and equity.</li>
-                                    <li>Insightful analysis of your business’s overall financial health, making it
-                                        easier to track growth and liquidity.</li>
-                                </ul>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-8">
+                        {partnerReasons.map((reason, index) => (
+                            <div key={reason.title} style={{ animationDelay: `${320 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load flex gap-4">
+                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#1B2D9F12] text-[#1B2D9F]">
+                                    <SiTicktick className="text-base" />
+                                </div>
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-slate-950">
+                                        {reason.title}
+                                    </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {reason.desc}
+                                    </div>
+                                </div>
                             </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">2. Income Statements and Profit and Loss Reporting</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Accurate income statement preparation, providing a comprehensive view of
-                                        your revenue, expenses, and net income.</li>
-                                    <li>Profit and loss statements that help track profitability over specific periods,
-                                        ideal for budgeting and forecasting.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">3. Cash Flow Statements</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Track cash inflows and outflows, enabling a better understanding of your
-                                        business’s liquidity and operational cash requirements.</li>
-                                    <li>Help you make strategic investment and expense decisions based on
-                                        accurate financial activity data.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">4. General Ledger and Journal Entries</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Organize and manage your general ledger to ensure transactions are
-                                        accurately recorded.</li>
-                                    <li>Maintain journal entries for complete visibility into day-to-day financial
-                                        transactions.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">5. Custom Financial Reports</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>We offer customized reports suited to the needs of specific industries or
-                                        management teams.</li>
-                                    <li>Our tailored types of financial reports provide insights into various metrics,
-                                        helping you make data-driven decisions.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">6. International Financial Reporting Compliance</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>For businesses with global operations, we support international financial
-                                        reporting standards, ensuring consistency and compliance across regions.</li>
-                                    <li>Our expertise in multiple financial standards enables accurate reporting that
-                                        aligns with international regulations.</li>
-                                </ul>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
+        </div>
+    )
+}
 
-            {/* Types of Financial Reports Provided by Accomate Global */}
-            <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Types of Financial Reports Provided by Accomate Global
-                </div>
+export const MortgageBrokingComp = () => {
+    const serviceCards = [
+        {
+            title: 'Processing (Module 1)',
+            intro: 'Back-end processing — from file receipt to lodgement',
+            items: [
+                'Document collection, verification, and naming convention management',
+                'Fact find review and completeness check',
+                'CRM data entry and file maintenance',
+                'Pricing and serviceability assessment',
+                'Valuation ordering and management',
+                'Compliance document preparation — SOCA, Game Plan, CPR',
+                'Broker audit checklist completion',
+                'Application lodgement in Apply Online (AOL)',
+            ],
+        },
+        {
+            title: 'Coordination (Module 2)',
+            intro: 'Post-lodgement coordination — from conditional approval to settlement',
+            items: [
+                'Lender follow-ups and conditional approval management',
+                'Valuation management via Cotality — zero broker touch',
+                'Solicitor and conveyancer liaison',
+                'Real estate agent coordination',
+                'Borrower communication and milestone updates',
+                'Settlement confirmation and CRM update',
+            ],
+        },
+        {
+            title: 'Client Relationship (Module 3)',
+            intro: 'Post-settlement management — retain and grow your client base',
+            items: [
+                'Post-settlement courtesy calls and client check-ins',
+                'Google review and client feedback management',
+                'Birthday and loan anniversary communications',
+                'Fixed-to-variable rate review and refinancing proposals',
+                'Complete client record maintenance in CRM',
+            ],
+        },
+        {
+            title: 'NCCP & ASIC Compliance',
+            intro: 'Compliant by design — built around Australian regulatory requirements',
+            desc: 'All Accomate loan processors operate within the compliance framework required under the National Consumer Credit Protection Act (NCCP) and ASIC\'s responsible lending obligations. Our processes are designed to support — not replace — your compliance responsibilities as a licensed broker.',
+            items: [
+                'Preparation of Statements of Credit Assistance (SOCA) in line with NCCP requirements',
+                'Game Plan and Credit Proposal Disclosure (CPR) document preparation',
+                'Responsible lending documentation — preliminary and final assessments',
+                'Audit trail maintenance — complete, timestamped records at every stage',
+                'Aggregator compliance checklist completion prior to lodgement',
+                'Privacy Act compliance — all client data handled under ISO 27001 protocols',
+                'ASIC RG 209 aligned documentation support for credit assessment files',
+            ],
+        },
+    ];
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                            Accomate Global’s financial reporting service includes a range of report types to suit every
-                            business need:
+    const partnerReasons = [
+        {
+            title: 'Trained Offshore Processors',
+            desc: 'Processors are expert-trained in Australian lender policies, aggregator systems, and NCCP compliance.',
+        },
+        {
+            title: 'Compliant by Design',
+            desc: 'Full alignment with responsible lending, ASIC RG 209 guidelines, and ISO 27001 client privacy protocols.',
+        },
+        {
+            title: 'Write More Loans',
+            desc: 'Save hours per file. Let us handle the admin, lodgement, and follow-ups so you can focus on building relationships.',
+        },
+        {
+            title: 'Zero Broker Touch Valuations',
+            desc: 'Full valuation ordering and post-lodgement management via systems like Cotality.',
+        },
+    ];
+
+    return (
+        <div className="bg-white text-slate-950">
+            <div className="px-6 md:px-8 py-16 md:py-24 w-full">
+                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_390px] gap-10 lg:gap-14 items-center">
+                    <div className="space-y-5 accounting-tax-load" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            Mortgage Broking Support
                         </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Balance Sheets
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Provide a snapshot of your assets, liabilities, and equity, essential for
-                                        assessing financial position.</li>
-                                    <li className="leading-relaxed">Balance sheets help track financial stability and liquidity, guiding future
-                                        investment decisions.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Income Statements
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Show revenue, expenses, and net income over a specified period.</li>
-                                    <li className="leading-relaxed">These statements offer a clear picture of profitability, guiding cost
-                                        management and growth strategies.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Cash Flow Statements
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Track the flow of cash within your business, revealing liquidity and operational
-                                        efficiency.</li>
-                                    <li className="leading-relaxed">Cash flow statements support financial planning by highlighting areas of cash
-                                        surplus or deficit.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Equity Statements
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Outline changes in equity over time, including retained earnings and owner
-                                        contributions.</li>
-                                    <li className="leading-relaxed">These reports are essential for understanding shareholder value and
-                                        investment potential.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Customized and Ad Hoc Reports
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">We offer customized reports to meet specific business needs, providing
-                                        insights beyond standard reporting.</li>
-                                    <li className="leading-relaxed">From detailed financial statement analysis to niche industry metrics, we
-                                        tailor reports for valuable insights.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            {/* Benefits of Accomate Global’s Financial Reporting Service */}
-            <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Benefits of Accomate Global’s Financial Reporting Service
-                </div>
-
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-
-                        <Image
-                            src={Benefits5}
-                            alt="benefits of accounts payable services by accomate global"
-                            className="flex justify-center mx-auto w-full h-auto md:h-60 md:w-auto"
-                        />
-
-                        <div className="grid grid-cols-1 gap-7">
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">1. Enhanced Financial Performance Monitoring</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Our financial reporting service provides precise data on financial
-                                        performance, enabling you to set realistic goals and measure achievements.</li>
-                                    <li>Track profitability and growth metrics effectively, gaining insights that support
-                                        strategic planning.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">2. Improved Financial Health Management</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Regular reporting helps you monitor cash flow, manage liabilities, and
-                                        increase financial health.</li>
-                                    <li>Easily track assets and debts, ensuring your business remains financially
-                                        sound.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">3. Time-Saving Outsourcing Option</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>Preparing financial reports is a time-consuming task. By choosing
-                                        Accomate Global, you can outsource financial reporting, freeing up time
-                                        and resources for core business functions.</li>
-                                    <li>Our experts handle the complexities, giving you reliable reports without the
-                                        in-house effort.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">4. Streamlined Reporting Process</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>With advanced financial reporting software, we automate key parts of the
-                                        reporting process, reducing errors and enhancing accuracy.</li>
-                                    <li>Quick turnaround on essential reports helps you stay proactive with financial
-                                        decision-making.</li>
-                                </ul>
-                            </div>
-                            <div className="space-y-3">
-                                <div className="font-semibold text-[#1B2D9F]">5. Compliance with Reporting Requirements</div>
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li>We ensure your business meets all regulatory reporting requirements,
-                                        minimizing the risk of penalties or non-compliance.</li>
-                                    <li>Our knowledge of Indian accounting standards and Australian regulations
-                                        ensures all reports are accurate and compliant.</li>
-                                </ul>
+                        <div className="max-w-3xl space-y-4 text-slate-600 leading-relaxed">
+                            <p className="font-medium text-slate-950 text-lg">
+                                Write more loans. Let us handle the rest.
+                            </p>
+                            <p>
+                                Accomate Global provides specialist offshore loan processing support for Australian mortgage brokers — from initial application through to settlement and post-settlement client management. Our processors are trained in Australian lender policies, aggregator systems, and NCCP compliance requirements, so your back-office runs smoothly without you in it.
+                            </p>
+                            <div className="flex flex-wrap gap-2 pt-2">
+                                <span className="px-3 py-1 text-xs font-semibold bg-[#1B2D9F12] text-[#1B2D9F] rounded-full">NCCP Compliant</span>
+                                <span className="px-3 py-1 text-xs font-semibold bg-[#1B2D9F12] text-[#1B2D9F] rounded-full">ASIC RG 209 Aligned</span>
+                                <span className="px-3 py-1 text-xs font-semibold bg-[#1B2D9F12] text-[#1B2D9F] rounded-full">ISO 27001 Certified</span>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            {/* Outsource Financial Reporting: A Smart Choice for Australian Businesses */}
-            <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Outsource Financial Reporting: A Smart Choice for Australian
-                    Businesses
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
-
-                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                    <div className="accounting-tax-load" style={{ animationDelay: '120ms' }} data-aos="fade-left" data-aos-duration="1600" data-aos-delay="150">
+                        <div className="relative overflow-hidden rounded-lg border border-slate-200 bg-slate-50 shadow-sm">
                             <Image
-                                src={IndustryImg12}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="w-full h-auto md:h-60 md:w-auto"
+                                src={RelationImg}
+                                alt="Mortgage Broking Support"
+                                className="h-72 w-full object-cover"
+                                priority
                             />
-                        </div>
-
-                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                            <div className="leading-relaxed">
-                                Outsourcing your financial reporting to Accomate Global offers many advantages. Here’s
-                                how outsourcing financial reporting services can benefit Australian businesses:
-                            </div>
-
-                            <ul className="list-disc pl-4 space-y-3">
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Cost-Effective : </span>Avoid the costs associated with hiring and training an in-house
-                                    financial team. Our financial reporting service provides expertise at a fraction of
-                                    the cost.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Access to Experts : </span>Gain access to industry experts well-versed in both Australian
-                                    and international financial reporting standards.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Enhanced Focus on Core Business : </span>With financial reporting in capable hands, you
-                                    can focus on business growth and operational excellence.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-                            <Image
-                                src={IndustryImg12}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
-                            />
+                            <div className="absolute inset-0 bg-[#1B2D9F12]"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/* Advanced Financial Reporting Software and Technology */}
-            <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Advanced Financial Reporting Software and Technology
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
-
-                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                            <Image
-                                src={IndustryImg13}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="w-full h-auto md:h-60 md:w-auto"
-                            />
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full bg-slate-50 border-y border-slate-200">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="space-y-3 accounting-tax-load" style={{ animationDelay: '180ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <div className="font-semibold text-3xl md:text-4xl leading-tight">
+                            Our service offerings
                         </div>
-
-                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-                            <div className="leading-relaxed">
-                                Accomate Global uses top-of-the-line financial reporting software to provide secure,
-                                efficient reporting solutions:
-                            </div>
-
-                            <ul className="list-disc pl-4 space-y-3">
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Automation : </span>Reduce the potential for human error with automated tools that
-                                    streamline data entry and report generation.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Data Security : </span>All financial data is managed under strict security protocols, ensuring
-                                    confidentiality and protection.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real-Time Updates : </span>Access real-time updates for ongoing reports, allowing you to
-                                    monitor financial changes instantly.
-                                </li>
-                            </ul>
+                        <div className="max-w-3xl text-slate-600 leading-relaxed">
+                            Offshore loan processing and post-lodgement coordination support modules built for Australian brokers and regulatory compliance.
                         </div>
-
                     </div>
-                </div>
-            </div>
 
-            {/* How Accomate Global’s Financial Reporting Service Works */}
-            <div className="px-8 pb-14 w-full space-y-6">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    How Accomate Global’s Financial Reporting Service Works
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="space-y-6">
-                        <div className="leading-relaxed text-center flex justify-center mx-auto lg:w-[80%]" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                            Our financial reporting service is designed to be user-friendly and efficient, with a simple
-                            process to manage and track your financial data:
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Initial Consultation and Needs Assessment
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        {serviceCards.map((service, index) => (
+                            <div key={service.title} style={{ animationDelay: `${240 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load h-full rounded-lg border border-slate-200 bg-white p-6 shadow-sm space-y-5">
+                                <div className="h-1 w-10 rounded-full bg-[#1B2D9F]"></div>
+                                <div className="space-y-3">
+                                    <div className="font-semibold text-lg text-slate-950">
+                                        {service.title}
                                     </div>
+                                    <div className="leading-relaxed text-slate-600 text-sm">
+                                        {service.intro}
+                                    </div>
+                                    {service.desc && (
+                                        <div className="text-xs text-slate-500 leading-relaxed border-l-2 border-slate-200 pl-3 my-2">
+                                            {service.desc}
+                                        </div>
+                                    )}
                                 </div>
 
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">We begin with a detailed consultation to understand your business, reporting
-                                        needs, and reporting requirements.</li>
-                                    <li className="leading-relaxed">Customize a service plan that covers everything from profit and loss
-                                        statements to compliance reporting.</li>
+                                <ul className="list-none space-y-2.5">
+                                    {service.items.map((item) => (
+                                        <li key={item} className="flex text-slate-600 leading-relaxed text-sm">
+                                            <span className="mt-2 mr-3 h-1.5 w-1.5 rounded-full bg-[#1B2D9F] flex shrink-0"></span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Data Collection and Organization
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Collect financial data, including transaction history, general ledger reports,
-                                        and previous financial statement records.</li>
-                                    <li className="leading-relaxed">Organize data in compliance with relevant standards and business
-                                        requirements.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Report Preparation and Verification
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Prepare reports with accurate data entries and reconciliations.</li>
-                                    <li className="leading-relaxed">Our team ensures each report meets quality standards and aligns with
-                                        business objectives.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Comprehensive Analysis Services
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Offer analysis services to help interpret key insights from your financial data.</li>
-                                    <li className="leading-relaxed">Discuss trends, growth opportunities, and areas for improvement in financial
-                                        performance.</li>
-                                </ul>
-                            </div>
-
-                            <div className="p-5 rounded-lg border border-[#9F8D1B]" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
-
-                                <div className="flex items-center my-auto space-x-3 border-b pb-3 mb-3">
-
-                                    <div className="text-[#1B2D9F] text-center flex justify-center mx-auto font-semibold">
-                                        Ongoing Support and Adjustments
-                                    </div>
-                                </div>
-
-                                <ul className="list-disc space-y-2 pl-4">
-                                    <li className="leading-relaxed">Provide continuous support to adjust reports as your business needs change.</li>
-                                    <li className="leading-relaxed">Keep you updated on new regulations and standards, ensuring ongoing
-                                        compliance.</li>
-                                </ul>
-                            </div>
-
-                        </div>
+                        ))}
                     </div>
-                </div>
 
-            </div>
-
-            {/* Financial Reporting for Various Industries */}
-            <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Financial Reporting for Various Industries
-                </div>
-
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
-
-
-                        <div className="flex lg:hidden justify-center items-center m-auto" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
-                            <Image
-                                src={IndustryImg14}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="w-full h-auto md:h-60 md:w-auto"
-                            />
-                        </div>
-
-                        <div className="space-y-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                            <div className="leading-relaxed">
-                                Our financial reporting service is designed to suit a range of industries in Australia:
-                            </div>
-
-                            <ul className="list-disc pl-4 space-y-3">
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Healthcare : </span>Maintain transparency and accuracy in patient billing, vendor payments,
-                                    and revenue tracking.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Manufacturing : </span>Track production costs, sales revenue, and inventory with
-                                    comprehensive financial reports.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Real Estate : </span>Ensure accurate reporting of property values, asset management, and
-                                    balance sheets.
-                                </li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Retail and E-Commerce : </span>Manage expenses, revenue, and inventory data with
-                                    tailored reports for improved profitability.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className="hidden lg:flex justify-center items-center m-auto" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-                            <Image
-                                src={IndustryImg14}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="h-60 w-auto"
-                            />
-                        </div>
+                    <div className="accounting-tax-load rounded-lg border border-slate-200 bg-white p-6 shadow-sm text-slate-600 leading-relaxed" style={{ animationDelay: '780ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        <span className="font-semibold text-slate-950">Software support: </span>
+                        Salestrekker, BrokerEngine, Infynity, ApplyOnline, Quickli, Cotality
                     </div>
                 </div>
             </div>
 
-            {/* Key Elements of Financial Reporting Service for Business Success */}
-            <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
-                    Key Elements of Financial Reporting Service for Business Success
-                </div>
+            <div className="px-6 md:px-8 py-16 md:py-20 w-full">
+                <div className="max-w-5xl mx-auto space-y-10">
+                    <div className="font-semibold text-3xl md:text-4xl leading-tight accounting-tax-load" style={{ animationDelay: '260ms' }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+                        Why partner with Accomate
+                    </div>
 
-                <div className="flex justify-center mx-auto lg:w-[90%]">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-6">
-
-                        <div className="flex justify-center items-center m-auto" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
-                            <Image
-                                src={IndustryImg15}
-                                alt="Industry-Specific Accounts Payable Solutions"
-                                className="w-full h-auto md:h-60 md:w-auto"
-                            />
-                        </div>
-
-                        <div className="space-y-4" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
-
-                            <ul className="list-disc pl-4 space-y-3">
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Strategic Planning and Budgeting : </span>Leverage insights from financial reporting service to set realistic budgets,
-                                    plan effectively, and manage cash flow efficiently.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Risk Management : </span>Identify potential financial risks through detailed reporting, allowing you to
-                                    mitigate issues before they impact your business.</li>
-                                <li><span className="text-[#1B2D9F] leading-relaxed font-semibold">Decision-Making Support : </span>Data-driven decisions are easier with a clear financial statement and
-                                    accurate reports that highlight key business metrics.
-                                </li>
-                            </ul>
-                        </div>
-
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-8">
+                        {partnerReasons.map((reason, index) => (
+                            <div key={reason.title} style={{ animationDelay: `${320 + index * 80}ms` }} data-aos="fade-up" data-aos-duration="1600" data-aos-delay={`${(index + 1) * 100}`} className="accounting-tax-load flex gap-4">
+                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#1B2D9F12] text-[#1B2D9F]">
+                                    <SiTicktick className="text-base" />
+                                </div>
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-slate-950">
+                                        {reason.title}
+                                    </div>
+                                    <div className="leading-relaxed text-slate-600">
+                                        {reason.desc}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
-
-            {/*  Frequently Asked Questions */}
-            <div className="px-8 pb-14 w-full space-y-8">
-                <div className="font-semibold text-xl md:text-3xl leading-relaxed flex justify-center mx-auto text-center">
-                    Frequently Asked Questions
-                </div>
-
-                <div className="lg:w-[75%] flex justify-center mx-auto">
-                    <div>
-                        <Accordion defaultExpanded>
-                            <AccordionSummary
-                                expandIcon={<FaChevronDown />}
-                                aria-controls="panel1-content"
-                                id="panel1-header"
-                                className="font-semibold"
-                            >
-                                <span className="text-[#1B2D9F]">1.&nbsp;</span>What is included in Accomate Global’s Financial Reporting Service?
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                Our financial reporting service includes balance sheets, income statements, cash flow
-                                statements, profit and loss statements, and more, tailored to fit your unique needs.
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion>
-                            <AccordionSummary
-                                expandIcon={<FaChevronDown />}
-                                aria-controls="panel2-content"
-                                id="panel2-header"
-                                className="font-semibold"
-                            >
-                                <span className="text-[#1B2D9F]">2.&nbsp;</span>Why is Financial Reporting Important?
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                Financial reporting is essential for understanding your business’s financial health, ensuring
-                                compliance, and providing data for strategic decision-making.
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion>
-                            <AccordionSummary
-                                expandIcon={<FaChevronDown />}
-                                aria-controls="panel3-content"
-                                id="panel3-header"
-                                className="font-semibold"
-                            >
-                                <span className="text-[#1B2D9F]">3.&nbsp;</span>Can I Customize the Financial Reports?
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                Yes, we provide customized types of financial reports to fit your industry and business
-                                goals, with options for ad hoc reporting.
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion>
-                            <AccordionSummary
-                                expandIcon={<FaChevronDown />}
-                                aria-controls="panel4-content"
-                                id="panel4-header"
-                                className="font-semibold"
-                            >
-                                <span className="text-[#1B2D9F]">4.&nbsp;</span>How Secure is My Financial Data?
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                We use advanced financial reporting software with data security protocols to protect your
-                                sensitive information.
-                            </AccordionDetails>
-                        </Accordion>
-                    </div>
-                </div>
-            </div>
-
         </div>
     )
 }

@@ -1322,10 +1322,31 @@ export const Testimonial = () => {
     };
 
     const clientele = [
-        { name: 'Biren Joshi', company: 'Excel Financial Solutions', desc: 'Partnering with Accomate Global for all our ……. and other tax-related issues have benefited immensely.  We can always count on their highly professional quality of work with a proactive approach. They have also given us very sound guidance, counsel, and options. We never had to look back at this relationship. We truly value this partnership with Accomate Global and look forward to working with them for a long time.' },
-        { name: 'Biren Joshi', company: 'Excel Financial Solutions', desc: 'Accomate Global has been a game-changer for our business. Their outsourcing solutions have significantly reduced our accounting costs, saving valuable time and resources. Working with them looks pretty seamless and hassle-free. We are confident that our partnership with Accomate Global will continue contributing to our long-term financial success.' },
-        { name: 'Biren Joshi', company: 'Excel Financial Solutions', desc: `Being a client of Accomate Global has been an absolute pleasure. We have an expert veteran as our dedicated single point of contact, which has proven incredibly beneficial. Ronak/Pankaj's professionalism and deep industry knowledge have provided invaluable insights and guidance. Their personalized approach ensures efficient and effective communication, a huge advantage. I hope for this relationship to grow stronger and more fruitful.` },
-        { name: 'Biren Joshi', company: 'Excel Financial Solutions', desc: `For Mortgage broking need help from Biren, need to understand the process to highlight, how it has given better loan suggestions, and reduce their time to concentrate on increasing clientele.` }
+        {
+            name: 'Biren Joshi',
+            company: 'Excel Financial Solutions',
+            desc: 'Accomate Global has been a game-changer for our business. Their outsourcing solutions have significantly reduced our accounting costs, saving valuable time and resources. Working with them looks pretty seamless and hassle-free. We are confident that our partnership with Accomate Global will continue contributing to our long-term financial success.'
+        },
+        {
+            name: 'Mortgage Broker Principal',
+            company: 'Loan Choice Australia Pty Ltd | Queensland, Australia',
+            desc: "It's been over a year with Accomate now. They've freed up a big part of my week and handle all the follow-ups, so I'm getting through a lot more files than I used to. Really happy with the turnaround and first-pass quality."
+        },
+        {
+            name: 'CPA & Practice Owner',
+            company: 'Excel Accountants & Advisors | Melbourne, Australia',
+            desc: "I started them on basic bookkeeping, but now they do everything — BAS, payroll, MIS reports, the lot. It feels like they're just part of my team working remotely. Even after 2.5 years, I rarely have to rework anything."
+        },
+        {
+            name: 'CPA',
+            company: 'Boston, USA',
+            desc: 'The work is always on time and accurate. Never had any major complaints in the last couple of years. They respond quickly and are very courteous.'
+        },
+        {
+            name: 'Director',
+            company: 'Stallion Finance | Melbourne, Australia',
+            desc: "They've taken a big load off us. Professional, reliable, and easy to deal with. Happy I made the switch."
+        }
     ];
 
     return (

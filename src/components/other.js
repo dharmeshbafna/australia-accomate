@@ -37,11 +37,13 @@ export const Sidebar = ({ toogle, setToogle }) => {
             name: 'Services', link: '/services/australia',
             dropdown: [
                 //{ name: 'Accounts Payable', link: '/services/accounts-payable-services' },
-               // { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
-               // { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
-                { name: 'Accounting & Bookkeeping', link: '/services/bookkeeping-services' },
-                { name: 'SMSF Administration', link: '/services/data-entry' },
-                { name: 'Mortgage Broking', link: '/services/financial-reporting-services' },
+                // { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
+                // { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
+                { name: 'Accounting & Tax', link: '/services/accounting-tax-services' },
+                { name: 'Bookkeeping', link: '/services/bookkeeping-services' },
+                { name: 'SMSF', link: '/services/smsf' },
+                //    { name: 'Financial Reporting', link: '/services/financial-reporting-services' },
+                { name: 'Mortgage Broking', link: '/services/mortgage-broking' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -97,10 +99,10 @@ export const Sidebar = ({ toogle, setToogle }) => {
                                         </div> : ''}
 
                                 </div>
-                                {i.name == 'Services' ? 
-                                <button onClick={() => setD1(!d1)} className="flex justify-end shrink-0">
-                                    <FaChevronDown />
-                                </button> : ''}
+                                {i.name == 'Services' ?
+                                    <button onClick={() => setD1(!d1)} className="flex justify-end shrink-0">
+                                        <FaChevronDown />
+                                    </button> : ''}
                             </div>
                         )
                     })}
@@ -112,11 +114,11 @@ export const Sidebar = ({ toogle, setToogle }) => {
                 </div>
 
                 <div className="flex justify-between">
-                
+
                     <a href="https://www.linkedin.com/company/accomate-global" className="rounded-full p-2 border-2 border-[#1B2D9F] shadow text-[#1B2D9F] hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
                         <FaLinkedinIn className="text-lg" />
                     </a>
-                                </div>
+                </div>
             </div>
             <div onClick={() => setToogle(false)} className={`bg-transparent lg:hidden ${toogle ? 'translate-x-0 transition-transform duration-700 ease-in-out transform' : 'translate-x-full transition-transform duration-700 ease-in-out transform'} fixed z-40 right-0 top-0 h-full w-full shadow-lg z-40`}>
             </div>
@@ -137,12 +139,14 @@ export const Navbar = () => {
         {
             name: 'Services', link: '/services/australia',
             dropdown: [
-   //             { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
-     //           { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
-       //         { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
-                { name: 'Accounting & Bookkeeping', link: '/services/bookkeeping-services' },
-                { name: 'SMSF Administration', link: '/services/data-entry' },
-                { name: 'Mortgage Broking', link: '/services/financial-reporting-services' },
+                //             { name: 'Accounts Payable Services', link: '/services/accounts-payable-services' },
+                //           { name: 'Account Reconciliation Services', link: '/services/accounts-reconciliation-services' },
+                //         { name: 'Accounts Receivable Services', link: '/services/accounts-receivable-services' },
+                { name: 'Accounting & Tax', link: '/services/accounting-tax-services' },
+                { name: 'Bookkeeping', link: '/services/bookkeeping-services' },
+                { name: 'SMSF', link: '/services/smsf' },
+                //                { name: 'Financial Reporting', link: '/services/financial-reporting-services' },
+                { name: 'Mortgage Broking', link: '/services/mortgage-broking' },
             ]
         },
         { name: "Data Security", link: "/data-security" },
@@ -334,11 +338,11 @@ export const Footer = () => {
                         Insurance, Healthcare, and Manufacturing.
                     </div>
                     <div className="flex items-center my-auto space-x-5">
-                     
+
                         <a href="https://www.linkedin.com/company/accomate-global/" className="rounded-full p-2 border-2 border-white shadow text-white hover:border-[#1B2D9F] hover:scale-[110%] hover:bg-[#1B2D9F] hover:text-white duration-300">
                             <FaLinkedinIn className="text-lg" />
                         </a>
-                     
+
                     </div>
                 </div>
                 {/* Useful Links */}
@@ -372,7 +376,7 @@ export const Footer = () => {
                         <div className="mt-4 pl-2 grid grid-cols-1 gap-2">
                             <a href="mailto: info@accomateglobal.com" className="flex items-center my-auto hover:text-blue-500 duration-300">
                                 <MdOutlineEmail className="flex-shrink-0 mr-2 text-xl" />
-                                 info@accomateglobal.com
+                                info@accomateglobal.com
                             </a>
                             <a href="tel:+61 485886110" className="flex items-center my-auto hover:text-blue-500 duration-300">
                                 <IoCallOutline className="flex-shrink-0 mr-2 text-xl" />
@@ -381,7 +385,7 @@ export const Footer = () => {
                             <a href="#" target="_blank" className="flex hover:text-blue-500 duration-300">
                                 <IoLocationOutline className="flex-shrink-0 mr-2 text-xl mt-1" />
                                 Unit 2, 1240 Centre Road, Clarina VIC 3169
-                    
+
                             </a>
                         </div>
                     </div>
@@ -513,10 +517,12 @@ export const Breadcrumb = () => {
                                                                 path == '/services/accounts-payable-services' ? 'Accounts Payable Services' :
                                                                     path == '/services/accounts-reconciliation-services' ? 'Accounts Reconciliation Services' :
                                                                         path == '/services/accounts-receivable-services' ? 'Accounts Receivable Services' :
-                                                                            path == '/services/bookkeeping-services' ? 'Bookkeeping Services' :
-                                                                                path == '/services/data-entry' ? 'Data Entry Services' :
-                                                                                    path == '/services/financial-reporting-services' ? 'Financial Reporting Service' :
-                                                                                        ''}
+                                                                            path == '/services/accounting-tax-services' ? 'Accounting & Tax Services' :
+                                                                                path == '/services/bookkeeping-services' ? 'Bookkeeping Services' :
+                                                                                    path == '/services/smsf' ? 'SMSF ' :
+                                                                                        path == '/services/financial-reporting-services' ? 'Financial Reporting Service' :
+                                                                                            path == '/services/mortgage-broking' ? 'Mortgage Broking Support' :
+                                                                                                ''}
                     </div>
                     {/* <div className="text-white text-center text-lg">
                         Home

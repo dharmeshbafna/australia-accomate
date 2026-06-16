@@ -6,13 +6,13 @@
   color: #5264F3;
 }
 
-.n1 { color: #1B2D9F };
-.n2 { color: #9F8D1B };
-.n3 { color: #9F1B6F };
-.n4 { color: #1B9F4B };
+.n1 { color: #1B2D9F }
+.n2 { color: #9F8D1B }
+.n3 { color: #9F1B6F }
+.n4 { color: #1B9F4B }
 
-.n1-light { background-color: #1b2d9f5b };
-.n2-light { background-color: #9f8e1b5c };
+.n1-light { background-color: #1b2d9f5b }
+.n2-light { background-color: #9f8e1b5c }
 
 .t3 {
   color: #A8A2D8;
@@ -82,4 +82,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+@keyframes accountingTaxLoad {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.accounting-tax-load {
+  opacity: 0;
+  animation: accountingTaxLoad 650ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accounting-tax-load {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
 }
